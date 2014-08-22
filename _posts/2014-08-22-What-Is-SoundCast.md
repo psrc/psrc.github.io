@@ -3,9 +3,9 @@ title: Introducing SoundCast
 layout: post
 ---
 
-SoundCast is a computer simulation model that models the travel choices of people in the Puget Sound Region.
+SoundCast is a computer simulation model that models the travel choices of people in the Puget Sound Region. PSRC uses this model to compare the possible outcomes of future growth and investment scenarios.
 
-These choices include:
+SoundCast predicts the choices of people in the region, including:
 
 * Where to work and go to school
 * How many cars to own
