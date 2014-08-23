@@ -319,6 +319,10 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#project_title a {
+	color: #fff;
+}
+
 #project_tagline {
   color: #fff;
   font-size: 24px;
@@ -326,6 +330,11 @@ Full-Width Styles
   background: none;
   text-shadow: #111 0px 0px 10px;
 }
+
+#project_tagline a {
+	color: #fff;
+}
+
 
 #downloads {
   position: absolute;
