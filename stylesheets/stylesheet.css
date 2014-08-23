@@ -284,6 +284,13 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.post {
+  border-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #ccc;
+  padding-bottom: 10px;
+}
+
 .author_table {
   border-width: 0;
   border-style: none;

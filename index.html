@@ -18,12 +18,16 @@ on our main website if that's more your style.</p>
   {% for post in site.posts %}
     <article class="post">    
       
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <h3>
+          {% if post.image %}
+            <a href="{{ site.baseurl }}{{ post.url }}"><img align="right" width=100 height=100 src="{{ post.image }}" alt="{{ post.title }}" /></a>
+          {% endif %}
+
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
 
       <div class="entry">
-        {{ post.content | truncatewords:40}}
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&nbsp;&nbsp;Read More</a>
-
+        {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read More</a>
       </div>
 	  
     </article>

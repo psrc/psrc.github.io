@@ -2,6 +2,7 @@
 title: Looking Ahead - Potential Effects of Automated Vehicles on Regional Travel
 author: Billy Charlton
 permalink: looking-ahead-to-automated-vehicles
+image: /images/google-car.jpg
 layout: post
 ---
 

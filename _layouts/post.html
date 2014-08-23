@@ -3,14 +3,18 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.title }}</h1>  
   <div class="date">  
     by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
     <hr/> 
   </div>
 
   <div class="entry">
-    {{ content }}
+      {% if page.image %}
+        <img align="right" width=100 height=100 src="{{ page.image }}" alt="{{ page.title }}" /></a>
+      {% endif %}
+
+      {{ content }}
   </div>
 
   <div class="date">  
