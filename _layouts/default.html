@@ -18,14 +18,21 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
 
-	<header class="inner">
+      <header class="inner">
 
 	  	  <img align="right" class="title_image" src="/images/home-vmt.png" alt="PSRC" width="100"/>
 
           <h1 id="project_title"><a href="/">I/O: The PSRC Data Blog</a></h1>
-          <h3 id="project_tagline"><a href="/">psrc.github.io</a></h2>
+          <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
 
-        </header>
+          <h3 id="project_tagline">
+            {% for page in site.pages_list %}
+              <a href="{{ page[1]  }}">{{ page[0] }}</a>
+              &nbsp;&nbsp;&nbsp;
+            {% endfor %}
+          </h3>
+
+      </header>
     </div>
 
     <!-- MAIN CONTENT -->

@@ -281,6 +281,11 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.author_table {
+  border-width: 0;
+  border-style: none;
+  vertical-align: top;
+}
 
 
 #forkme_banner {
