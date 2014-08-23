@@ -9,13 +9,13 @@ gems:
 
 nav_links: 
   Home: '/'
-  About this blog: '/about.html'
-  Archive of older posts: '/archive.html'
-  Meet the authors: '/authors.html'
-  RSS feed: '/feed.xml'
+  About this Blog: '/about.html'
+  Meet the Authors: '/authors.html'
+  Archive of Older Posts: '/archive.html'
+  RSS Feed: '/feed.xml'
 
 psrc_links: 
-  PSRC Main Website: "http://www.psrc.org"
+  PSRC Website: "http://www.psrc.org"
   Regional View Blog: "http://blog.psrc.org"
   Contact Us: "http://www.psrc.org/about/contact"
 
