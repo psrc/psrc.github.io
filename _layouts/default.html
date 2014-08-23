@@ -14,7 +14,6 @@
   </head>
 
   <body>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
 
@@ -35,14 +34,18 @@
           <a href="{{ page[1]  }}">{{ page[0] }}</a><br/>
       {% endfor %}
 
-      <br/><br/><br/>
+      <br/><br/>
 
       <p class="sidebar_title">PSRC</p>
       {% for page in site.psrc_links %}
           <a href="{{ page[1]  }}">{{ page[0] }}</a><br/>
       {% endfor %}
 
+      <br/><br/>
+
+      <section class="sidebar_title">SEARCH</section>
       {% include search.html %}
+
     </div>
 
 
@@ -54,6 +57,7 @@
         {{ content }}
 
       </section>
+
     </div>
 
     <!-- FOOTER  -->
