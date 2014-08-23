@@ -74,7 +74,8 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  border-bottom: 1px;
+  border-bottom-style: dotted;
 }
 
 h3 {
@@ -157,6 +158,16 @@ p img {
   border: none;
 }
 
+.date {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.intro-text {
+	font-size: 15px;
+	font-style: italic;
+}
+
 pre, code {
   width: 100%;
   color: #222;
@@ -201,8 +212,8 @@ ul, ol, dl {
 }
 
 ul {
-  list-style: inside;
-  padding-left: 20px;
+  list-style: outside;
+  padding-left: 30px;
 }
 
 ol {
@@ -223,6 +234,7 @@ dl p {
   padding-left: 20px;
   font-style: italic;
 }
+
 
 hr {
   height: 1px;
@@ -268,6 +280,8 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
+
+
 
 #forkme_banner {
   display: block;

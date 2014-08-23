@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="intro-text">
+
+<p>You've found <b>I/O<b>, the technical "nerd blog" from the 
+<a href="http://www.psrc.org">Puget Sound Regional Council</a> in Seattle, Washington. 
+We blog about data, analytics, and the tools we use to support the Seattle region's 
+transportation planning, economic development, and growth management strategies.</p>
+<p>PSRC also has a less technical <a href="http://blog.psrc.org">general-interest blog</a> 
+on our main website if that's more your style.</p>
+</div>
+
+<h2>Recent Posts</h2>
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">    
+      
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+
+      <div class="entry">
+        {{ post.content | truncatewords:40}}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&nbsp;&nbsp;Read More</a>
+
+      </div>
+	  
+    </article>
+  {% endfor %}
+</div>
+
