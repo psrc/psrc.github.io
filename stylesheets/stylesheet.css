@@ -287,6 +287,18 @@ Full-Width Styles
   vertical-align: top;
 }
 
+#sidebar {
+     float:right;
+     width: 200px;  
+     padding: 40px 40px 20px 20px;
+}
+
+.sidebar_title {
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+}
 
 #forkme_banner {
   display: block;
@@ -392,6 +404,7 @@ Full-Width Styles
 
 #footer_wrap {
   background: #212121;
+  clear: both;
 }
 
 

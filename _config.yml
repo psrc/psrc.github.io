@@ -7,11 +7,17 @@ timezone: America/Los_Angeles
 gems: 
   - jekyll-sitemap
 
-pages_list: 
-  About: '/about'
-  Authors: '/authors.html'
-  Archive: '/archive.html'
-  Feed: '/feed.xml'
+nav_links: 
+  Home: '/'
+  About this blog: '/about.html'
+  Archive of older posts: '/archive.html'
+  Meet the authors: '/authors.html'
+  RSS feed: '/feed.xml'
+
+psrc_links: 
+  PSRC Main Website: "http://www.psrc.org"
+  Regional View Blog: "http://blog.psrc.org"
+  Contact Us: "http://www.psrc.org/about/contact"
 
 authors: 
   - name: Billy Charlton 
