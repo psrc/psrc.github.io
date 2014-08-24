@@ -24,7 +24,3 @@ title: Archive
     {% endif %}
 {% endfor %}
 
-<br/>
-<br/>
-<br/>
-<br/>

@@ -54,7 +54,7 @@ body {
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -122,7 +122,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #aaa;
   text-decoration: underline;
 }
 
@@ -273,14 +273,15 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
+
 .outer {
   width: 100%;
 }
 
 .inner {
   position: relative;
-  max-width: 710px;
   padding: 20px 10px;
+  max-width: 710px;
   margin: 0 auto;
 }
 
@@ -297,10 +298,43 @@ Full-Width Styles
   vertical-align: top;
 }
 
+#white_area {
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+#main_content_wrap {
+  background: #f2f2f2;
+  margin-right: 240px;
+}
+
+#main_content {
+  padding-left: 20px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+#footer_wrap {
+  background: #212121;
+  padding: 10px 250px 10px 20px;
+  clear: both;
+}
+
+#footer_content {
+  max-width: 710px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+#footer_content p {
+  color: #aaa;
+}
+
 #sidebar {
-     float:right;
+     float: right;
      width: 160px;  
      padding: 40px 40px 20px 40px;
+     background-color: #f2f2f2;
 }
 
 .sidebar_title {
@@ -317,11 +351,14 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  padding: 30px 250px 40px 20px;
 }
 
-#header_wrap .inner {
-  padding: 30px 10px 40px 10px;
+#header_content {
+  max-width: 710px;
+  margin: 0 auto;
 }
+
 
 #project_title {
   margin: 0;
@@ -352,62 +389,6 @@ Full-Width Styles
 #project_tagline a {
 	color: #fff;
 }
-
-
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
-#main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-
-#main_content {
-  padding-top: 40px;
-}
-
-#footer_wrap {
-  background: #212121;
-  clear: both;
-}
-
 
 .search
 {
@@ -483,6 +464,7 @@ Small Device Styles
   .inner {
     min-width: 320px;
     max-width: 480px;
+
   }
 
   #project_title {
@@ -490,17 +472,11 @@ Small Device Styles
   }
 
   #project_tagline {
-    visibility: hidden;
-  }
-
-  #header_wrap .inner {
-    padding: 10px 10px 0px 10px;
+    display: none;
   }
 
   .header_image {
-    float: right;
-    width: 50px;
-    height: 50px;
+    display: none;
   }
 
   .intro-text {
@@ -508,9 +484,21 @@ Small Device Styles
   }
 
   #main_content {
-    padding-top: 10px;
+    padding: 10px;
   }
 
+  #main_content_wrap {
+    margin-right: 10px;
+  }
+
+  #header_wrap {
+    padding: 20px;
+  }
+  
+  #footer_wrap {
+    padding: 10px 10px 10px 20px;
+  }
+  
   #sidebar {
     display: none;
   }
