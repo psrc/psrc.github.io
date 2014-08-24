@@ -239,8 +239,10 @@ dl p {
 hr {
   height: 1px;
   margin-bottom: 5px;
-  border: none;
-  background: url('../images/bg_hr.png') repeat-x center;
+  border-style: none;
+  border-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #666;
 }
 
 
@@ -407,6 +409,7 @@ Full-Width Styles
   float: right;
   width: 100px;
   height: 100px;
+  margin-top: 2px;
 }
 
 #project_tagline {
