@@ -21,8 +21,7 @@
     <div id="header_wrap" class="outer">
 
       <header class="inner">
-	  	  <img align="right" class="title_image" src="/images/home-vmt.png" alt="PSRC" width="100"/>
-
+          <img class="header_image" src="/images/home-vmt.jpg" alt="PSRC" />
           <h1 id="project_title"><a href="/">I/O: The PSRC Data Blog</a></h1>
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
       </header>
@@ -54,6 +53,13 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+
+      <!-- Mobile nav links -->
+      <DIV id="mobile-menu">
+        <nav>{% for page in site.nav_links %}
+            <a href="{{ page[1]  }}">{{ page[0] }}</a> / 
+        {% endfor %} <a href="http://www.psrc.org">PSRC</a></nav>
+      </DIV>
 
       <section id="main_content" class="inner">
 

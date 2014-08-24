@@ -3,7 +3,7 @@ title: Introducing SoundCast
 author: Suzanne Childress
 layout: post
 comments: true
-image: /images/home-vmt.png
+image: /images/home-vmt.jpg
 ---
 
 SoundCast is a computer simulation tool that predicts the travel choices of people in the Puget Sound Region. PSRC uses this model to compare the possible outcomes of future growth and investment scenarios.

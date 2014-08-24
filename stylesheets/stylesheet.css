@@ -299,8 +299,8 @@ Full-Width Styles
 
 #sidebar {
      float:right;
-     width: 200px;  
-     padding: 40px 40px 20px 20px;
+     width: 160px;  
+     padding: 40px 40px 20px 40px;
 }
 
 .sidebar_title {
@@ -308,21 +308,6 @@ Full-Width Styles
     font-weight: bold;
     border-bottom: 1px;
     border-bottom-style: dotted;
-}
-
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 10px;
-  z-index: 10;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
 }
 
 #header_wrap {
@@ -335,7 +320,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 30px 10px 40px 10px;
 }
 
 #project_title {
@@ -348,6 +333,12 @@ Full-Width Styles
 
 #project_title a {
 	color: #fff;
+}
+
+.header_image {
+  float: right;
+  width: 100px;
+  height: 100px;
 }
 
 #project_tagline {
@@ -472,6 +463,9 @@ Full-Width Styles
   box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 8px #4f4f4f;
 }
 
+#mobile-menu {
+  display: none;
+}
 
 /*******************************************************************************
 Small Device Styles
@@ -492,8 +486,35 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+  font-size: 28px;
   }
+
+  #project_tagline {
+    visibility: hidden;
+  }
+
+  #header_wrap .inner {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .header_image {
+    float: right;
+    width: 50px;
+    height: 50px;
+  }
+
+  .intro-text {
+    display: none;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  #mobile-menu {
+    display: inline;
+  }
+
 
   h1 {
     font-size: 28px;

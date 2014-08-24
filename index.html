@@ -20,7 +20,7 @@ on our main website if that's more your style.</p>
       
       <h3>
           {% if post.image %}
-            <a href="{{ site.baseurl }}{{ post.url }}"><img align="right" width=100 height=100 src="{{ post.image }}" alt="{{ post.title }}" /></a>
+            <a href="{{ site.baseurl }}{{ post.url }}"><img class="header_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
           {% endif %}
 
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
