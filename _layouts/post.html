@@ -3,28 +3,32 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>  
-  <div class="date">  
-    by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
-    <hr/> 
+
+  <div id="title1">
+	  {% if page.image %}
+	  	<img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" /></a>
+	  {% endif %}
+
+	  <h1>{{ page.title }}</h1>  
+	  <div class="date">  
+	    by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+	  </div>
   </div>
+  
 
   <div class="entry">
-      {% if page.image %}
-        <img align="right" width=100 height=100 src="{{ page.image }}" alt="{{ page.title }}" /></a>
-      {% endif %}
-
+  <hr/> 
       {{ content }}
   </div>
 
+  <h2></h2>
+
   <div class="date">  
-    <a href="{{page.url}}">Permalink</a>
+    <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
     <br/><br/>
   </div>
 
-  {% if page.comments %}
-   
-    <h2></h2>
+  {% if page.comments %}   
     <h4>Discussion and Comments</h4>
       {% include comments.html %}
   {% endif %}

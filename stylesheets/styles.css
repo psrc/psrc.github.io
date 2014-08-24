@@ -281,7 +281,7 @@ Full-Width Styles
 .inner {
   position: relative;
   padding: 20px 10px;
-  max-width: 710px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -290,6 +290,37 @@ Full-Width Styles
   border-bottom-style: dotted;
   border-bottom-color: #ccc;
   padding-bottom: 10px;
+}
+
+.post h1 {
+  line-height: 1.1;
+}
+
+.post-title-image {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+
+#title1 {
+  min-height: 120px;
+}
+
+.entry_image_wrapper {
+  float:left;
+  margin-top: 5px;
+}
+
+.entry_image {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.entry {
+  overflow-x:hidden;
 }
 
 .author_table {
@@ -305,7 +336,7 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  margin-right: 240px;
+  margin-right: 220px;
 }
 
 #main_content {
@@ -316,12 +347,12 @@ Full-Width Styles
 
 #footer_wrap {
   background: #212121;
-  padding: 10px 250px 10px 20px;
+  padding: 10px 230px 10px 20px;
   clear: both;
 }
 
 #footer_content {
-  max-width: 710px;
+  max-width: 650px;
   margin: 0 auto;
   font-size: 12px;
 }
@@ -351,11 +382,11 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
-  padding: 30px 250px 40px 20px;
+  padding: 30px 230px 40px 20px;
 }
 
 #header_content {
-  max-width: 710px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -452,6 +483,26 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
+@media screen and (max-width: 850px) {
+  #header_wrap {
+      padding: 30px 20px 40px 20px;
+  }
+
+  #sidebar {
+     float: right;
+     width: 140px;  
+     padding: 40px 20px 20px 20px;
+     background-color: #f2f2f2;
+  }
+
+  #main_content_wrap {
+    background: #f2f2f2;
+    margin-right: 180px;
+  }
+
+
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size:14px;
@@ -468,7 +519,7 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 28px;
+  font-size: 24px;
   }
 
   #project_tagline {
@@ -491,13 +542,32 @@ Small Device Styles
     margin-right: 10px;
   }
 
+  .entry_image {
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+  }
+
   #header_wrap {
-    padding: 20px;
+    padding: 10px;
   }
   
   #footer_wrap {
     padding: 10px 10px 10px 20px;
   }
+
+  .post-title-image {
+    float: right;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: -2px;
+  }
+
+  #title1 {
+    min-height: 70px;
+  }
+
   
   #sidebar {
     display: none;
@@ -509,15 +579,15 @@ Small Device Styles
 
 
   h1 {
-    font-size: 28px;
-  }
-
-  h2 {
     font-size: 24px;
   }
 
+  h2 {
+    font-size: 22px;
+  }
+
   h3 {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   h4 {
