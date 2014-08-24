@@ -471,7 +471,7 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px) {
   body {
     font-size:14px;
   }
@@ -505,6 +505,10 @@ Small Device Styles
 
   .intro-text {
     display: none;
+  }
+
+  #main_content {
+    padding-top: 10px;
   }
 
   #sidebar {
