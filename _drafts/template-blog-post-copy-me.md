@@ -12,17 +12,9 @@ This is a sample blog post template.  Be sure to edit the "front matter" fields 
 Then blog away using Markdown syntax!  Don't forget you can use raw HTML
 in a Markdown document, if Markdown doesn't do everything you need it to.
 
-## My favorite Markdown tags:
+## Markdown tags:
 
-```markdown
-
-[myimage]: /images/myimage.png "My image caption"
-* creates a shortcut to myimage so I can reference it easily in my document
-
-```
-
-myimage:
-
-['alt text'][myimage]
+Nice cheatsheet of everything Markdown is at:
+* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Happy blogging!
