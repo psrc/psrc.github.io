@@ -1,4 +1,6 @@
-Gemfile.lock
 _site/
+Gemfile
+Gemfile.lock
+nohup.out
 *.swp
 
