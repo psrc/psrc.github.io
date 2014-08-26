@@ -1,6 +1,6 @@
 ---
-title: My New Blog Post
-author: Francine Fishpaw
+title: DRAFT - New Blog Post Template
+author: My Name Here
 permalink: my-new-blog-post
 image: /images/my-header-image-100x100.jpg
 comments: yes
