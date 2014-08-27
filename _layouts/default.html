@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/styles.css">
-	
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/search.css">
+
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 
@@ -25,31 +26,37 @@
           <img class="header_image" src="/images/home-vmt.jpg" alt="PSRC" />
           <h1 id="project_title"><a href="/">I/O: The PSRC Data Blog</a></h1>
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
+        <div id="header_divider"></div>
+
       </div>
 
     </div>
 
+
     <div id="white_area">
 
     <!-- SIDE LINKS -->
-    <div id="sidebar">      
+    <div id="sidebar">
+
+      <img id="psrc_logo" src="/images/psrc-logo.png" alt="PSRC Logo" width="158px" />
 
       <p class="sidebar_title">I/O BLOG</p>
       {% for page in site.nav_links %}
           <a href="{{ page[1]  }}">{{ page[0] }}</a><br/>
       {% endfor %}
 
-      <br/><br/>
+      <br/>
 
       <p class="sidebar_title">PSRC</p>
       {% for page in site.psrc_links %}
           <a href="{{ page[1]  }}">{{ page[0] }}</a><br/>
       {% endfor %}
 
-      <br/><br/>
+      <br/>
 
       <p class="sidebar_title">SEARCH</p>
       {% include search.html %}
+
 
     </div>
 
@@ -59,9 +66,9 @@
 
       <!-- Mobile nav links -->
       <DIV id="mobile-menu">
-        <nav>{% for page in site.nav_links %}
-            <a href="{{ page[1]  }}">{{ page[0] }}</a> / 
-        {% endfor %} <a href="http://www.psrc.org">PSRC</a></nav>
+        <p class="mobile-p">{% for page in site.nav_links %}
+            <a href="{{ page[1]  }}">{{ page[0] }}</a> &raquo;
+        {% endfor %} <a href="http://www.psrc.org">PSRC</a></p>
       </DIV>
 
       <section id="main_content" class="inner">

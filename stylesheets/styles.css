@@ -5,6 +5,15 @@ by Jason Costello, @jsncostello
 
 @import url(pygment_trac.css);
 
+/* --- PSRC COLORS
+
+PSRC Puke Orange:  #f36621;
+PSRC Dull Overcase: #758a95;
+PSRC Dull Link: #10424e;
+
+--- */
+
+
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
@@ -67,11 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  color: #10424e;
   font-size: 36px;
   font-weight: 700;
 }
 
 h2 {
+  color: #10424e;
   padding-bottom: 10px;
   font-size: 32px;
   border-bottom: 1px;
@@ -79,6 +90,7 @@ h2 {
 }
 
 h3 {
+  color: #10424e;
   font-size: 24px;
 }
 
@@ -104,7 +116,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #006ebf;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -147,6 +159,17 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+#psrc_logo {
+  margin-left: -7px;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
 }
 
 p img {
@@ -375,7 +398,7 @@ Full-Width Styles
 
 #sidebar {
      float: right;
-     width: 160px;  
+     width: 160px;
      padding: 40px 40px 20px 40px;
      background-color: #f2f2f2;
 }
@@ -388,14 +411,16 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
-  padding: 30px 230px 40px 20px;
+  background: #758a95;
+  padding: 30px 230px 0px 20px;
 }
+
+#header_divider {
+  height: 5px;
+  background: #f36621;
+  margin-top: 40px;
+}
+
 
 #header_content {
   max-width: 650px;
@@ -434,60 +459,6 @@ Full-Width Styles
 	color: #fff;
 }
 
-.search
-{
-  padding-bottom: 0px;
-}
-
-.search li
-{
-  list-style: none;
-  margin: 0 0 0em 0;
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-.search time
-{
-  margin-left: 0em;
-  font-size: .75em;
-  color: #fafafa;
-}
-
-/*the form*/
-#search
-{
-  font-family: "ff-meta-web-1", "ff-meta-web-2",Myriad Pro,san-serif;
-  width: 100%;
-  max-width: 200px;
-  margin: 0px auto 0;
-  margin-left: -1px;
-}
-
-#search input
-{
-  width: 80%;
-  font-family: "ff-meta-web-1", "ff-meta-web-2",Myriad Pro,sans-serif;
-  background-color: #fafafa;
-  border: 1px solid #9a9a9a;
-  padding: 6px 8%;
-  color: #2b2b2b;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.5);
-  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.5);
-  box-shadow: 0 1px 0 rgba(255,255,255,.5);
-}
-
-#search input:focus
-{
-  outline: none;
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 4px #4f4f4f;
-  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 4px #4f4f4f;
-  box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 0 8px #4f4f4f;
-}
-
 #mobile-menu {
   display: none;
 }
@@ -498,12 +469,12 @@ Small Device Styles
 
 @media screen and (max-width: 850px) {
   #header_wrap {
-      padding: 30px 20px 40px 20px;
+      padding: 30px 20px 0px 20px;
   }
 
   #sidebar {
      float: right;
-     width: 140px;  
+     width: 140px;
      padding: 40px 20px 20px 20px;
      background-color: #f2f2f2;
   }
@@ -562,9 +533,9 @@ Small Device Styles
   }
 
   #header_wrap {
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
   }
-  
+
   #footer_wrap {
     padding: 10px 10px 10px 20px;
   }
@@ -581,15 +552,17 @@ Small Device Styles
     min-height: 70px;
   }
 
-  
   #sidebar {
     display: none;
   }
 
   #mobile-menu {
-    display: inline;
+    display: block;
   }
 
+  .mobile-p {
+    margin-left: 10px;
+  }
 
   h1 {
     font-size: 24px;
