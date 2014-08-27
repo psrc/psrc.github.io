@@ -444,6 +444,13 @@ Full-Width Styles
   margin: none;
 }
 
+#header_divider {
+  height: 5px;
+  background: #f36621;
+  margin-top: 40px;
+}
+
+
 #header_content {
   max-width: 650px;
   margin: 0 auto;
