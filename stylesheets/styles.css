@@ -374,12 +374,12 @@ Full-Width Styles
 }
 
 #white_area {
-  background: #f2f2f2;
+  background: #e8e8e8;
   overflow: hidden;
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #e8e8e8;
   margin-right: 220px;
 }
 
@@ -409,7 +409,7 @@ Full-Width Styles
      float: right;
      width: 180px;
      padding: 40px 40px 20px 40px;
-     background-color: #f2f2f2;
+     background-color: #e8e8e8;
 }
 
 .sidebar_title {
