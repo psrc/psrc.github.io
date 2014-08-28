@@ -26,37 +26,38 @@
           <img class="header_image" src="/images/home-vmt.jpg" alt="PSRC" />
           <h1 id="project_title"><a href="/">I/O: The PSRC Data Blog</a></h1>
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
-        <div id="header_divider"></div>
+
+          <div id="header_divider"></div>
 
       </div>
 
     </div>
 
-    <div id="header_line"></div>
+
+    <div id="main_menu_wrap">
+    <div id="main_menu">
+      {% for page in site.nav_links %}
+          <a href="{{ page[1]  }}">{{ page[0] }}</a>
+      {% endfor %}
+      <a id="rss_link" href="/feed.xml">SUBSCRIBE TO RSS</a>
+
+    </div>
+    </div>
 
     <div id="white_area">
 
     <!-- SIDE LINKS -->
     <div id="sidebar">
 
-      <p class="sidebar_title">I/O BLOG</p>
-      {% for page in site.nav_links %}
-          <a href="{{ page[1]  }}">{{ page[0] }}</a><br/>
-      {% endfor %}
-
-      <br/>
-
-      <p class="sidebar_title">PSRC</p>
-      {% for page in site.psrc_links %}
-          <a href="{{ page[1]  }}">{{ page[0] }}</a><br/>
-      {% endfor %}
-
-      <br/>
-
       <p class="sidebar_title">SEARCH</p>
       {% include search.html %}
 
-      <a href="http://www.psrc.org"><img id="psrc_logo" src="/images/psrc-logo-grey.png" alt="PSRC Logo" width="170px" /></a>
+      <p class="sidebar_title">TAGS</p>
+      {% include tags.html %}
+
+
+      <a href="http://www.psrc.org"><img id="psrc_logo" src="/images/psrc-logo-dull-green.png" alt="PSRC Logo" width="170px" /></a>
+
 
     </div>
 

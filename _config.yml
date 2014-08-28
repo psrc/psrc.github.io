@@ -4,23 +4,23 @@ url: http://psrc.github.io
 highlighter: pygments
 lsi: false
 timezone: America/Los_Angeles
-gems: 
+gems:
   - jekyll-sitemap
 
-nav_links: 
-  Home: '/'
-  About this Blog: '/about.html'
-  Meet the Authors: '/authors.html'
-  Archive of Older Posts: '/archive.html'
-  RSS Feed: '/feed.xml'
+nav_links:
+  HOME: '/'
+  ABOUT I/O: '/about.html'
+  MEET THE AUTHORS: '/authors.html'
+  ARCHIVE: '/archive.html'
+  PSRC WEBSITE: 'http://www.psrc.org'
 
-psrc_links: 
+psrc_links:
   PSRC Website: "http://www.psrc.org"
   Regional View Blog: "http://blog.psrc.org"
   Contact Us: "http://www.psrc.org/about/contact"
 
-authors: 
-  - name: Billy Charlton 
+authors:
+  - name: Billy Charlton
     image: /authors/billy.jpg
     blurb: Billy is the Program Manager for the data team at PSRC. He's been doing travel forecasting since the '90s, as well as dabbling in software development just enough to be dangerous. He has Bachelor's and Master's degrees in Civil Engineering.
 

@@ -169,7 +169,7 @@ img {
 }
 
 #psrc_logo {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: -3px;
   border: none;
   box-shadow: none;
@@ -374,12 +374,12 @@ Full-Width Styles
 }
 
 #white_area {
-  background: #e8e8e8;
+  background: #f2f2f2;
   overflow: hidden;
 }
 
 #main_content_wrap {
-  background: #e8e8e8;
+  background: #f2f2f2;
   margin-right: 220px;
 }
 
@@ -409,15 +409,17 @@ Full-Width Styles
      float: right;
      width: 180px;
      padding: 40px 40px 20px 40px;
-     background-color: #e8e8e8;
+     background-color: #f2f2f2;
 }
 
 .sidebar_title {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: bold;
-    color: white;
-    background-color: #758a95;
+    font-size: 14px;
+    color: #10424e;
     padding: 0px 4px;
+    border-bottom: 1px;
+    border-bottom-style: dotted;
 
 }
 
@@ -432,21 +434,28 @@ Full-Width Styles
 */
 }
 
-#header_divider {
-  height: 5px;
+#main_menu_wrap {
+  height: 28px;
   background: #f36621;
-  margin-top: 40px;
-}
-
-#header_line {
-  height: 1px;
-  background: #f36621;
+  padding: 5px 230px 0px 20px;
   margin: none;
 }
 
+#main_menu {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+#main_menu a {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 2px;
+    padding-right: 18px;
+}
+
 #header_divider {
   height: 5px;
-  background: #f36621;
+  background: #f3aa88;
   margin-top: 40px;
 }
 
