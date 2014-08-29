@@ -10,8 +10,8 @@ gems:
 nav_links:
   HOME: '/'
   ABOUT&nbsp;I/O: '/about.html'
-  MEET&nbsp;THE&nbsp;AUTHORS: '/authors.html'
   ARCHIVE: '/archive.html'
+  MEET&nbsp;THE&nbsp;AUTHORS: '/authors.html'
   PSRC&nbsp;WEBSITE: 'http://www.psrc.org'
 
 psrc_links:
