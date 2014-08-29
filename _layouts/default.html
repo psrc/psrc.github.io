@@ -24,7 +24,7 @@
 
       <div id="header_content">
           <img class="header_image" src="/images/home-vmt.jpg" alt="PSRC" />
-          <h1 id="project_title"><a href="/">I/O: THE PSRC DATA BLOG</a></h1>
+          <h1 id="project_title"><a href="/">i/o: the psrc data blog</a></h1>
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
 
           <div id="header_divider"></div>
@@ -36,8 +36,14 @@
 
     <div id="main_menu_wrap">
     <div id="main_menu">
+
       {% for page in site.nav_links %}
-          <a href="{{ page[1]  }}">{{ page[0] }}</a>
+            <a href="{{ page[1]  }}"
+               onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
+               onMouseOut="this.style.background='#f36621'; this.style.color='#fff'">
+               {{ page[0] }}
+            </a>
+
       {% endfor %}
       <a id="rss_link" href="/feed.xml">RSS&nbsp;FEED</a>
 

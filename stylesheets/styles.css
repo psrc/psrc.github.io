@@ -349,14 +349,6 @@ Full-Width Styles
   margin-top: -2px;
 }
 
-#latest_posts_header {
-  color: #10424e;
-  padding-bottom: 0px;
-  font-size: 28px;
-  border-bottom: 1px;
-  border-bottom-style: dotted;
-}
-
 #title1 {
   min-height: 120px;
 }
@@ -431,6 +423,11 @@ Full-Width Styles
     border-bottom-style: dotted;
 }
 
+p.sidebar_title {
+    margin-bottom: 8px;
+}
+
+
 #header_wrap {
   padding: 30px 230px 0px 20px;
   background: #fff;
@@ -444,7 +441,7 @@ Full-Width Styles
 
 #main_menu_wrap {
   background: #f36621;
-  padding: 5px 230px 5px 20px;
+  padding: 4px 230px 4px 20px;
   margin: none;
 }
 
@@ -456,9 +453,14 @@ Full-Width Styles
 #main_menu a {
     color: #fff;
     font-size: 13px;
-    padding-left: 2px;
-    padding-right: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    text-decoration: none;
 }
+
+
 
 #header_divider {
   height: 5px;
@@ -501,10 +503,6 @@ Full-Width Styles
 
 #project_tagline a {
 	color: #10424e;
-}
-
-#mobile-menu {
-  display: none;
 }
 
 /*******************************************************************************
@@ -610,10 +608,6 @@ Small Device Styles
 
   #sidebar {
     display: none;
-  }
-
-  #mobile-menu {
-    display: block;
   }
 
   .mobile-p {
