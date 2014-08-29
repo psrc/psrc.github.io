@@ -488,9 +488,8 @@ p.sidebar_title {
 
 .header_image {
   float: right;
-  width: 100px;
-  height: 100px;
-  margin-top: 2px;
+  width: 220px;
+  margin-top: 10px;
 }
 
 #project_tagline {
