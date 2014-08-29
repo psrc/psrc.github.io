@@ -4,19 +4,19 @@ layout: default
 
 <div class="intro-text">
 
-<p>You've found <strong>I/O</strong>, the technical "nerd blog" from the 
-<a href="http://www.psrc.org">Puget Sound Regional Council</a> in Seattle, Washington. 
-We blog about the data and tools which support the Seattle region's 
+<p>You've found <strong>I/O</strong>, the technical "nerd blog" from the
+<a href="http://www.psrc.org">Puget Sound Regional Council</a> in Seattle, Washington.
+We blog about the data and tools which support the Seattle region's
 transportation planning, economic development, and growth management strategies.</p>
-<p>PSRC also has a less technical <a href="http://blog.psrc.org">general-interest blog</a> 
+<p>PSRC also has a less technical <a href="http://blog.psrc.org">general-interest blog</a>
 on our main website if that's more your style.</p>
 </div>
 
-<h2>Latest Posts</h2>
+<p class="sidebar_title">LATEST STORIES</p>
 
 <div class="posts">
   {% for post in site.posts limit: 7%}
-    <article class="post">    
+    <article class="post">
 
       <div class="entry_image_wrapper">
           {% if post.image %}
@@ -30,7 +30,7 @@ on our main website if that's more your style.</p>
         </h3>
         {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read More</a>
       </div>
-	  
+
     </article>
   {% endfor %}
 </div>

@@ -24,7 +24,7 @@
 
       <div id="header_content">
           <img class="header_image" src="/images/home-vmt.jpg" alt="PSRC" />
-          <h1 id="project_title"><a href="/">I/O: The PSRC Data Blog</a></h1>
+          <h1 id="project_title"><a href="/">I/O: THE PSRC DATA BLOG</a></h1>
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
 
           <div id="header_divider"></div>
@@ -39,7 +39,7 @@
       {% for page in site.nav_links %}
           <a href="{{ page[1]  }}">{{ page[0] }}</a>
       {% endfor %}
-      <a id="rss_link" href="/feed.xml">SUBSCRIBE TO RSS</a>
+      <a id="rss_link" href="/feed.xml">SUBSCRIBE&nbsp;TO&nbsp;RSS</a>
 
     </div>
     </div>
@@ -55,7 +55,8 @@
       <p class="sidebar_title">TAGS</p>
       {% include tags.html %}
 
-
+      <br/>
+      <p class="sidebar_title">BROUGHT TO YOU BY</p>
       <a href="http://www.psrc.org"><img id="psrc_logo" src="/images/psrc-logo-dull-green.png" alt="PSRC Logo" width="170px" /></a>
 
 
@@ -64,13 +65,6 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap">
-
-      <!-- Mobile nav links -->
-      <DIV id="mobile-menu">
-        <p class="mobile-p">{% for page in site.nav_links %}
-            <a href="{{ page[1]  }}">{{ page[0] }}</a> &raquo;
-        {% endfor %} <a href="http://www.psrc.org">PSRC</a></p>
-      </DIV>
 
       <section id="main_content" class="inner">
 

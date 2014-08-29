@@ -169,7 +169,7 @@ img {
 }
 
 #psrc_logo {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: -3px;
   border: none;
   box-shadow: none;
@@ -206,6 +206,7 @@ p img {
 .intro-text {
 	font-size: 15px;
 	font-style: italic;
+    margin-bottom: 30px;
 }
 
 pre, code {
@@ -348,6 +349,14 @@ Full-Width Styles
   margin-top: -2px;
 }
 
+#latest_posts_header {
+  color: #10424e;
+  padding-bottom: 0px;
+  font-size: 28px;
+  border-bottom: 1px;
+  border-bottom-style: dotted;
+}
+
 #title1 {
   min-height: 120px;
 }
@@ -413,7 +422,7 @@ Full-Width Styles
 }
 
 .sidebar_title {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: bold;
     font-size: 14px;
     color: #10424e;
@@ -435,9 +444,8 @@ Full-Width Styles
 }
 
 #main_menu_wrap {
-  height: 28px;
   background: #f36621;
-  padding: 5px 230px 0px 20px;
+  padding: 5px 230px 5px 20px;
   margin: none;
 }
 
@@ -561,6 +569,14 @@ Small Device Styles
 
   #main_content_wrap {
     margin-right: 10px;
+  }
+
+  #main_menu_wrap {
+      padding: 5px 10px 5px 10px;
+  }
+
+  #main_menu a {
+      padding-right: 3px;
   }
 
   .entry_image {
