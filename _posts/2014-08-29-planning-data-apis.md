@@ -5,7 +5,7 @@ image: /images/transit-boardings.jpg
 comments: yes
 layout: post
 ---
-Many commercial geographic data sources share the information via application programming interfaces, known as APIs. These APIs allow limited access to the data by developing little snippets of code. As planners, this gives us access to modern, timely data sources for a low (sometimes zero) cost. Here are some APIs we are currently exploring at PSRC:
+Many commercial geographic data sources share information via application" programming interfaces", known as APIs. These APIs allow limited access to the data using little snippets of code. As planners, this gives us access to modern, timely data sources for a low (sometimes zero) cost. Here are some APIs we are currently exploring at PSRC:
 
 
 |service|description|
