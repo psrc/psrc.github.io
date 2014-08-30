@@ -39,9 +39,9 @@ An example result from a Google API call would provide data as follows:
 We can compare these values against model results for validation. Other uses could include the creation of visualizations and animations.  The animation below shows car2go use in Seattle over a few days in April.
 This animation was created using the car2go query of ready-to-use vehicles.
 
-## car2go Vehicle Availability in Seattle Time-Lapse ##
+#### car2go Vehicle Availability in Seattle Time-Lapse ##
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/Y_P47n0NOWE" frameborder="0" allowfullscreen></iframe>
+<embed width="560" height="315" src="//www.youtube.com/embed/Y_P47n0NOWE" frameborder="0" allowfullscreen />
 
 From the Uber and car2go data, you could create trip tables for these modes.  These trip tables could be grown over time, or factored up based on an assumption of increased use.
 You can even build a simple mode choice model that includes Uber and car2go.  That is, if you had enough car2go or Uber data from your household survey.
