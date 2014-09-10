@@ -2,7 +2,7 @@
 title: "Looking Ahead: Planning for the Arrival of Automated Vehicles"
 author: Billy Charlton
 permalink: looking-ahead-to-automated-vehicles
-image: /images/google-car.jpg
+image: /images/2014/google-car.jpg
 layout: post
 ---
 

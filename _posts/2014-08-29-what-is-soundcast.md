@@ -3,7 +3,7 @@ title: Introducing SoundCast
 author: Suzanne Childress
 layout: post
 comments: true
-image: /images/home-vmt.jpg
+image: /images/2014/home-vmt.jpg
 ---
 
 Did you love playing city building games when you were growing up? Or do you still play phone games where you build cities or farms? I do. I like to optimize resource allocation and watch organic patterns of city growth. I like to build roads and balance zoning types. Activity-based travel modelers get to build and run software that is like SimCity!
