@@ -1,0 +1,18 @@
+- name: Billy Charlton
+  image: /authors/billy.jpg
+  blurb: Billy is the Program Manager for the data team at PSRC.
+         He's been doing travel forecasting since the '90s, as well as
+         dabbling in software development just enough to be dangerous.
+         He has Bachelor's and Master's degrees in Civil Engineering.
+
+- name: Rebeccah Maskin
+  image: /authors/beccah.jpg
+  blurb: Beccah routinely entertains crowds on private jets bound for
+         obscure vacation destinations and once bowled a 300 while
+         cueing a record.
+
+- name: Suzanne Childress
+  image: /authors/ennazus.jpg
+  blurb: "Suzanne has a passion for understanding human behavior.
+         She loves to take deep dives in big data and survey results,
+         to tease out the hidden relationships. And she likes cats."
