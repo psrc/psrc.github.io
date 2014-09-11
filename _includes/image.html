@@ -1,0 +1,21 @@
+<center>
+<table width="75%" bgcolor="#ddd">
+<tr><td>
+  <a href="{{include.image.url}}"><img width="100%" src="{{include.image.url}}" alt="{{include.image.caption}}" /></a>
+</td></tr>
+<tr><td>
+    <strong>{{ include.image.caption }}</strong>
+
+    {% if include.image.source %}
+          <p class="source">Source:
+          {% if include.image.sourceurl %}<a target="_blank" href="{{include.image.sourceurl}}">{%endif%}
+          {{ include.image.source }}
+          {% if include.image.sourceurl %}</a>{%endif%}
+          </p>
+    {% endif %}
+
+</td></tr>
+
+</table>
+</center>
+

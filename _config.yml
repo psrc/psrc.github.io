@@ -4,6 +4,7 @@ url: http://psrc.github.io
 highlighter: pygments
 lsi: false
 timezone: America/Los_Angeles
+permalink: /:categories/:year/:title
 gems:
   - jekyll-sitemap
 

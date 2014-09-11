@@ -307,6 +307,12 @@ td {
   border: 1px solid #bbb;
 }
 
+p.source {
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /*
 form {
   background: #f2f2f2;
