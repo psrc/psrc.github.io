@@ -310,9 +310,33 @@ td {
 div.source p {
   font-style: italic;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
+  margin-left: 8px;
 }
 
+table.post-image img {
+  position: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: none;
+
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+}
+
+table.post-image td {
+  position: none;
+  margin: 0 0 0 0;
+  padding: 5px 5px 0px 5px;
+  border-style: none;
+}
+
+table.post-image {
+  background-color: #dde;
+}
 
 /*
 form {
