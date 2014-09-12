@@ -1,4 +1,5 @@
 _site/
+_drafts/
 Gemfile
 Gemfile.lock
 nohup.out

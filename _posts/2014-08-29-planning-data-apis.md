@@ -1,7 +1,7 @@
 ---
 title: Planning Data APIs
 author: Suzanne Childress
-image: /images/2014/transit-boardings.jpg
+image: /images/2014/pandas-code.jpg
 comments: yes
 layout: post
 ---
