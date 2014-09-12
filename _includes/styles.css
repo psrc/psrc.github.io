@@ -307,11 +307,12 @@ td {
   border: 1px solid #bbb;
 }
 
-p.source {
+div.source p {
   font-style: italic;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 /*
 form {

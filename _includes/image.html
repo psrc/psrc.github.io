@@ -1,18 +1,16 @@
 <center>
 <table width="75%" bgcolor="#ddd">
 <tr><td>
-  <a href="{{include.image.url}}"><img width="100%" src="{{include.image.url}}" alt="{{include.image.caption}}" /></a>
+  <a href="{{include.image.image}}"><img width="100%" src="{{include.image.image}}" alt="{{include.image.caption}}" /></a>
 </td></tr>
 <tr><td>
     <strong>{{ include.image.caption }}</strong>
 
-    {% if include.image.source %}
-          <p class="source">Source:
-          {% if include.image.sourceurl %}<a target="_blank" href="{{include.image.sourceurl}}">{%endif%}
-          {{ include.image.source }}
-          {% if include.image.sourceurl %}</a>{%endif%}
-          </p>
-    {% endif %}
+    <div class="source">
+    {% for source in include.image.source %}
+      {{'Source: ' | append:source | markdownify }}
+    {% endfor %}
+    </div>
 
 </td></tr>
 
