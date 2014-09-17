@@ -307,11 +307,21 @@ td {
   border: 1px solid #bbb;
 }
 
+div.image-caption p {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 0 0 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 div.source p {
   font-style: italic;
+  text-align: right;
   margin-top: 0px;
   margin-bottom: 3px;
-  margin-left: 8px;
+  margin-right: 5px;
 }
 
 table.post-image img {
@@ -329,13 +339,12 @@ table.post-image img {
 
 table.post-image td {
   position: none;
-  margin: 0 0 0 0;
-  padding: 5px 5px 0px 5px;
+  padding: 5px 5px 0 5px;
   border-style: none;
 }
 
 table.post-image {
-  background-color: #dddde4;
+  background-color: #dde;
   border: 1px;
   border-style: solid;
   border-color: #bbb;
@@ -386,6 +395,30 @@ Full-Width Styles
 
 #title1 {
   min-height: 120px;
+}
+
+.entry_image_wide_wrapper {
+  margin-top: -10px;
+  margin-left: 90px;
+  margin-bottom: -5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h3.entry_list {
+  margin-left: 97px;
+  margin-top: 10px;
+}
+
+.wide_blurb {
+  margin-left: 97px;
+}
+
+.entry_image_wide {
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .entry_image_wrapper {
@@ -539,6 +572,7 @@ p.sidebar_title {
 	color: #10424e;
 }
 
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -615,6 +649,24 @@ Small Device Styles
     height: 36px;
     margin-right: 6px;
   }
+
+.entry_image_wide_wrapper {
+  margin-top: -10px;
+  margin-left: 45px;
+  margin-bottom: -5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h3.entry_list {
+  margin-left: 53px;
+  margin-top: 10px;
+}
+
+.wide_blurb {
+  margin-left: 55px;
+}
+
 
   #header_wrap {
     padding: 0px 10px 0px 10px;

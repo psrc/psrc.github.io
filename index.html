@@ -17,18 +17,35 @@ transportation planning, economic development, and growth management strategies.
   {% for post in site.posts limit: 7%}
     <article class="post">
 
-      <div class="entry_image_wrapper">
-          {% if post.image %}
+      {% if post.image %}
+          <div class="entry_image_wrapper">
             <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image" src="{{ post.image }}" alt="{{ post.title }}" /></a>
-          {% endif %}
-      </div>
+          </div>
 
-      <div class="entry">
-        <h3>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h3>
-        {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read More</a>
-      </div>
+          <div class="entry">
+              <h3>
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              </h3>
+
+              {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read More</a>
+          </div>
+
+      {% elsif post.image-wide %}
+
+        <div class="entry">
+            <h3 class="entry_list">
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h3>
+
+            <div class="entry_image_wide_wrapper">
+              <a href="{{ site.baseurl }}{{ post.url }}"><img class="entry_image_wide" src="{{ post.image-wide }}" alt="{{ post.title }}" /></a>
+            </div>
+
+            <div class="wide_blurb">
+              {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">&raquo;&nbsp;Read More</a>
+            </div>
+        </div>
+      {% endif %}
 
     </article>
   {% endfor %}

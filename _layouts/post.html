@@ -4,20 +4,26 @@ layout: default
 
 <article class="post">
 
+{% if page.image %}
   <div id="title1">
-	  {% if page.image %}
 	  	<img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" /></a>
-	  {% endif %}
+{% endif %}
 
 	  <h3>{{ page.title }}</h3>
 	  <div class="date">
 	    by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
 	  </div>
-  </div>
 
+{% if page.image %}</div>{% endif %}
 
   <div class="entry">
-  <hr/>
+
+    {% if page.image-wide %}
+      <img class="post-title-image-wide" src="{{ page.image-wide }}" alt="{{ page.title }}" /></a>
+    {% else %}
+      <hr/>
+    {% endif %}
+
       {{ content }}
   </div>
 
