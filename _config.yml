@@ -2,13 +2,10 @@ name: I/O
 description: I/O, the data nerd blog from the Puget Sound Regional Council
 url: http://psrc.github.io
 lsi: false
-markdown: redcarpet
 timezone: America/Los_Angeles
 permalink: /:categories/:year/:title
 gems:
   - jekyll-sitemap
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 nav_links:
   HOME: '/'
