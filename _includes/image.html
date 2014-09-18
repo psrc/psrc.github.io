@@ -1,17 +1,13 @@
 <center>
-<table width="75%" bgcolor="#ddd" class="post-image">
+<table width="75%" class="post-image">
 <tr><td>
-  <a href="{{include.image.image}}"><img width="100%" src="{{include.image.image}}" alt="{{include.image.caption}}" /></a><br/>
+    <a href="{{include.image.image}}"><img width="100%" src="{{include.image.image}}" alt="{{include.image.caption}}" /></a><br/>
     <div class="image-caption">
         <p>{{ include.image.caption }}</p>
+    </div>{% for source in include.image.source %}<div class="source">
+                <p>{{'Source: ' | append:source | markdownify }}</p>
     </div>
-
-    <div class="source">
-        {% for source in include.image.source %}
-          {{'Source: ' | append:source | markdownify }}
-        {% endfor %}
-    </div>
-
+    {% endfor %}
 </td></tr>
 
 </table>
