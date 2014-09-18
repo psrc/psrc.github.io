@@ -45,22 +45,20 @@
     </div>
 
 
-    <div id="main_menu_wrap">
-    <div id="main_menu">
+    <div id="rss_wrap">
+       <a id="rss_link" href="/feed.xml"
+               onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
+               onMouseOut="this.style.background='#f36621'; this.style.color='#fff'">RSS&nbsp;FEED</a>
 
-      {% for page in site.nav_links %}
+    <div id="main_menu_wrap">
+    <div id="main_menu">{% for page in site.data.links.nav_links %}
             <a href="{{ page[1]  }}"
                onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
                onMouseOut="this.style.background='#f36621'; this.style.color='#fff'">
                {{ page[0] }}
             </a>
-
       {% endfor %}
-      <a id="rss_link" href="/feed.xml"
-               onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
-               onMouseOut="this.style.background='#f36621'; this.style.color='#fff'">
-      RSS&nbsp;FEED</a>
-
+    </div>
     </div>
     </div>
 
