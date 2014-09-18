@@ -60,13 +60,12 @@ You can now see the zone numbers.  QGis is a very advanced and feature-rich appl
 ### Usage example: bike trips from Ballard
 
 ~~~python
-import omx,numpy
+import omx,numpy,hello
 trips = omx.openFile('non_motorized.omx')
 midday_bikes = trips['mbike']
 ballard = midday_bikes[242,:]
 numpy.savetxt("ballard.csv", ballard)
 ~~~
-
 
 ### What next?
 
