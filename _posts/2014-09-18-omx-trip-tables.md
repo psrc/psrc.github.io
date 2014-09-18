@@ -67,6 +67,11 @@ ballard = midday_bikes[242,:]
 numpy.savetxt("ballard.csv", ballard)
 ```
 
+|*Hello*|*Freedom*|
+|Markdown is cool|Yes|
+|But syntax highlighting is better|No|
+
+
 ### What next?
 
 We're excited to finally be able to provide this data to you in an open format, and are curious to see what you do with it. You could pull one column from a trip table to get all the morning commute trips into a block of downtown Seattle, for example.  Or pull a row for your home zone to see the travel destinations of all the households in your neighborhood.
