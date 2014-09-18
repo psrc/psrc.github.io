@@ -69,11 +69,6 @@ numpy.savetxt("ballard.csv", ballard)
 
 ### What next?
 
-
-|*Hello*|*Freedom*|
-|Markdown is cool|Yes|
-|But syntax highlighting is better|No|
-
 We're excited to finally be able to provide this data to you in an open format, and are curious to see what you do with it. You could pull one column from a trip table to get all the morning commute trips into a block of downtown Seattle, for example.  Or pull a row for your home zone to see the travel destinations of all the households in your neighborhood.
 
 If you know the Python programming language, go back to the [OMX website](https://sites.google.com/site/openmodeldata) to see if you can crack into these OMX files and start poking around the tables yourself.
