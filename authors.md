@@ -3,7 +3,7 @@ layout: default
 title: Authors of PSRC I/O
 ---
 
-## I/O Authors: Who's writing all this stuff?
+### _I/O AUTHORS: WHO'S WRITING THIS STUFF?_
 
 This blog is brought to you by the technical writers of the Data Systems and Analysis team at the <a href="http://www.psrc.org">Puget Sound Regional Council</a>. We love talking about data.
 
