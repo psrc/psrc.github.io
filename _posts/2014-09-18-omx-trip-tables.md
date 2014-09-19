@@ -1,5 +1,5 @@
 ---
-title: DRAFT - OMX Trip Tables Now Available
+title: OMX Trip Tables Now Available
 author: Billy Charlton
 image: /images/2014/dots.png
 comments: true
@@ -21,14 +21,15 @@ images:
 
 ---
 
-PSRC now has OMX-format trip tables available for public use. Trip tables are two-dimensional matrices containing the estimated number of trips between any two origin/destination points in the Puget Sound region. The tables for our region are aggregated into 3,699 neighborhoods (or "zones") for convenience, so the matrices are 3699x3699 in size.  You can think of a trip table as a big "from/to" table, on a neighborhood-to-neighborhood scale.
+PSRC now has OMX-format trip tables available for public use. Trip tables are two-dimensional matrices containing the estimated number of trips between any two origin/destination points in the Puget Sound region. The tables for our region are aggregated into 3,700 neighborhoods (or "zones") for convenience, so the matrices are 3700x3700 in size.  You can think of a trip table as a big "from/to" table, on a neighborhood-to-neighborhood scale.
+
+**Download the file here: [PSRC 2010 OMX Trip Tables](https://file.ac/G20Z7E0ezbU/)**
 
 Trips are stored separately by:
 
-* Mode (drive, transit, bike, walk, etc)
-* Trip purpose (work, shop, etc)
-* Time of day
+* Mode (auto, transit, bike, walk, etc)
 * Household income quartile, for work trips
+* Time period (A.M. peak, midday, P.M. peak, evening, late-night)
 
 ### How were these tables created?
 
@@ -36,13 +37,13 @@ We use the PSRC [travel model](http://www.psrc.org/data/models/trip-based-travel
 
 ### How do I look at these?
 
-The [OMX format](https://sites.google.com/site/openmodeldata/home) is an open format jointly created by PSRC and several other public and private agencies in the transportation planning field.  It was expressly designed to allow sharing of matrix data amongst planning agencies and with the public. These are big files. You can download the [OMX Viewer app for Windows](https://sites.google.com/site/openmodeldata/file-cabinet/omx-viewer); other platforms should search for "vitables".
+The [OMX format](https://sites.google.com/site/openmodeldata/home) is an open format jointly created by PSRC and several other public and private agencies in the transportation planning field.  It was expressly designed to allow sharing of matrix data amongst planning agencies and with the public. You can download the [OMX Viewer app for Windows](https://sites.google.com/site/openmodeldata/file-cabinet/omx-viewer); other platforms should search for "vitables".  OMX is really just an [HDF5](http://www.hdfgroup.org/HDF5/) file with a specific layout; HDF5 can be read by [pandas](http://pandas.pydata.org/) and [pytables](http://www.pytables.org/moin) easily.
 
 {% include image.html image=page.images.image1 %}
 
 **Zone definitions**
 
-You'll also need to know the lookups for the zone numbers. The trip tables are divided into "zones" of various sizes (smaller zones in dense areas, larger in more suburban and rural areas). Zones are numbered continuously from 1-3699.  Thus, to make heads or tails of these trip tables you'll need to know what areas those numbers correspond to.
+You'll also need to know the lookups for the zone numbers. The trip tables are divided into "zones" of various sizes (smaller zones in dense areas, larger in more suburban and rural areas). Zones are numbered continuously from 1-3700.  Thus, to make heads or tails of these trip tables you'll need to know what areas those numbers correspond to.
 
 The attached zone "shape file" defines the zones.  You can view this shape file using the freely available [QGis](http://www.qgis.org/en/site) program, or you can use ArcGIS if you have access to that non-free program.
 
@@ -59,13 +60,20 @@ You can now see the zone numbers.  QGis is a very advanced and feature-rich appl
 
 ### Usage example: bike trips from Ballard
 
-~~~ python
-import omx,numpy,hello
+If you're savvy with GIS, mapping the data in these trip tables is fairly straightforward.  Here's a code snippet that uses the omx python libraries (see above) to fetch the estimated midday bike trips from one zone in Ballard to all destinations.  Sample python code:
+
+``` python
+import omx,numpy
 trips = omx.openFile('non_motorized.omx')
 midday_bikes = trips['mbike']
 ballard = midday_bikes[242,:]
 numpy.savetxt("ballard.csv", ballard)
-~~~
+```
+
+Once you have that row of data, you can use GIS to map it. Here's what such a map might look like: lots of trips to downtown, plenty around north Seattle, and a few outliers further afield:
+
+{% include image.html image=page.images.image3 %}
+
 
 ### What next?
 
