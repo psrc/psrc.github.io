@@ -550,7 +550,7 @@ p.sidebar_title {
   color: white;
   font-size: 13px;
   margin-top: 5px;
-  margin-right: 35px;
+  margin-right: 38px;
   padding: 0px 4px 0px 4px;
   text-decoration: none;
   border: 1px solid #f3aa66;
@@ -571,9 +571,12 @@ p.sidebar_title {
 
 #project_title {
   margin: 0;
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 700;
+  font-style: italic;
   text-shadow: #111 0px 0px 10px;
+  text-transform: uppercase;
+
 }
 
 #project_title a {

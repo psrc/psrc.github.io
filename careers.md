@@ -7,6 +7,8 @@ title: Careers in Data at PSRC
 [natural beauty]: https://www.google.com/search?q=puget+sound+seattle&tbm=isch
 [rock solid economy]: http://techcrunch.com/2014/08/15/why-seattle-is-not-like-silicon-valley/
 
+<img src="/lib/images/whales.png" width="100%" />
+
 ### _FLEX YOUR BRAIN HERE AT PSRC._
 
 We are _always_ looking for bright, motivated individuals with a passion for data, technical analysis, and planning.
