@@ -68,7 +68,7 @@ trips = omx.openFile('non_motorized.omx')
 midday_bikes = trips['mbike']
 ballard = midday_bikes[242,:]
 numpy.savetxt("ballard.csv", ballard)
-{% end highlight %}
+{% endhighlight %}
 
 Once you have that row of data, you can use GIS to map it. Here's what such a map might look like: lots of trips to downtown, plenty around north Seattle, and a few outliers further afield:
 
