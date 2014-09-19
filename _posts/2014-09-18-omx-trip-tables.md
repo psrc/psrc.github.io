@@ -62,13 +62,13 @@ You can now see the zone numbers.  QGis is a very advanced and feature-rich appl
 
 If you're savvy with GIS, mapping the data in these trip tables is fairly straightforward.  Here's a code snippet that uses the omx python libraries (see above) to fetch the estimated midday bike trips from one zone in Ballard to all destinations.  Sample python code:
 
-``` python
+{% highlight python %}
 import omx,numpy
 trips = omx.openFile('non_motorized.omx')
 midday_bikes = trips['mbike']
 ballard = midday_bikes[242,:]
 numpy.savetxt("ballard.csv", ballard)
-```
+{% end highlight %}
 
 Once you have that row of data, you can use GIS to map it. Here's what such a map might look like: lots of trips to downtown, plenty around north Seattle, and a few outliers further afield:
 
