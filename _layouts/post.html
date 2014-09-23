@@ -4,32 +4,41 @@ layout: default
 
 <article class="post">
 
-{% if page.image %}
-  <div id="title1">
-	  	<img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" /></a>
+{% if page.image-wide %}
+      <div class="entry">
+          <img src="{{ page.image-wide }}" alt="{{ page.title }}" />
+      </div>
+
+      <div id="title-wide">
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+            </div>
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
+
+{% else %}
+      <div id="title1">
+            <img class="post-title-image" src="{{ page.image }}" alt="{{ page.title }}" />
+            <h3>{{ page.title }}</h3>
+            <div class="date">
+                by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+            </div>
+      </div>
+
+      <hr/>
+      <div class="entry">
+          {{ content }}
+      </div>
 {% endif %}
 
-	  <h3>{{ page.title }}</h3>
-	  <div class="date">
-	    by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
-	  </div>
 
-{% if page.image %}</div>{% endif %}
-
-  <div class="entry">
-
-    {% if page.image-wide %}
-      <img class="post-title-image-wide" src="{{ page.image-wide }}" alt="{{ page.title }}" /></a>
-    {% else %}
-      <hr/>
-    {% endif %}
-
-      {{ content }}
-
-  </div>
 
   <h2></h2>
-
   <div class="bottom-link">
     <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
     <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"

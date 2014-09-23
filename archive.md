@@ -15,12 +15,17 @@ title: Archive
 <br/>
 
 <p class="sidebar_title"> {{year}}</p>
-   	  {% for post in site.posts %}
-	     {% capture postyear %} {{post.date | date: '%Y'}}{% endcapture %}
-	     {% if postyear contains stryear %}
-* {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
-         {% endif %}
-      {% endfor %}
-    {% endif %}
+
+{% for post in site.posts %}
+{% capture postyear %} {{post.date | date: '%Y'}}{% endcapture %}
+{% if postyear contains stryear %}
+**[ {{ post.title }} ]({{ post.url }})**
+<br/>
+_&nbsp;&nbsp;&nbsp;&raquo; by {{ post.author }} on {{ post.date | date_to_string }}_
+
+{% endif %}
+{% endfor %}
+
+{% endif %}
 {% endfor %}
 

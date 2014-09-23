@@ -376,14 +376,17 @@ Full-Width Styles
 }
 
 .post {
-  border-bottom: 1px;
-  border-bottom-style: dotted;
-  border-bottom-color: #ccc;
   padding-bottom: 10px;
 }
 
 .post h1 {
   line-height: 1.1;
+}
+
+.faint_border {
+  border-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #bbb;
 }
 
 .post-title-image {
@@ -403,9 +406,17 @@ Full-Width Styles
     font-style: italic;
 }
 
+#title-wide {
+  min-height: none;
+}
+
+#title-wide h3 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
 .entry_image_wide_wrapper {
   margin-top: -10px;
-  margin-left: 90px;
   margin-bottom: -5px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -414,12 +425,11 @@ Full-Width Styles
 h3.entry_list {
   text-transform: uppercase;
   font-style: italic;
-  margin-left: 97px;
   margin-top: 10px;
 }
 
 .wide_blurb {
-  margin-left: 97px;
+  margin-left: 0px;
 }
 
 .entry_image_wide {
@@ -498,7 +508,7 @@ h3.entry_list {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 14px;
-    color: #10424e;
+    color: #50696f;  /* #10424e; */
     padding: 0px 4px;
     border-bottom: 1px;
     border-bottom-style: dotted;
@@ -573,14 +583,16 @@ p.sidebar_title {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  font-style: italic;
   text-shadow: #111 0px 0px 10px;
-  text-transform: uppercase;
 
 }
 
 #project_title a {
 	color: #10424e;
+}
+
+#project_tagline a {
+    color: #10424e;
 }
 
 .header_image {
@@ -595,10 +607,6 @@ p.sidebar_title {
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
-}
-
-#project_tagline a {
-	color: #10424e;
 }
 
 

@@ -13,6 +13,7 @@
 
 - name: Suzanne Childress
   image: /authors/ennazus.jpg
-  blurb: "Suzanne has a passion for understanding human behavior.
+  blurb: "Suzanne has a passion for understanding human behavior with statistics.
          She loves to take deep dives in big data and survey results,
-         to tease out the hidden relationships. And she likes cats."
+         to tease out the hidden relationships. But she really likes when people write print statements
+         in their code that involve cute animals."
