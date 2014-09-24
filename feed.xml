@@ -7,6 +7,7 @@ layout: none
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
 		<link>{{ site.url }}</link>
+		<lastBuildDate>{{ 'now' | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.posts limit:10 %}
 			<item>
@@ -15,7 +16,7 @@ layout: none
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<enclosure url="http://psrc.github.io{{post.image}}" length="6524" type="image/jpg"/>
+				<enclosure url="{{ site.url }}{{post.image}}" length="6524" type="image/jpg"/>
 			</item>
 		{% endfor %}
 	</channel>
