@@ -308,9 +308,9 @@ td {
 }
 
 div.image-caption p {
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: left;
   padding: 0 0 0 0;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -350,6 +350,61 @@ table.post-image {
   border-color: #bbb;
   margin-bottom: 20px;
   max-width: 75%;
+}
+
+/* ----------- TAGS ----------- */
+
+#tag-header {
+  text-transform: uppercase;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+table.tag-list {
+  border: 0px;
+  border-style: none;
+}
+
+tr.tag-row {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+td.tag-list-item {
+  vertical-align: top;
+  border: none;
+  padding: 0px 0px 0px 5px;
+}
+
+td.tag-list-image {
+  padding: 0 0 0 0;
+  vertical-align: top;
+  border: none;
+  margin-bottom: 0px;
+}
+
+a.tag-sidebar-entry {
+  padding-left: 5px;
+  font-size: 13px;
+}
+
+h5.tag-title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+}
+
+img.tag-image {
+  float: left;
+    width: 40px;
+    height: 40px;
+}
+
+p.tag-date {
+  margin-top: -2px;
+  padding-bottom: 0px;
+  font-style: italic;
 }
 
 /*
@@ -404,6 +459,7 @@ Full-Width Styles
 #title1 h3 {
     text-transform: uppercase;
     font-style: italic;
+    margin-bottom: 5px;
 }
 
 #title-wide {
@@ -413,6 +469,7 @@ Full-Width Styles
 #title-wide h3 {
     text-transform: uppercase;
     font-style: italic;
+    margin-bottom: 5px;
 }
 
 .entry_image_wide_wrapper {

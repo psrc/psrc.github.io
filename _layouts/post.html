@@ -2,6 +2,25 @@
 layout: default
 ---
 
+{% if page.tags.size > 0 %}
+    {% capture tags_content %}<br/>filed under: {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
+    {% for post_tag in page.tags %}
+        {% assign tag = '' %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.tag == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag != '' %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/tag/{{ tag.tag }}/">{{ tag.description }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
+
 <article class="post">
 
 {% if page.image-wide %}
@@ -13,6 +32,7 @@ layout: default
             <h3>{{ page.title }}</h3>
             <div class="date">
                 posted by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+                {{ tags_content }}
             </div>
       </div>
 
@@ -27,6 +47,7 @@ layout: default
             <h3>{{ page.title }}</h3>
             <div class="date">
                 posted by <a href="/authors.html">{{ page.author }}</a> on {{ page.date | date: "%B %e, %Y" }}
+                {{ tags_content }}
             </div>
       </div>
 
