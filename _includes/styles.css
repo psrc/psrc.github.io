@@ -525,6 +525,7 @@ h3.entry_list {
 #white_area {
   background: #f2f2f2;
   overflow: hidden;
+  z-index: 10;
 }
 
 #main_content_wrap {
@@ -589,6 +590,7 @@ p.sidebar_title {
 
 #rss_wrap {
   padding: 0px 0px 0px 0px;
+  z-index: 900;
 }
 
 #main_menu_wrap {
@@ -605,11 +607,17 @@ p.sidebar_title {
 #main_menu a {
     color: #fff;
     font-size: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 8px;
     padding-bottom: 7px;
     text-decoration: none;
+}
+
+#stickyalias {
+    display: none;
+    height: 33px;
+    background-color: #f36621;
 }
 
 #rss_link {
@@ -649,7 +657,7 @@ p.sidebar_title {
 }
 
 #project_tagline a {
-    color: #10424e;
+    color: white; /* #10424e; */
 }
 
 .header_image {
