@@ -4,7 +4,7 @@ author: Billy Charlton
 layout: post
 comments: true
 image: /images/2014/dsa-tiny.jpg
-image-wide: /lib/images/dsa-team-narrow.png
+image-wide: /lib/images/dsa-team-narrow.jpg
 ---
 
 The Data Systems and Analysis team at PSRC is comprised of a lively mix of urban planners, data nerds, software developers, demographers, and GIS mapping specialists. We collect and interpret data in order to support informed decisionmaking in our region—and sometimes, the things we’re working on seem like they’d be interesting to more people than just policymakers. Innovative uses of technology, new ways of visualizing information, and surprising findings are buried in the mountains of data all around us.
