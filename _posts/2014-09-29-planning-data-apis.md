@@ -24,7 +24,7 @@ Many of these data sources have open-source code available to help you access th
 
 ##### What can you do with the data?
 
-We're already useing this data at PSRC for travel model validation.  Travel models rely on matrices of zone-to-zone travel time, cost, and distance. Validation can be challenging since observed data like travel time and traffic flow are sparsely collected. We often rely on small samples of sometimes outdated data to make sure our models' baselines accurately reflect reality. Being able to reflect current conditions is critical, because a wrongly calibrated model for today's setting will almost certainly produce inaccurate future analyses.
+We're already using this data at PSRC for travel model validation.  Travel models rely on matrices of zone-to-zone travel time, cost, and distance. Validation can be challenging since observed data like travel time and traffic flow are sparsely collected. We often rely on small samples of sometimes outdated data to make sure our models' baselines accurately reflect reality. Being able to reflect current conditions is critical, because a wrongly calibrated model for today's setting will almost certainly produce inaccurate future analyses.
 
 We use the Google APIs to help validate our model's travel time and cost estimates. An example result from a Google API call would provide data as follows:
 
