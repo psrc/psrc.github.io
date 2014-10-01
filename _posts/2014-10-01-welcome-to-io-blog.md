@@ -13,7 +13,7 @@ We thought it would be fun to share this stuff with the Internet, and maybe get 
 
 We looked all around online and didn’t find an obvious corner where we could get our hands dirty and talk about the data and tools we use at PSRC. Content that’s longer than a tweet (but shorter than a research paper) didn’t seem to have a home for us. So here we are! Hopefully this blog will fill that niche.
 
-Check back often, or even better, subscribe to the [RSS feed](http://modelsrv1:4000/feed) using your favorite news reader.
+Check back often, or even better, subscribe to the [RSS feed](http://psrc.github.io/feed) using your favorite news reader.
 
 Cheers,<br/>
 &mdash;*Your PSRC “Data Systems and Analysis” team*
