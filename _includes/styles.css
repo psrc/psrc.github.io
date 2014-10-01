@@ -704,6 +704,10 @@ Small Device Styles
     font-size:14px;
   }
 
+#rss_wrap {
+  display: none;
+}
+
   #downloads {
     display: none;
   }
@@ -837,6 +841,5 @@ h3.entry_list {
       margin-right: 5px;
       padding: 0px 4px 0px 4px;
     }
-
 
 }
