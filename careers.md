@@ -6,7 +6,7 @@ title: Careers in Data at PSRC
 [quality of life]: http://travel.nationalgeographic.com/travel/city-guides/free-seattle-traveler/
 [natural beauty]: https://www.google.com/search?q=puget+sound+seattle&tbm=isch
 [dynamic economy]: http://techcrunch.com/2014/08/15/why-seattle-is-not-like-silicon-valley/
-[email]: mailto:info@psrc.org
+[email]: mailto:hr@psrc.org
 [SoundCast]: /tag/soundcast
 
 ### _FLEX YOUR BRAIN HERE AT PSRC._
