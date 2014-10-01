@@ -7,7 +7,7 @@ title: About I/O
 
 <img src="/lib/images/dsa-team.jpg" alt="DSA Team" width="100%" />
 
-The Data Systems and Analysis team at PSRC is comprised of a lively mix of data nerds, software developers, urban planners, demographers, and GIS (mapping) specialists. We collect and interpret data to help support informed decisionmaking in our region. Sometimes, the things we're working on seem like they'd be interesting to more than just policymakers. Innovative uses of technology, new ways of visualizing information, and surprising findings are buried in the mountains of data all around us.
+The Data Systems and Analysis team at PSRC is comprised of a lively mix of data nerds, software developers, urban planners, demographers, and GIS mapping specialists. We collect and interpret data to help support informed decisionmaking in our region. Sometimes, the things we're working on seem like they'd be interesting to more than just policymakers. Innovative uses of technology, new ways of visualizing information, and surprising findings are buried in the mountains of data all around us.
 
 We thought it would be fun to share this stuff with the Internet, and maybe get some conversations going in our sister agencies and with eager university researchers out there.  And with you!
 
