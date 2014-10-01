@@ -704,11 +704,7 @@ Small Device Styles
     font-size:14px;
   }
 
-#rss_wrap {
-  display: none;
-}
-
-  #downloads {
+#downloads {
     display: none;
   }
 
