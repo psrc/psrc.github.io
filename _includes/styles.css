@@ -881,7 +881,7 @@ h3.entry_list {
         -o-transition: color 0.3s ease-in-out 0s;
         transition: color 0.3s ease-in-out 0s;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #mobilenav a:hover {
