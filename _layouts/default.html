@@ -16,7 +16,9 @@
 
     <title>I/O: PSRC Data Blog</title>
 
+    <script src="/lib/jquery-latest.min.js" type="text/javascript"></script>
     {% include float-header-script.html %}
+    {% include mobile-menu-script.html %}
     {% include google-analytics.html %}
 
   </head>
@@ -37,7 +39,6 @@
 
     </div>
 
-
     <div id="rss_wrap">
        <a id="rss_link" href="/feed/"
                onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
@@ -56,6 +57,19 @@
     </div>
 
     <div id="stickyalias"></div>
+
+    <nav id="mobilenav"><a href="#" class="menu_show_hide">Menu</a></nav>
+
+    <div class="nav-main">
+        <ul class="nav-main-list">
+            {% for item in site.data.links.nav_links %}
+              <li class="nav-main-item"><a href="{{item[1]}}" class="nav-main-link">{{item[0]}}</a></li>
+            {% endfor %}
+        </ul>
+        <div class="nav-main-clear"></div>
+    </div>
+
+    <div class="sub-nav"></div>
 
     <div id="white_area">
 
