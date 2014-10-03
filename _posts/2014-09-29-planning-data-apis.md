@@ -20,7 +20,7 @@ Many commercial transportation data sources share information via "application p
 |[Car2Go car-sharing](https://code.google.com/p/car2go/wiki/vehicles_v2_1)|locations of ready-for-use car to go vehicles|
 
 
-Many of these data sources have open-source code available to help you access the information programatically: check out the list at the [Open Source Planning](https://github.com/osPlanning/) site on GitHub if you want to dive in.
+Many of these data sources have open-source code available to help you access the information programmatically: check out the list at the [Open Source Planning](https://github.com/osPlanning/) site on GitHub if you want to dive in.
 
 ##### What can you do with the data?
 
