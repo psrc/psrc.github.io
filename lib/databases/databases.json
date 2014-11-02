@@ -1,0 +1,14 @@
+{
+ "agencies": [
+  {
+   "agency": "actransit",
+   "url": "https://www.dropbox.com/s/fhkmd88kd3xpas5/actransit.db.gz?dl=1",
+   "version": "2"
+  },
+  {
+   "agency": "sf-muni",
+   "url": "fluffy.txt",
+   "version": "1"
+  }
+ ],
+}
