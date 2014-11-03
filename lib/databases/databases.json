@@ -1,14 +1,14 @@
-{
- "agencies": [
-  {
-   "agency": "actransit",
-   "url": "https://www.dropbox.com/s/fhkmd88kd3xpas5/actransit.db.gz?dl=1",
-   "version": "2"
-  },
-  {
-   "agency": "sf-muni",
-   "url": "fluffy.txt",
-   "version": "1"
-  }
- ],
+{ "json_location" : "https://Www.dropbox.com/s/0il349d6o6nebuu/databases.json?dl=1",
+  "agencies" : [
+	{
+	  "agency" : "actransit",
+	  "url": "https://www.dropbox.com/s/fhkmd88kd3xpas5/actransit.db.gz?dl=1",
+	  "version": "2"
+	},
+	{
+	  "agency" : "sf-muni",
+	  "url": "https://www.dropbox.com/s/u0n28t3xfwa6flm/sfmuni.db.gz?dl=1",
+	  "version": "1"
+	}
+   ]
 }
