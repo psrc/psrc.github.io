@@ -2,7 +2,7 @@
 title: "2014 Regional Travel Study: Data Now Available"
 author: Billy Charlton
 image: /images/2014/seattle_downtown_square.png
-image-wide: /images/2014/rainier-bridge.png
+image-wide: /images/2014/rainier-bridge.jpg
 comments: true
 layout: post
 tags: []
