@@ -1,5 +1,5 @@
 ---
-title: 2014 Regional Travel Study Data Now Available
+title: "2014 Regional Travel Study: Data Now Available"
 author: Billy Charlton
 image: /images/2014/seattle_downtown_square.png
 image-wide: /images/2014/rainier-bridge.png
@@ -14,13 +14,7 @@ images:
 [website]: https://survey.psrc.org/web/pages/home
 [data]: http://www.psrc.org/data/transportation/travel-surveys/2014-household
 
-Public Release 1 of data from the 2014 Puget Sound Regional Travel Study is now available for download.
-
-This is the first release of data from this major data collection effort from PSRC, the first of its kind for our region in eight years.
-
-##### The Puget Sound Regional Travel Study
-
-This large-scale household travel and activity survey took place in spring 2014. Data collection started in April and ended in mid-June. Nearly 6,000 households throughout King, Kitsap, Pierce, and Snohomish counties participated. The study plan also includes a survey of university students and staff, completed in fall 2014. A booster survey of the region will take place in spring 2015.
+Public Release 1 of data from the 2014 Puget Sound Regional Travel Study is now available for download.  This large-scale household travel and activity survey took place in spring 2014. Data collection started in April and ended in mid-June. Nearly 6,000 households throughout King, Kitsap, Pierce, and Snohomish counties participated. The study plan also includes a survey of university students and staff, completed in fall 2014. A booster survey of the region will take place in spring 2015.
 
 
 ##### Notes on Public Release 1
