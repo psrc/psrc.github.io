@@ -6,6 +6,12 @@
          He has Bachelor's and Master's degrees in Civil Engineering, and feels weird
          talking about himself in the third person.  Hi!
 
+- name: Brice Nichols
+  image: /authors/brice.jpg
+  blurb: Brice is a travel modeler with an engineering and planning background.
+         He basically builds and plays a real-life version of SimCity every day to solve transportation problems.
+         He enjoys building cool software and walking on/around mountains in the Northwest.   
+
 - name: Rebeccah Maskin
   image: /authors/beccah.jpg
   blurb: Beccah stands at the intersection of policy and analysis as a planner in PSRC’s Data Group.
@@ -27,4 +33,3 @@
          She loves to take deep dives in big data and survey results,
          to tease out the hidden relationships. But she really likes when people write print statements
          in their code that involve cute animals.
-

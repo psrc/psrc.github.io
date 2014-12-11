@@ -1,11 +1,11 @@
 ---
 title: The Uncertain Future of Automated Vehicles
-author: Suzanne Childress
+author: Brice Nichols
 image: /images/2014/uncertainty-forecasting-square.jpg
 image-wide: /images/2014/uncertainty-forecasting-banner.jpg
 comments: yes
 layout: post
-tags: [SoundCast, forecasting]
+tags: [soundcast]
 
 images:
    image1:
@@ -18,6 +18,8 @@ images:
       source: "[Anthony22 at en.wikipedia.org](http://commons.wikimedia.org/wiki/File%3AFlying_Car_at_New_York_International_Auto_Show_2012.jpg)"
 
 ---
+[trb paper]: /attachments/2014/TRB-2015-Automated-Vehicles-Rev2.pdf
+
 **“How will automated vehicles impact the transportation system?”** It's been a popular question this year for transportation planners. Will automation be the magic bullet that solves congestion? Will it induce sprawl?
 
 The only honest response we can provide now is that **"we don't know."** Of course we don't know how an automated future will look! Vehicle automation is still very early in development. We don't know how successful it will be, how affordable, how popular, or how it will change over time. We don’t know if people will own their own robot cars or rent them like taxis, if they will be able to operate safely at 150 mph, or how safely they interact with pedestrians and cyclists. We don’t know if only a few rich people will buy them or if everyone will. We don’t know if parents will be comfortable dropping their children into them without supervision. We don’t know how our roads will be paid for in the future, whether that will be fuel taxes, tolling, or a tax on miles driven. It would be irresponsible to make any definitive statements about how automated vehicles will impact our roads, such as "they are going to solve our traffic problems." So, our answer is still "we don't know."
@@ -32,7 +34,7 @@ So, there are often many things modelers don't know. When we're uncertain about 
 
 Unknown trip costs and murky values of time mean we need to test the upper and lower bounds of these variables to evaluate a range of possible futures. For instance, we can test a situation where all automated cars are incredibly efficient, dramatically reduce congestion, and reduce personal vehicle ownership all at the same time. What  would our region look like in this extreme scenario? Conversely, we can evaluate a world where automation just induces a lot more driving, with longer trip lengths. Just how many more miles might we be driving in that world?
 
-We recently explored four potential futures like these in a paper for the Transportation Research Board (hyperlink to paper). The four scenarios are based on different permutations of:
+We recently explored four potential futures like these in a [paper for the Transportation Research Board][trb paper]. The four scenarios are based on different permutations of:
 
 * road capacity improvements (reflects more efficient, synced vehicle fleets)
 
@@ -89,3 +91,6 @@ Our existing models are insufficient,  but exploring how they function in the ab
 
 There is plenty more work to be done here! We look forward to more researchers jumping into the fray on this fun topic.
 
+**Download:**
+
+* [Paper submission for Transportation Research Board 2015 Meeting][trb paper]
