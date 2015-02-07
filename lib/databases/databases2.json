@@ -1,4 +1,4 @@
-{ "json_location" : "https://psrc.github.io/lib/databases/databases.json",
+{ "json_location" : "https://psrc.github.io/lib/databases/databases2.json",
   "agencies" : [
 	{
 	  "agency" : "actransit",
