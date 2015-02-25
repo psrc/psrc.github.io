@@ -15,13 +15,13 @@
 	{
 	  "agency" : "ppa",
 	  "region" : "PITTSBURGH",
-	  "url": "https://www.dropbox.com/s/u0n28t3xfwa6flm/PPA.db.gz?dl=1",
+	  "url": "https://www.dropbox.com/s/in9kliaauy19e8f/PPA.db.gz?dl=1",
 	  "version": "1"
 	},
 	{
 	  "agency" : "kcmetro",
 	  "region" : "SEATTLE",
-	  "url": "https://www.dropbox.com/s/u0n28t3xfwa6flm/1.db.gz?dl=1",
+	  "url": "https://www.dropbox.com/s/0ufx8exhb7fhmq5/1.db.gz?dl=1",
 	  "version": "1"
 	}
    ]
