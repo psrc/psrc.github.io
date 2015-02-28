@@ -1,4 +1,4 @@
-{ "json_location" : "https://psrc.github.io/lib/databases/databases2.json",
+{ "json_location" : "https://www.dropbox.com/s/0il349d6o6nebuu/databases.json?dl=1",
   "agencies" : [
 	{
 	  "agency" : "actransit",
@@ -22,7 +22,7 @@
 	  "agency" : "1",
 	  "region" : "SEATTLE",
 	  "url": "https://www.dropbox.com/s/0ufx8exhb7fhmq5/1.db.gz?dl=1",
-	  "version": "1"
+	  "version": "2"
 	}
    ]
 }
