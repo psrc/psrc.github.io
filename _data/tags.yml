@@ -1,5 +1,8 @@
+- tag: 4k
+  description: 4K model
+
 - tag: soundcast
-  description: SoundCast
+  description: SoundCast model
 
 - tag: tools
   description: Tools and Software

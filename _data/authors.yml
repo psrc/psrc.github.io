@@ -10,7 +10,15 @@
   image: /authors/brice.jpg
   blurb: Brice is a travel modeler with an engineering and planning background.
          He basically builds and plays a real-life version of SimCity every day to solve transportation problems.
-         He enjoys building cool software and walking on/around mountains in the Northwest.   
+         He enjoys building cool software and walking on/around mountains in the Northwest.
+
+- name: Craig Helmann
+  image: /authors/craig.png
+  blurb: Craig is a travel modeler with a background in transportation planning and traffic engineering.
+          He started his career way back in the 1990’s doing traffic signal design and found his way into the
+          wonderful world of travel modeling by chance almost 17 years ago.
+          Craig is a graduate of the University of Washington and loves solving puzzles which makes his job as a modeler a lot more fun.
+
 
 - name: Rebeccah Maskin
   image: /authors/beccah.jpg
@@ -25,7 +33,6 @@
         the University of Washington’s Urban Ecology Research Lab where he used GIS and remote sensing to support
         ecological modeling and research. He holds Master’s degrees in Urban Planning
         and Public Administration from the University of Washington.
-
 
 - name: Suzanne Childress
   image: /authors/ennazus.jpg
