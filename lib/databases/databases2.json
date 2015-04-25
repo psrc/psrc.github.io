@@ -4,25 +4,25 @@
 	  "agency" : "actransit",
 	  "region" : "SF",
 	  "url": "https://www.dropbox.com/s/fhkmd88kd3xpas5/actransit.db.gz?dl=1",
-	  "version": "6"
+	  "version": "8"
 	},
 	{
 	  "agency" : "sf-muni",
 	  "region" : "SF",
 	  "url": "https://www.dropbox.com/s/u0n28t3xfwa6flm/sfmuni.db.gz?dl=1",
-	  "version": "6"
+	  "version": "8"
 	},
 	{
 	  "agency" : "ppa",
 	  "region" : "PITTSBURGH",
 	  "url": "https://www.dropbox.com/s/in9kliaauy19e8f/PPA.db.gz?dl=1",
-	  "version": "1"
+	  "version": "2"
 	},
 	{
 	  "agency" : "1",
 	  "region" : "SEATTLE",
 	  "url": "https://www.dropbox.com/s/0ufx8exhb7fhmq5/1.db.gz?dl=1",
-	  "version": "2"
+	  "version": "3"
 	}
    ]
 }

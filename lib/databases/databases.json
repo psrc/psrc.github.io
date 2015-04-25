@@ -3,12 +3,12 @@
 	{
 	  "agency" : "actransit",
 	  "url": "https://www.dropbox.com/s/fhkmd88kd3xpas5/actransit.db.gz?dl=1",
-	  "version": "6"
+	  "version": "8"
 	},
 	{
 	  "agency" : "sf-muni",
 	  "url": "https://www.dropbox.com/s/u0n28t3xfwa6flm/sfmuni.db.gz?dl=1",
-	  "version": "6"
+	  "version": "8"
 	}
    ]
 }
