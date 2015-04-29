@@ -1,28 +1,46 @@
-{ "json_location" : "https://www.dropbox.com/s/0il349d6o6nebuu/databases.json?dl=1",
+{ "json_location" : "http://billyc.github.io/quicky/databases.json",
   "agencies" : [
 	{
 	  "agency" : "actransit",
 	  "region" : "SF",
 	  "url": "https://www.dropbox.com/s/fhkmd88kd3xpas5/actransit.db.gz?dl=1",
+	  "bytes" : "7000000",
 	  "version": "8"
 	},
 	{
 	  "agency" : "sf-muni",
 	  "region" : "SF",
-	  "url": "https://www.dropbox.com/s/u0n28t3xfwa6flm/sfmuni.db.gz?dl=1",
-	  "version": "8"
+	  "url": "http://billyc.github.io/quicky/databases/sfmuni.db.gz",
+	  "bytes" : "2100000",
+	  "version": "11"
 	},
 	{
 	  "agency" : "ppa",
 	  "region" : "PITTSBURGH",
-	  "url": "https://www.dropbox.com/s/in9kliaauy19e8f/PPA.db.gz?dl=1",
-	  "version": "2"
+	  "url": "https://www.dropbox.com/s/in9kliaauy19e8f/ppa.db.gz?dl=1",
+	  "bytes" : "11000000",
+	  "version": "3"
+	},
+	{
+	  "agency" : "lametro",
+	  "region" : "LA",
+	  "url": "https://www.dropbox.com/s/t71w2dxydola2dm/lametro.db.gz?dl=1",
+	  "bytes": "12000000",
+	  "version": "1"
+	},
+	{
+	  "agency" : "lametro-rail",
+	  "region" : "LA",
+	  "url"    : "https://www.dropbox.com/s/4opxlcfw84fmhsi/lametro-rail.db.gz?dl=1",
+	  "bytes"  : "2000000",
+	  "version": "1"
 	},
 	{
 	  "agency" : "1",
 	  "region" : "SEATTLE",
 	  "url": "https://www.dropbox.com/s/0ufx8exhb7fhmq5/1.db.gz?dl=1",
-	  "version": "3"
+	  "bytes" : "16000000",
+	  "version": "4"
 	}
    ]
 }
