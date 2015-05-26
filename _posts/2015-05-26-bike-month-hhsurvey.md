@@ -52,6 +52,6 @@ The survey also revealed that around 8,500 trips per day are made for biking to 
 
 {% include image.html image=page.images.image3 %}
 
-## What else would you like to know? ##
+### What else would you like to know?
 
 National Bike to Work Month is a great way to raise awareness about bike commuting and safety, and to encourage participation; many people who participate in their Bike to Work Day/Month promotion as first-time commuters become regular bike commuters. Spread the word, share the data! Questions can be directed to PSRC data staff. This data was derived from the 2014 PSRC Regional Travel Study, and you can actually download the data yourself here: [Download Page for Regional Travel Study](http://www.psrc.org/data/transportation/travel-surveys/2014-household "Download page for household travel survey").
