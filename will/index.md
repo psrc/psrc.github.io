@@ -16,4 +16,4 @@ Our dear friend Will Thomas passed away this spring. This little video tribute f
 
 Direct link to video, in case your browser doesn't like the embedded version:
 
-* [willthomas.mp4](https://www.dropbox.com/s/muwr6emzvm1ars1/willthomas.mp4?dl=1)
+* [willthomas.mp4](https://www.dropbox.com/s/muwr6emzvm1ars1/willthomas.mp4)
