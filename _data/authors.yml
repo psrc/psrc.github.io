@@ -1,9 +1,9 @@
 - name: Billy Charlton
   image: /authors/billy.jpg
-  blurb: Billy is the Program Manager for the data team at PSRC.
+  blurb: Billy is the Director of Data at PSRC.
          He's been doing travel forecasting since the '90s, and he
          dabbles in software development just enough to be dangerous.
-         He has Bachelor's and Master's degrees in Civil Engineering, and feels weird
+         Billy has Bachelor's and Master's degrees in Civil Engineering, and feels weird
          talking about himself in the third person.  Hi!
 
 - name: Brice Nichols
@@ -36,7 +36,6 @@
 
 - name: Suzanne Childress
   image: /authors/ennazus.jpg
-  blurb: Suzanne has a passion for understanding human behavior with statistics.
-         She loves to take deep dives in big data and survey results,
-         to tease out the hidden relationships. But she really likes when people write print statements
-         in their code that involve cute animals.
+  blurb: Suzanne is Principal Travel Modeler at PSRC and has a passion for understanding human behavior with statistics.
+         She loves to take deep dives in big data and survey results in order to tease out the hidden
+         relationships. But she really likes when people write print statements in their code that involve cute animals.
