@@ -62,19 +62,19 @@ This fall, I decided PSRC couldn't wait any longer. Software Carpentry puts all 
 
 ### Initial Workshop
 
-This all converged for our first scripting class this week. We targeted a very small set of students (just six), so that I could test out the materials (and myself) before going before a wider audience. Each of the students was already well-versed in at least one of the other topics; the plan is for them to be my co-teachers for Git, Python, and SQL in the coming weeks. I wanted them to sit through a training class first, so they'd get a feel for the SWC way of doing things. I'll give them real "trainer training" after the holidays.
+This all converged for our first scripting class this week. We targeted a very small set of students (just six), so that I could test out the materials (and myself) before exposing a wider audience. Each of the students was already well-versed in at least one of the other topics; the plan is for them to be my co-teachers for Git, Python, and SQL in the coming weeks. I wanted them to sit through a training class first, so they'd get a feel for the SWC way of doing things. I'll give them real "trainer training" after the holidays.
 
 {% include image.html image=page.images.image1 %}
 
 Since this was a team of coworkers working from one office downtown, we used "Remote Desktop" in the classroom so that each student would remote control their primary desktop workstation from a loaner laptop. Why? Because this way, everyone could install the required software on their primary desktop ahead of time. They accessed their familiar desktop machine via a laptop during the workshop, and then had all that software waiting for them when they returned to their desks at the end of the day. This only worked because it was an all-staff in-house production; you probably couldn't do this for a general audience, but it was like magic for us here.
 
-The Software Carpentry method is big on feedback: every student puts a green or pink stick note on the back of their laptop to signify whether they're keeping up, getting behind, or need help. The stickies are used for good and bad feedback at the end of the session, too. The feedback showed me right away that the chapter on scripting "loops" was confusing, while the lesson on pipes and filters went really well.
+The Software Carpentry method is big on feedback: every student puts a green or pink sticky note on the back of their laptop to signify whether they're keeping up, getting behind, or need help. The stickies are used for written good/bad feedback at the end of the session, too. The stickies showed me right away that the chapter on scripting "loops" was confusing, while the lesson on pipes and filters went really well.
 
 Hands-on quiz-like questions at the end of each lesson allowed students to test their new skills. Enthusiasm at the end of the day was really high: one pink ("needs work") note said *"I want to learn more: are there homework or applications for our team specifically or other resources???"* — a pretty good sign. =)
 
 ### What's to Come
 
-Given the success of the shell scripting lesson, we've decided to move forward internally with the rest of the Software Carpentry curriculum in early 2016. Everyone on the Data team here at PSRC will go go through every class; those of us who already have some of the skills will be "helpers" for those who are at earlier stages of learning. And I'm not teaching all the courses -- there are plenty of people here at PSRC who know these topics well enough that I can sit back and watch them teach each other.
+Given the success of the shell scripting lesson, we've decided to move forward internally with the rest of the Software Carpentry curriculum in early 2016. Everyone on the Data team here at PSRC will go through every class; those of us who already have some of the skills will be "helpers" for those who are at earlier stages of learning. And I'm not teaching all the courses -- there are plenty of people here at PSRC who know these topics well enough that I can sit back and watch them teach each other.
 
 I'm going to wait for feedback from the wider Data Team rollout before committing to further work, but my hope is that things are successful enough that we'll want to advertise some similar workshops for interested staff at our member/peer agencies in the region.
 
