@@ -34,11 +34,11 @@ It turns out we're not the only people thinking about this.
 
 [Software Carpentry](http://software-carpentry.org/) (SWC) is a non-profit volunteer organization whose mission is to teach modern lab skills (i.e., software) to scientific computing researchers. They focus on training university graduate students in the sciences, but their materials and methods are extremely relevant to the technical staff at organizations such as ours.
 
-{% include image.html image=page.images.image2 %}
+{% include image-right.html image=page.images.image2 %}
 
 SWC sponsors [workshops](http://software-carpentry.org/workshops/index.html) for learners around the globe and also has a [formal training program](http://software-carpentry.org/pages/join.html) for aspiring instructors like myself. The workshops focus on just a few key skills:
 
-* Learning the [command prompt](http://swcarpentry.github.io/shell-novice/) like a ninja (called the Unix "Bash Shell";
+* Learning the [command prompt](http://swcarpentry.github.io/shell-novice/) like a ninja (called the Unix "Bash Shell");
 * Using [Git for version control](http://swcarpentry.github.io/git-novice/);
 * [Introductory programming](http://swcarpentry.github.io/python-novice-inflammation/) in Python or R, conveniently the two most common languages for data scientists like us;
 * Data and database management using [SQL](http://swcarpentry.github.io/sql-novice-survey/);
@@ -50,9 +50,9 @@ Their approach is proven: students often report being 10%, 20% or [even 10X](htt
 
 This fall, I decided PSRC couldn't wait any longer. Software Carpentry puts all of their workshop materials online in a open format that encourages reuse, remixing, and collaboration. I "went rogue" and tried to learn as much as I could about their approach, in order to roll out a home-spun workshop here at PSRC on my own.
 
-* Their workshop materials are based on actual educational theory and research. The book [How Learning Works](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470484101.html) summarizes that research and I read it cover to cover. (I thought I was just going to skim it, but I couldn't believe how much useful, relevant information was packed in there! A valuable resource for anyone who occasionally teaches but doesn't have educational training.)
+{% include image-right.html image=page.images.image3 %}
 
-{% include image.html image=page.images.image3 %}
+* Their workshop materials are based on actual educational theory and research. The book [How Learning Works](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470484101.html) summarizes that research and I read it cover to cover. (I thought I was just going to skim it, but I couldn't believe how much useful, relevant information was packed in there! A valuable resource for anyone who occasionally teaches but doesn't have educational training.)
 
 * I spent a lot of time in the past month [watching recorded videos](https://www.youtube.com/results?search_query=software+carpentry) of other SWC trainers teaching shell, Git, and Python. Having all that on Youtube is incredibly helpful. Great stuff to watch on the big TV while I'm chopping onions and carrots in the kitchen.
 
@@ -64,7 +64,7 @@ This fall, I decided PSRC couldn't wait any longer. Software Carpentry puts all 
 
 This all converged for our first scripting class this week. We targeted a very small set of students (just six), so that I could test out the materials (and myself) before exposing a wider audience. Each of the students was already well-versed in at least one of the other topics; the plan is for them to be my co-teachers for Git, Python, and SQL in the coming weeks. I wanted them to sit through a training class first, so they'd get a feel for the SWC way of doing things. I'll give them real "trainer training" after the holidays.
 
-{% include image.html image=page.images.image1 %}
+{% include image-right.html image=page.images.image1 %}
 
 Since this was a team of coworkers working from one office downtown, we used "Remote Desktop" in the classroom so that each student would remote control their primary desktop workstation from a loaner laptop. Why? Because this way, everyone could install the required software on their primary desktop ahead of time. They accessed their familiar desktop machine via a laptop during the workshop, and then had all that software waiting for them when they returned to their desks at the end of the day. This only worked because it was an all-staff in-house production; you probably couldn't do this for a general audience, but it was like magic for us here.
 
