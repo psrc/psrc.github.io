@@ -352,6 +352,17 @@ table.post-image {
   max-width: 75%;
 }
 
+table.post-image-right {
+  background-color: #dde;
+  border: 1px;
+  border-style: solid;
+  border-color: #bbb;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  max-width: 75%;
+  float: right;
+}
+
 /* ----------- TAGS ----------- */
 
 #tag-header {
