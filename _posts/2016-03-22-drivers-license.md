@@ -45,7 +45,7 @@ Interestingly, there is a slight trend towards older people hanging onto their d
 
 These differing trends between young people and older people made me wonder if the real factor in determining driver's license ownership was worker status. Many jobs even require that a person has a driver's license.
 
-###Question 2: Are young people working less and older people working more?###
+### Question 2: Are young people working less and older people working more?###
 
 The American Community Survey showed for the Puget Sound Region a decline in the share of 16-19 year olds working, from 38% in 2006 to 24% in 2014. Conversely the American Community Survey showed an increase in the share of 65-69 year olds working, from 31% in 2006 to 37% in 2014.
 
@@ -57,7 +57,7 @@ It's interesting to see these employment trends by age alongside driver's licens
 
 Anyway, trends in licenses really only matter if peoples behaviors and travel choices are changing. So I asked the next question.
 
-###Question 3: Are more young people using transit? Are fewer older people using transit?###
+### Question 3: Are more young people using transit? Are fewer older people using transit?###
 
 I found this trend in transit by age group to be the most fascinating. Young people are using transit more, but so are middle aged people! You can see this in the image below.
 
