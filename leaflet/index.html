@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="I/O: The PSRC Data Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>My Little Leaflet Demo</title>
+    <meta property="og:title" content="My Little Leaflet">
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+    
+  </head>
+
+<body>
+<p>Hiyee!</p>
+
+<div id="mapid" style="height:500px;"></div>
+
+
+<script language="javascript">
+    var mymap = L.map('mapid').setView([47.6, -122.25], 11);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.run-bike-hike',
+    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
+}).addTo(mymap);
+
+</script>
+ 
+
+
+</body>
+</html>
