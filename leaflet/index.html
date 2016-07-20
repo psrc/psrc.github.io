@@ -34,7 +34,11 @@
 	    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
 	}).addTo(mymap);
 
-    L.shapefile("/leaflet/parks.zip").addTo(mymap);
+    var shpfile = new L.Shapefile("/leaflet/parks.zip");
+    shpfile.addTo(mymap);
+	shpfile.once("data:loaded", function() {
+			console.log("finished loaded shapefile");
+	});
 
 </script>
 
