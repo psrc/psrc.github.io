@@ -11,7 +11,7 @@ L.Shapefile = L.GeoJSON.extend({
     L.Util.setOptions(this, options);
     if (typeof cw !== 'undefined') {
       /*eslint-disable no-new-func*/
-      if (!options.isArrayBuffer) {
+      if (!options.isArrayBufer) {
         this.worker = cw(new Function('data', 'cb', 'importScripts("' + this.options.importUrl + '");shp(data).then(cb);'));
       } else {
         this.worker = cw(new Function('data', 'importScripts("' + this.options.importUrl + '"); return shp.parseZip(data);'));
