@@ -1,9 +1,10 @@
 'use strict';
 
 /* global cw, shp */
+
 L.Shapefile = L.GeoJSON.extend({
   options: {
-    importUrl: 'shp.js'
+    importUrl: '/leaflet/shp.min.js'
   },
 
   initialize: function(file, options) {
