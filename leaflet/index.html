@@ -14,7 +14,6 @@
     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 
     <script src="/leaflet/catiline.min.js"></script>
-    <script src="/leaflet/shp.min.js"></script>
     <script src="/leaflet/leaflet.shpfile.js"></script>
   </head>
 
@@ -23,9 +22,8 @@
 
 <div id="mapid" style="height:500px;"></div>
 
-
-<script language="javascript">
-    var mymap = L.map('mapid').setView([47.6, -122.25], 11);
+<script>
+    var mymap = L.map('mapid').setView([47.6, -122.25], 8);
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -34,15 +32,13 @@
 	    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
 	}).addTo(mymap);
 
-    var shpfile = new L.Shapefile("/leaflet/parks.zip");
+    var shpfile = new L.Shapefile('/leaflet/parks.zip', {});
     shpfile.addTo(mymap);
 	shpfile.once("data:loaded", function() {
 			console.log("finished loaded shapefile");
 	});
 
 </script>
-
-
 
 </body>
 </html>

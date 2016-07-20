@@ -4,20 +4,18 @@
 
 L.Shapefile = L.GeoJSON.extend({
   options: {
-    importUrl: '/leaflet/shp.min.js'
+    importUrl: 'shp.min.js'
   },
 
   initialize: function(file, options) {
     L.Util.setOptions(this, options);
     if (typeof cw !== 'undefined') {
       /*eslint-disable no-new-func*/
-      this.worker = cw(new Function('data', 'importScripts("' + this.options.importUrl + '"); return shp.parseZip(data);'));
-      /* if (!options.isArrayBufer) {
+      if (!options.isArrayBufer) {
         this.worker = cw(new Function('data', 'cb', 'importScripts("' + this.options.importUrl + '");shp(data).then(cb);'));
       } else {
         this.worker = cw(new Function('data', 'importScripts("' + this.options.importUrl + '"); return shp.parseZip(data);'));
       }
-      */
       /*eslint-enable no-new-func*/
     }
     L.GeoJSON.prototype.initialize.call(this, {
