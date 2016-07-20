@@ -24,7 +24,13 @@
 
 <script>
     var mymap = L.map('mapid').setView([47.6, -122.25], 8);
-
+/*
+    var reader = new FileReader()
+    reader.onload = function(e) {
+    	var myArrayBuffer = reader.result;
+    }
+    reader.readAsArrayBuffer(new File('/leaflet/parks.zip'));
+*/
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 	    maxZoom: 18,
@@ -32,7 +38,7 @@
 	    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
 	}).addTo(mymap);
 
-    var shpfile = new L.Shapefile('/leaflet/parks.zip', {});
+    var shpfile = new L.Shapefile('/leaflet/pierce.zip', {});
     shpfile.addTo(mymap);
 	shpfile.once("data:loaded", function() {
 			console.log("finished loaded shapefile");
