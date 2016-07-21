@@ -55,6 +55,7 @@
     parks.addTo(mymap)
 	parks.once("data:loaded", function() {
 		console.log("finished loading parks shapefile");
+		parks.bringToBack()
 	});
 
 
