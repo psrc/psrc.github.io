@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 
     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-
     <script src="/leaflet/catiline.min.js"></script>
     <script src="/leaflet/leaflet.shpfile.js"></script>
   </head>
@@ -43,7 +42,7 @@
 	    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
 	}).addTo(mymap);
 
-    var shpfile = new L.Shapefile('/leaflet/parks.zip', {style: style});
+    var shpfile = new L.Shapefile('/leaflet/pierce.zip', {style: style});
 
     shpfile.addTo(mymap);
 	shpfile.once("data:loaded", function() {
