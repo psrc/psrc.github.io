@@ -42,7 +42,7 @@
 	    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
 	}).addTo(mymap);
 
-    var shpfile = new L.Shapefile('/leaflet/pierce.zip', {style: style});
+    var shpfile = new L.Shapefile('/leaflet/parks.zip', {style: style});
 
     shpfile.addTo(mymap);
 	shpfile.once("data:loaded", function() {
