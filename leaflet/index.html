@@ -52,6 +52,7 @@
 	transit.addTo(mymap);
 
     var parks = new L.Shapefile('/leaflet/parks.zip', {style: style});
+    parks.addTo(mymap)
 	parks.once("data:loaded", function() {
 		console.log("finished loading parks shapefile");
 	});
