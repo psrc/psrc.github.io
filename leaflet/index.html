@@ -43,7 +43,7 @@
 	}).addTo(mymap);
 
     var parks = new L.Shapefile('/leaflet/parks.zip', {style: style});
-    parks.addTo(mymap);
+    parks.setZIndex(2).addTo(mymap);
 	parks.once("data:loaded", function() {
 		console.log("finished loading parks shapefile");
 	});
@@ -55,7 +55,7 @@
 	    version: '1.1.0',
 	    attribution: "myattribution"
 	});
-	transit.setZIndex(20).addTo(mymap);
+	transit.setZIndex(1).addTo(mymap);
 
 
 
