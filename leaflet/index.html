@@ -29,7 +29,7 @@
 	        opacity: 0.7,
 	        color: 'white',
 	        dashArray: '3',
-	        fillOpacity: 1.0
+	        fillOpacity: 0.7
 	    };
 	}
 
@@ -52,12 +52,8 @@
 	transit.addTo(mymap);
 
     var parks = new L.Shapefile('/leaflet/parks.zip', {style: style});
-    parks.setZIndex(-1000).addTo(mymap);
 	parks.once("data:loaded", function() {
 		console.log("finished loading parks shapefile");
-		mymap.removeLayer(transit)
-		transit.addTo(mymap)
-		transit.bringToFront();
 	});
 
 
