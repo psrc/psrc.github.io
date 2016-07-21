@@ -41,16 +41,16 @@
 	    id: 'mapbox.light',
 	    accessToken: 'pk.eyJ1IjoicHNyYyIsImEiOiJjaXFmc2UxanMwM3F6ZnJtMWp3MjBvZHNrIn0._Dmske9er0ounTbBmdRrRQ'
 	}).addTo(mymap);
-/*
+
     var parks = new L.Shapefile('/leaflet/parks.zip', {style: style});
     parks.addTo(mymap);
 	parks.once("data:loaded", function() {
 			console.log("finished loading parks shapefile");
 	});
-*/
+
 	var transit = L.tileLayer.wms("http://psrc3826:8080/geoserver/psrc/wms?", {
 	    layers: 'psrc:TransitLines',
-	    format: 'image/png',
+	    format: 'image/svg',
 	    transparent: false,
 	    version: '1.1.0',
 	    attribution: "myattribution"
