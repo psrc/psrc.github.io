@@ -52,7 +52,7 @@
 	transit.addTo(mymap);
 
     var parks = new L.Shapefile('/leaflet/parks.zip', {style: style});
-    parks.setZIndex(1).addTo(mymap);
+    parks.setZIndex(-1000).addTo(mymap);
 	parks.once("data:loaded", function() {
 		console.log("finished loading parks shapefile");
 		mymap.removeLayer(transit)
