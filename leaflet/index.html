@@ -50,8 +50,8 @@
 
 	var transit = L.tileLayer.wms("http://psrc3826:8080/geoserver/psrc/wms?", {
 	    layers: 'psrc:TransitLines',
-	    format: 'image/svg',
-	    transparent: true,
+	    format: 'image/png',
+	    transparent: false,
 	    version: '1.1.0',
 	    attribution: "myattribution"
 	});
