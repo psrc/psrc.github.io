@@ -1,7 +1,7 @@
 ---
 title: "How many people are biking during COVID-19 in Seattle?"
 author: Polina Butrina
-image: /images/2020/bike_sky.jpg
+image: /images/2020/bike_sky.png
 image-wide:
 comments: true
 layout: post
