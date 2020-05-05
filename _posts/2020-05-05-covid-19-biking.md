@@ -17,6 +17,8 @@ images:
    image4:
       image: /images/2020/travel-apr-2020-time.jpeg
 ---
+------THIS POST IS WORK IN PROGRESS------
+
 In the past couple of months, governments around the world implemented social distancing measures to slow the spread of COVID-19. During this unique time, we would like to understand how people's travel behavior is changing.
 The first data point we wanted to analyze was the number of people bicycling for a couple of reasons: 1. The data is publicly available on the Seattle DOT website (link here); 2. Usually, May is the Bike Everywhere Challenge month in the PSRC region and Washington State (not this year, but we are hoping to participate next year) 3. Biking is one of the popular modes of getting to and within Seattle downtown .
 
