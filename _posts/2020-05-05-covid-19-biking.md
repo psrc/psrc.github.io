@@ -23,20 +23,20 @@ In the past couple of months, governments around the world implemented social di
 The first data point we wanted to analyze was the number of people bicycling for a couple of reasons: 
 
 
- * The data is publicly available on the Seattle DOT website (link here);
+ * The data is publicly available on the Seattle DOT website (link [here](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters));
 
- * Usually, May is the Bike Everywhere Challenge month in the PSRC region and Washington State (not this year, but we are hoping to participate next year) 
+ * Usually, May is the Bike Everywhere Challenge month in the PSRC region and Washington State (not this year, but we are hoping to participate next year); 
 
- * Biking is one of the popular modes of getting to and within Seattle downtown .
+ * Biking is one of the popular modes of getting to and within Seattle downtown.
 
 
 Here are the questions we explored :
 
-*1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
+  *1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
 
-*2.	Was there a decrease in biking after Work from Home or stay-at-pace orders?*
+  *2.	Was there a decrease in biking after Work from Home or stay-at-pace orders?*
 
-*3.	How has the people's behavior has changed?*
+  *3.	How has the people's behavior has changed?*
 
 
 ## Data
@@ -73,6 +73,7 @@ To understand if the number of people biking changed, we've calculated a percent
 |    Spokane Bridge        |    -33.2                          |    -2.1                           |
 |    2nd Ave and Cedar     |    -46.4                          |    No data available              |
 |    2nd Ave and Marion    |    -50.2                          |    No data available              |
+
 *Note: the counter at 7th Avenue and Blanchard was not included because the counter started collecting data in August 2019. Westlake and Newton counter was also excluded because of data quality.*
 
 The bicycle counts declined on all trails/streets in March 2020 when compared to March 2019 with some areas like Seattle Downtown and Belltown having a steeper decline (2nd Avenue and Marion and 2nd Avenue and Cedar) and some trails have a more shallow decline (Burke Gilman and Elliot Bay trails). In April, there is a different picture where Burke Gilman and Elliot Bay trails saw growth in bicycle counts when comparing to April 2019.
