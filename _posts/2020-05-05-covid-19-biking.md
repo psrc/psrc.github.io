@@ -83,7 +83,7 @@ On March 4th, the King County officials gave the recommendation to work from hom
 The next two figures show February-March 2020 bicycle counts for two different types counter locations: Downtown/Belltown (2nd Ave and Marion St; 2nd Ave and Cedar St) and trails (Burke Gilman and Elliot Bay trails). These four counters will represent commute biking routes and recreational routes respectively. 
 
 
-{% include image.html image=page.images.image1 =250x %}
+{% include image.html image=page.images.image1 %}
 
 
 
@@ -100,3 +100,22 @@ An interesting shift occurred in bike counts between the Burke Gilman and the El
 *3.	How has the people's behavior has changed?*
 
 To explore the behavior change question, we decided to look at the average day in April 2019 and April 2020 for the counters with available data for April 2020, which includes Burke Gilman, Elliot Bay, Fremont Bridge, and Spokane Bridge.
+
+{% include image.html image=page.images.image3 %}
+
+In April 2019, there are two peaks during a weekday: one in morning (around 7-8AM) and another one during evening (around 6PM). This pattern represented a typical commute for people when peaks were before/after 9am-5pm working schedule, and each peak is no longer than one hour. A typical weekend had one peak starting from 12pm to 3pm. 
+
+{% include image.html image=page.images.image4 %}
+
+
+In April 2020, when the majority of people don't have to travel to an office, weekdays' patterns look quite different from April 2019. There is one pronounced peak around 6pm during a weekday in April 2020. The bicyclist might be talking biking trips or exercise trips after work. In general, there are not that many people who bike on a weekday compared to a weekend. 
+
+
+## Results
+
+
+The biking patterns have changed during COVID-19. At first, in March, the number of people bicycling collapsed along commute-oriented routes such as ones in Belltown and Downtown, while a decline in bicyclists was not that steep along Burke Gilman and Elliot Bay trails. In April, the number of bicyclists skyrocketed on Burke Gilman and Elliot Bay trails comparing to April 2019 number. The weather might be one factor - April was warmer with less precipitation this year.
+Peoples' biking behavior is changed as well - you will see more bikers during a weekend than on a weekday. There are no typical 8AM and 6PM peaks, but one 6PM peak. 
+
+
+
