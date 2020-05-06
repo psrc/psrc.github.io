@@ -94,7 +94,7 @@ Bicycle counts in Downtown/Belltown started decreasing at the start of March, ri
 {% include image.html image=page.images.image2 %}
 
 
-The Burke Gilman and Elliot Bey trails didn't see such a steep decline in bicycle counts. Moreover, the highest bicycle counts occurred after the work from home recommendations and stay at home order. 
+The Burke Gilman and Elliot Bay trails didn't see such a steep decline in bicycle counts. Moreover, the highest bicycle counts occurred after the work from home recommendations and went down after the stay-at-home order. 
 An interesting shift occurred in bike counts between the Burke Gilman and the Elliot Bay trails. In February 2020, bike volumes were higher on the Elliot Bay trail than on the Burke Gilman. Generally, bike counts on Elliot Bay trail were higher during weekdays vs weekend - this suggests that this trail was mostly used for commuting in February 2020. In the middle of March 2020, Burke Gilman trail saw bike counts growth that exceeded bike count on Elliot Bay trail.
 
 
