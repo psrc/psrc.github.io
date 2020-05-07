@@ -1,5 +1,5 @@
 ---
-title: "How many people are biking during COVID-19 in Seattle?"
+title: "Biking in Seattle during COVID-19 time."
 author: Polina Butrina
 image: /images/2020/bike_sky.png
 image-wide:
@@ -31,11 +31,11 @@ The first data point we wanted to analyze was the number of people bicycling for
 
 Here are the questions we explored :
 
-  *1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
+  *1.	Have numbers of people biking decreased in March and April 2020 comparing to previous months/years?*
 
   *2.	Was there a decrease in biking after Work from Home or stay-at-home orders?*
 
-  *3.	How has the people's behavior changed?*
+  *3.	How has the people's biking behavior changed?*
 
 
 ## Data
@@ -58,7 +58,7 @@ Seattle DOT has 12 bike counters providing bicycle and pedestrian counts on mult
 ## Analysis
 
 
-##### *1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
+#####  *1.	Have numbers of people biking decreased in March and April 2020 comparing to previous months/years?*
 
 To understand if the number of people biking changed, we've calculated a percentage change of bicycle counts in March and April (2019 vs 2020).
 
@@ -97,7 +97,7 @@ The Burke Gilman and Elliot Bay trails didn't see such a steep decline in bicycl
 An interesting shift occurred in bike counts between the Burke Gilman and the Elliot Bay trails. In February 2020, bike volumes were higher on the Elliot Bay trail than on the Burke Gilman. Generally, bike counts on Elliot Bay trail were higher during weekdays vs weekend - this suggests that this trail was mostly used for commuting in February 2020. In the middle of March 2020, Burke Gilman trail saw bike counts growth that exceeded bike count on Elliot Bay trail.
 
 
-##### *3.	How has the people's behavior changed?*
+##### *3.	How has the people's biking behavior changed?*
 
 To explore the behavior change question, we decided to look at the average day in April 2019 and April 2020 for the counters with available data for April 2020, which includes Burke Gilman, Elliot Bay, Fremont Bridge, and Spokane Bridge.
 
