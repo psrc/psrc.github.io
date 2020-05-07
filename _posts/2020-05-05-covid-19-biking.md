@@ -46,13 +46,13 @@ Seattle DOT has 12 bike counters providing bicycle and pedestrian counts on mult
 
 *	Fremont Bridge 
 *	Spokane Street Bridge
-*	2nd Avenue at Marion
-*	2nd Avenue at Cedar
-*	BurkeGilman Trail north of NE 70th St Bike and Ped Counter
+*	2nd Avenue at Marion St
+*	2nd Avenue at Cedar St
+*	Burke Gilman Trail north of NE 70th St Bike and Ped Counter
 *	W 58th St Greenway at 22nd Ave NW Bike Counter
 *	Elliott Bay Trail in Myrtle Edwards Park Bike Count
-*	7th Avenue and Blanchard
-*	Westlake Ave at Newton
+*	7th Avenue and Blanchard St
+*	Westlake Avenue at Newton St
 *	26th Avenue Greenway
 
 ## Analysis
