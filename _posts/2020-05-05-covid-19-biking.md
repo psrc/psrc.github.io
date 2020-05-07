@@ -5,7 +5,7 @@ image: /images/2020/bike_sky.png
 image-wide:
 comments: true
 layout: post
-tags: [tools]
+tags: [ActiveTransportation, covid19, DataAnalysis]
 
 images:
    image1:
@@ -17,7 +17,6 @@ images:
    image4:
       image: /images/2020/travel-apr-2020-time.jpeg
 ---
-------THIS POST IS WORK IN PROGRESS------
 
 In the past couple of months, governments around the world implemented social distancing measures to slow the spread of COVID-19. During this unique time, we would like to understand how people's travel behavior is changing.
 The first data point we wanted to analyze was the number of people bicycling for a couple of reasons: 
@@ -34,9 +33,9 @@ Here are the questions we explored :
 
   *1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
 
-  *2.	Was there a decrease in biking after Work from Home or stay-at-pace orders?*
+  *2.	Was there a decrease in biking after Work from Home or stay-at-home orders?*
 
-  *3.	How has the people's behavior has changed?*
+  *3.	How has the people's behavior changed?*
 
 
 ## Data
@@ -59,7 +58,7 @@ Seattle DOT has 12 bike counters providing bicycle and pedestrian counts on mult
 ## Analysis
 
 
-*1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
+##### *1.	Have numbers of people biking and walking decreased in March 2020 comparing to previous months/years?*
 
 To understand if the number of people biking changed, we've calculated a percentage change of bicycle counts in March and April (2019 vs 2020).
 
@@ -78,7 +77,7 @@ To understand if the number of people biking changed, we've calculated a percent
 
 The bicycle counts declined on all trails/streets in March 2020 when compared to March 2019 with some areas like Seattle Downtown and Belltown having a steeper decline (2nd Avenue and Marion and 2nd Avenue and Cedar) and some trails have a more shallow decline (Burke Gilman and Elliot Bay trails). In April, there is a different picture where Burke Gilman and Elliot Bay trails saw growth in bicycle counts when comparing to April 2019.
 
-*2.	Was there a decrease in biking after Work from Home or stay-at-pace orders?*
+##### *2.	Was there a decrease in biking after Work from Home or stay-at-home orders?*
 
 On March 4th, the King County officials gave the recommendation to work from home to the companies, and government agencies and tech firms advised their employees to work from home. Stay-at-home order was placed by the Washington State on March 23rd.
 The next two figures show February-March 2020 bicycle counts for two different types counter locations: Downtown/Belltown (2nd Ave and Marion St; 2nd Ave and Cedar St) and trails (Burke Gilman and Elliot Bay trails). These four counters will represent commute biking routes and recreational routes respectively. 
@@ -88,7 +87,7 @@ The next two figures show February-March 2020 bicycle counts for two different t
 
 
 
-Bicycle counts in Downtown/Belltown started decreasing at the start of March, right after Washington State and King County's work from home recommendation. The downward trend continued after the Stay-at-Home order. The bicycle count decline along commute-heavy routes was expected and not surprising. 
+Bicycle counts in Downtown/Belltown started decreasing at the start of March, right after Washington State and King County's work from home recommendation. The downward trend continued after the stay-at-home order. The bicycle count decline along commute-heavy routes was expected and not surprising. 
 
 
 {% include image.html image=page.images.image2 %}
@@ -98,7 +97,7 @@ The Burke Gilman and Elliot Bay trails didn't see such a steep decline in bicycl
 An interesting shift occurred in bike counts between the Burke Gilman and the Elliot Bay trails. In February 2020, bike volumes were higher on the Elliot Bay trail than on the Burke Gilman. Generally, bike counts on Elliot Bay trail were higher during weekdays vs weekend - this suggests that this trail was mostly used for commuting in February 2020. In the middle of March 2020, Burke Gilman trail saw bike counts growth that exceeded bike count on Elliot Bay trail.
 
 
-*3.	How has the people's behavior has changed?*
+##### *3.	How has the people's behavior changed?*
 
 To explore the behavior change question, we decided to look at the average day in April 2019 and April 2020 for the counters with available data for April 2020, which includes Burke Gilman, Elliot Bay, Fremont Bridge, and Spokane Bridge.
 
@@ -116,7 +115,8 @@ In April 2020, when the majority of people don't have to travel to an office, we
 
 
 The biking patterns have changed during COVID-19. At first, in March, the number of people bicycling collapsed along commute-oriented routes such as ones in Belltown and Downtown, while a decline in bicyclists was not that steep along Burke Gilman and Elliot Bay trails. In April, the number of bicyclists skyrocketed on Burke Gilman and Elliot Bay trails comparing to April 2019 number. The weather might be one factor - April was warmer with less precipitation this year.
-Peoples' biking behavior is changed as well - you will see more bikers during a weekend than on a weekday. There are no typical 8AM and 6PM peaks, but one 6PM peak. 
+
+Peoples' biking behavior is changed as well - you will see more bikers during a weekend than on a weekday. There are no typical 8AM and 6PM peaks during the weekdays, but one 6PM peak. 
 
 
 

@@ -9,3 +9,12 @@
 
 - tag: visualization
   description: Visualization
+
+- tag: ActiveTransportation
+  description: Active Transportation
+
+- tag: DataAnalysis
+  description: Data Analysis
+
+- tag: covid19
+  description: COVID-19
