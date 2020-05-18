@@ -54,6 +54,8 @@ Seattle DOT has 12 bike counters providing bicycle and pedestrian counts on mult
 *	7th Avenue and Blanchard St
 *	Westlake Avenue at Newton St
 *	26th Avenue Greenway
+*	MTS Trail west of I-90 Bridge Bicycle and Pedestrian Counter
+*	Broadway Cycle Track North Of E Union St Bicycle Counter
 
 ## Analysis
 
@@ -64,18 +66,22 @@ To understand if the number of people biking changed, we've calculated a percent
 
 |    Trail Name            |    March 2019 vs 2020 Delta, %    |    April 2019 vs 2020 Delta, %    |
 |--------------------------|-----------------------------------|-----------------------------------|
+| Broadway and E Union St  | 2.26                              | -20.2                             |
 |    Burke Gilman          |    -5.0                           |    65.5                           |
-|    Elliot Bay            |    -21.8                          |    20.4                           |
-|    26th Ave Greenway     |    -24.4                          |    No data available              |
-|    NW 58th Greenway      |    -30.9                          |    No data available              |
-|    Fremont Bridge        |    -32.3                          |    -25.7                          |
-|    Spokane Bridge        |    -33.2                          |    -2.1                           |
+|    Elliot Bay            |    -21.8                          | 20.4                              |
+|    26th Ave Greenway     |    -24.4                          | 10.8                              |
+|    NW 58th Greenway      |    -30.9                          | -19.8                             |
+|    Fremont Bridge        |    -32.3                          | -25.7                             |
+|    Spokane Bridge        |    -33.2                          | -2.1                              |
+| MTS Trail                | -36.7                             | 41.6                              |
 |    2nd Ave and Cedar     |    -46.4                          |    No data available              |
-|    2nd Ave and Marion    |    -50.2                          |    No data available              |
+|    2nd Ave and Marion    |    -50.2                          | -68.6                             |
+
 
 *Note: the counter at 7th Avenue and Blanchard was not included because the counter started collecting data in August 2019. Westlake and Newton counter was also excluded because of data quality.*
 
-The bicycle counts declined on all trails/streets in March 2020 when compared to March 2019 with some areas like Seattle Downtown and Belltown having a steeper decline (2nd Avenue and Marion and 2nd Avenue and Cedar) and some trails have a more shallow decline (Burke Gilman and Elliot Bay trails). In April, there is a different picture where Burke Gilman and Elliot Bay trails saw growth in bicycle counts when comparing to April 2019.
+As expected, the bicycle counts declined on all trails/streets except for Broadway and E Union Street location in March 2020 when compared to March 2019. Some areas like Seattle Downtown and Belltown having a steeper decline (2nd Avenue and Marion and 2nd Avenue and Cedar) and some trails have a more shallow decline (Burke Gilman and Elliot Bay trails). 
+In April, there is a different picture where recreational trails Burke Gilman, Elliot Bay, MTS trail, and 26th Avenue Greenway saw growth in bicycle counts when comparing to April 2019.
 
 ##### *2.	Was there a decrease in biking after Work from Home or stay-at-home orders?*
 
