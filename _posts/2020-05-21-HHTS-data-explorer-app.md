@@ -1,7 +1,7 @@
 ---
 title: "New Tool Release - the Household Travel Survey Data Explorer app"
 author: Christy Lam
-image: /images/2020/HHTS_exploration_app.png
+image: /images/2020/HHTS_exploration_app.PNG
 image-wide:
 comments: true
 layout: post
