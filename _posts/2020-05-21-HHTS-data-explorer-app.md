@@ -7,8 +7,6 @@ comments: true
 layout: post
 tags: [tools]
 
-images:
-   
 ---
 
 We have some exciting news to share! PSRC has just released Version 1.0 of the **Household Travel Survey Data Explorer app**. 
