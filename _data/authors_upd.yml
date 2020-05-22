@@ -5,8 +5,8 @@
          He enjoys building cool software and walking on/around mountains in the Northwest.
 
 - name: Christy Lam
-  image: 
-  blurb: 
+  image: /authors/christy.jpg
+  blurb: Christy is a scripter on the Data Science team. She is an R enthusiast and is often found refactoring Shiny apps (or attempting to).Christy has a background in GIS but has turned her focus to automating data wrangling and visualization. When not learning R, she is warming up to Python and learning about front-end development.
 
 - name: Craig Helmann
   image: /authors/craig.png
