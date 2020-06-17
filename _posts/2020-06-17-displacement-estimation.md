@@ -66,4 +66,4 @@ Apparently, a well-specified model has a p-value greater than 0.05, and the p-va
 
 ## Give me some ideas on this model! ##
 
-Anybody got ideas on how to improve this model?  How could I use it in the planning process? What variables are we missing?  Do we just need more data? Is it problematic that how we have defined displacement? Is the model form itself a problem? Do we 
+Anybody got ideas on how to improve this model?  How could I use it in the planning process? What variables are we missing?  Do we just need more data? Is it problematic that how we have defined displacement? Is the model form itself a problem?
