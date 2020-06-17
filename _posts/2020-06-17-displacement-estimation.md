@@ -1,7 +1,7 @@
 ﻿---
 title: "Why are people displaced from their homes? Correlations abound, but prediction is never easy."
 author: Suzanne Childress
-image: /images/2020/seattle_highpoint4.jpg
+image: /images/2020/seattlehighpoint4.jpg
 image-wide:
 comments: true
 layout: post
