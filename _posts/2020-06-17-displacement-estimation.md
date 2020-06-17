@@ -20,16 +20,16 @@ In the Seattle region, sky-rocketing housing prices, a legacy of discriminatory 
 
 The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying understand displacement risk in our region. PSRC has developed a **[displacement risk index map](https://www.psrc.org/displacement-risk-mapping)** to better identify where people will be displaced.
 
-<img src="https://www.psrc.org/sites/default/files/timg-v2050-displacement-map.png" frameborder="0" allowfullscreen />
+<center><img src="https://www.psrc.org/sites/default/files/timg-v2050-displacement-map.png" frameborder="0" allowfullscreen /></center>
 
 [Puget Sound Regional Council Displacement Risk Mapping](https://www.psrc.org/displacement-risk-mapping)
 
 In PSRC’s [2019 household travel survey](https://www.psrc.org/household-travel-survey-program), residents were asked the reasons they left their previous residence.  Data analysts at the City of Seattle and PSRC hope to better understand where displacement is occurring in the region using this data.
 
 
-<img src="http://psrc.github.io/authors/polina.jpg" width=200 />
+<center><img src="http://psrc.github.io/authors/polina.jpg" width=200 />
 <img src="http://psrc.github.io/authors/christy.jpg"  width=200 />
-<img src="http://psrc.github.io/authors/ennazus.jpg"  width=200 />
+<img src="http://psrc.github.io/authors/ennazus.jpg"  width=200 /></center>
 
 _(Polina, Christy, and I are some of members of the team analyzing the travel survey data on displacement. Pictures of people are always good for blog posts, especially data experts who are ladies.)_
 
