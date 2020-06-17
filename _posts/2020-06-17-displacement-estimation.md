@@ -17,7 +17,7 @@ images:
 
 In the Seattle region, sky-rocketing housing prices, a legacy of discriminatory housing policies, and new transportation infrastructure, have all coalesced together to have the potential to **displace people from their homes**.
 
-The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying understand displacement risk in our region. PSRC has developed a **[displacement risk index map](https://www.psrc.org/displacement-risk-mapping)** to better identify where people will be displaced.
+The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying understand displacement risk in our region. PSRC has developed a **[displacement risk index map](https://www.psrc.org/displacement-risk-mapping)** to better identify places where people are at heightened risks for displacement.
 
 <center><img src="https://www.psrc.org/sites/default/files/timg-v2050-displacement-map.png" frameborder="0" allowfullscreen /></center>
 
