@@ -2,10 +2,10 @@
 title: "Why are people displaced from their homes? Correlations abound, but prediction is never easy."
 author: Suzanne Childress
 image: /images/2020/displace_coeff.png
-image-wide:/images/2020/redmond_multifamily_housing.jpg
+image-wide:
 comments: true
 layout: post
-tags: 
+tags: [planning, estimation]
 
 ---
 
