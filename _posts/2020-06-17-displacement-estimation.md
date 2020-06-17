@@ -5,7 +5,7 @@ image: /images/2020/displace_coeff.png
 image-wide:/images/2020/redmond_multifamily_housing.jpg
 comments: true
 layout: post
-tags: [estimation, statistics, displacement]
+tags: 
 
 ---
 
