@@ -27,7 +27,9 @@ The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying
 In PSRC’s [2019 household travel survey](https://www.psrc.org/household-travel-survey-program), residents were asked the reasons they left their previous residence.  Data analysts at the City of Seattle and PSRC hope to better understand where displacement is occurring in the region using this data.
 
 
-<img src="http://psrc.github.io/authors/polina.jpg" width=200 /><img src="http://psrc.github.io/authors/christy.jpg"  width=200 /><img src="http://psrc.github.io/authors/ennazus.jpg"  width=200 />
+<img src="http://psrc.github.io/authors/polina.jpg" width=200 />
+<img src="http://psrc.github.io/authors/christy.jpg"  width=200 />
+<img src="http://psrc.github.io/authors/ennazus.jpg"  width=200 />
 
 _(Polina, Christy, and I are some of members of the team analyzing the travel survey data on displacement. Pictures of people are always good for blog posts, especially data experts who are ladies.)_
 
