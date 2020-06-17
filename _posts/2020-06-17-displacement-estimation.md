@@ -7,6 +7,12 @@ comments: true
 layout: post
 tags: [planning, estimation]
 
+images:
+   image1:
+      image: /images/2020/women_in_data_science.jpg
+      caption: "Polina, Christy, and I are some of members of the team analyzing the travel survey data on displacement. Pictures of people are always good for blog posts, especially data experts who are ladies."
+      source: "Picture during a Team Meeting"
+
 ---
 
 In the Seattle region, sky-rocketing housing prices, a legacy of discriminatory housing policies, and new transportation infrastructure, have all coalesced together to have the potential to **displace people from their homes**.
@@ -19,10 +25,7 @@ The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying
 
 In PSRC’s [2019 household travel survey](https://www.psrc.org/household-travel-survey-program), residents were asked the reasons they left their previous residence.  Data analysts at the City of Seattle and PSRC hope to better understand where displacement is occurring in the region using this data.
 
-
-<center><image src="http://psrc.github.io/authors/polina.jpg" width=200 /></center>
-
-_(Polina, Christy, and I are some of members of the team analyzing the travel survey data on displacement. Pictures of people are always good for blog posts, especially data experts who are ladies.)_
+{% include image.html image=page.images.image1 %}
 
 At PSRC, we have a team of analysts digging into deep into this question of **who is displaced**. As we began looking into the relationships between single variables such as race, age, employment status, or income with displacement, it seemed to make sense to examine **potential contributors to displacement more holistically within a model**.  The PSRC data team certainly doesn’t have all the potential predictive variables for displacement, but we have a lot of data lying around at PSRC, so I thought I’d take a shot and see what I could mine out of the data we have.
 
@@ -55,7 +58,7 @@ _**household income, car ownership, renting as opposing to owning, being all peo
 
 I tried many land use and travel variables in the model, as shown above, but the only one that was significant was the distance to light rail. As expected, the income variables were the most explanatory.  I was somewhat surprised to see the magnitude and significance of the variable about being located in Seattle.  Seattle has strong renter protection laws than other places in the region.  
 
-The variable **related to race** was a tricky one to construct. How can you express the race of a household succinctly with limited data? The data is very thin for African-American households unfortunately.  So I tried various aggregations of person racial categories such as Asian Only, non-Hispanic White Only, and African-American, Hispanic, Multiracial and other. Then somehow, I had to group the households into buckets, which wasn’t easy either because of the diversity within households as well.  The variable that I ended up finding was significant was if a household contains at least one non-Hispanic white member, then the household is less likely to be displaced.  I’d been interested to hear people’s thoughts on why this variable formulation worked best.
+The variable **related to race** was a tricky one to construct. How can you express the race of a household succinctly with limited data? The data is very thin for African-American households unfortunately.  So I tried various aggregations of person racial categories such as Asian Only, non-Hispanic White Only, and African-American, Hispanic, Multiracial and other. Then somehow, I had to group the households into buckets, which wasn’t easy either because of the diversity within households as well.  The variable that I ended up finding was significant was if a household contains at least one non-Hispanic white member, then the household is less likely to be displaced.  I’d be interested to hear people’s thoughts on why this variable formulation worked best.
 
 The pseudo-R-squared (McFadden, 0.10) of the model may indicate the variables in the model have limited explanatory power. A [lower pseudo R-squared can be okay](https://stats.stackexchange.com/questions/82105/mcfaddens-pseudo-r2-interpretation) (as compared to R-squared) for explaining variable relationships to outcomes, as we are here, but I still wonder what isn’t being accounted for in the model. 
 Then I started wondering if there was a better goodness-of-fit measure for a logistic regression. The self-proclaimed "Stats Geek" said that the [Hosmer-Lemeshow goodness of fit](https://thestatsgeek.com/2014/02/16/the-hosmer-lemeshow-goodness-of-fit-test-for-logistic-regression/) test is appropriate for logistic regressions. The Hosmer-Lemeshow goodness of fit test resulted in the following measures:
