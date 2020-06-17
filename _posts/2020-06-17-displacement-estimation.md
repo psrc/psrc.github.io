@@ -7,13 +7,6 @@ comments: true
 layout: post
 tags: [estimation, statistics, displacement]
 
-images:
-   image1:
-      image: /images/2020/redmond_multifamily_housing.jpg
-      caption: "Multifamily housing in Redmond"
-      source: "PSRC images"
-
-
 ---
 
 In the Seattle region, sky-rocketing housing prices, a legacy of discriminatory housing policies, and new transportation infrastructure, have all coalesced together to have the potential to **displace people from their homes**.
