@@ -17,7 +17,7 @@ images:
 
 In the Seattle region, sky-rocketing housing prices, a legacy of discriminatory housing policies, and new transportation infrastructure, have all coalesced together to have the potential to **displace people from their homes**.
 
-The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying understand displacement risk in our region. PSRC has developed a **[displacement risk index map](https://www.psrc.org/displacement-risk-mapping)** to better identify places where people are at heightened risks for displacement.
+The Puget Sound Regional Council (PSRC) and the City of Seattle have been trying to understand displacement risk in our region. PSRC has developed a **[displacement risk index map](https://www.psrc.org/displacement-risk-mapping)** to better identify places where people are at heightened risks for displacement.
 
 <center><img src="https://www.psrc.org/sites/default/files/timg-v2050-displacement-map.png" frameborder="0" allowfullscreen /></center>
 
@@ -27,7 +27,7 @@ In PSRC’s [2019 household travel survey](https://www.psrc.org/household-travel
 
 {% include image.html image=page.images.image1 %}
 
-At PSRC, we have a team of analysts digging into deep into this question of **who is displaced**. As we began looking into the relationships between single variables such as race, age, employment status, or income with displacement, it seemed to make sense to examine **potential contributors to displacement more holistically within a model**.  The PSRC data team certainly doesn’t have all the potential predictive variables for displacement, but we have a lot of data lying around at PSRC, so I thought I’d take a shot and see what I could mine out of the data we have.
+At PSRC, we have a team of analysts digging deep into this question of **who is displaced**. As we began looking into the relationships between single variables such as race, age, employment status, or income with displacement, it seemed to make sense to examine **potential contributors to displacement more holistically within a model**.  The PSRC data team certainly doesn’t have all the potential predictive variables for displacement, but we have a lot of data lying around at PSRC, so I thought I’d take a shot and see what I could mine out of the data we have.
 
 I chose to estimate a [logistic regression model](https://en.wikipedia.org/wiki/Logistic_regression) to identify which characteristics were most explanatory in determining a household’s displacement. The 2019 travel survey asked residents who had moved within the past five years the reasons they had moved.  Only one member of the household would answer this question. Households which selected one or more of the following responses were labeled as displaced, and otherwise they were labelled as not displaced.
 
