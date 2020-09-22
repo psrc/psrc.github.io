@@ -15,30 +15,30 @@ If we are thinking of scripting in general, either language can automate tasks. 
 
 I code in both R and Python and see the benefits of both, so why do I still describe myself as an R enthusiast and advocate? Here are reasons from my own experience:
 
-##Learning resources: 
+## Learning resources: 
 I wasn’t born a programmer and had a lot of false starts with programming, but when I started to learn R, it clicked faster than when I tried learning other languages. Partially it’s because I’ve found that accessing help for R was easier, and interpreting instructions and documentation was more user-friendly. Information about R and the documentation about different libraries are visually appealing and digestible. In the R universe, I was able to help myself easier than in other language communities. 
 
 Take RStudio’s Shiny gallery for example: [https://shiny.rstudio.com/gallery/](https://shiny.rstudio.com/gallery/) (scroll down to ‘Start simple’ section). I learned how to build apps using the examples on their website. The way they’ve designed these examples was invaluable. I was able to replicate their demos and learn because I can see how things are produced in a clear and concise way. The mix of design, layout, and mediums of documentation itself made a difference in learning. 
 
 Lastly, my ability and interest to code in R is also because of in-house experts like Hana who is a great teacher and enjoys teaching others.
 
-##Tools:
+## Tools:
 RStudio’s popular Interactive Development Environment (IDE), a tool used to write and run scripts, is really well designed. This removes a barrier when trying to script. It’s intuitive and sophisticated but not overwhelming. 
 
 I’m a visual person, so having an IDE that easily displays plots, maps, or tables (that are also aesthetically pleasing) is a plus. Objects that I’ve created are listed in the IDE and viewable in a formatted view unlike when we print to the console. I can see what they look like under-the-hood and understand how the data is structured. This type of transparency of the data is effective in helping resolve hiccups quicker.
 
 The ease of use in an IDE can make a difference in how I learn and plays a role that can either discourage or encourage me from coding. When I’m already struggling with the language syntax and the ins-and-outs of libraries, I don’t want another obstacle – figuring out how to use the software!
 
-##Visualization and document output:
+## Visualization and document output:
 R is a leader in visualization. By learning R, you don’t need to learn the trifecta of web languages that is JavaScript, HTML, & CSS, to build an app or website. Granted, learning R won’t solve all your website design problems or meet all your needs, but it definitely gives you ahead start in building a polished interactive web application.
 
 R has great libraries to help you automate the production of documents (PDF, Word, Powerpoints). If your data changes, you don’t have to scour an entire document to update all your statistics. The code will do that.
 
 I’ve heard a lot of comments from folks who want to have more creative control in their visuals, but are limited to what Excel or Infogram provides. Coding and learning R in particular, can really open up the visual and formatting possibilities.
-•	[https://plotly.com/ggplot2/](https://plotly.com/ggplot2/)
-•	[https://www.r-graph-gallery.com/](https://www.r-graph-gallery.com/)
+* [https://plotly.com/ggplot2/](https://plotly.com/ggplot2/)
+* [https://www.r-graph-gallery.com/](https://www.r-graph-gallery.com/)
 
-##Community:
+## Community:
 My experience with the R community has been positive and encouraging. This stems from the R users and teachers who’ve helped me in my coding journey. This also stems from what I’ve seen organizations in R do, and the actions they take to make it a positive and inclusive culture.
 
 RStudio is a certified B corporation that develops open-source software for R users. They have a substantial presence in the R community and over the last handful of years I feel like they’ve grown in terms of their outreach. They’ve created an annual conference dedicated to teaching and sharing resources. This includes livestreaming the conference and uploading recordings (accessibility!). They’ve engaged coders through contests, are hiring educators from diverse backgrounds/industries to teach and create practical tools and continually produce accessible webinars. 
