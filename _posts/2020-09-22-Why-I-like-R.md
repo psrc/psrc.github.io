@@ -1,5 +1,5 @@
 ---
-title: "Why I like R?"
+title: "Why I like R"
 author: Christy Lam
 image: /images/2020/r-logo-1.png
 image-wide:
