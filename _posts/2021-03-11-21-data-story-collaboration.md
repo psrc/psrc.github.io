@@ -1,4 +1,3 @@
-﻿---
 title: "Telling Transportation Data Stories Through Collaboration"
 subtitle: "A Data Team Success During COVID-19 Times"
 author: Suzanne Childress
@@ -87,12 +86,12 @@ We realized that although our sample sizes were small, we needed to try to repor
 Asian, Hispanic, and Other race people’s travel behavior generally fell between that of Non-Hispanic Whites and African American people. For example, African American people used transit on 12% of their trips, Asian people used transit on 8% of their trips, Hispanic and Other people use transit on 5% of their trips, and Non-Hispanic Whites use transit on 4% of their trips.".
 
 ### Telework Patterns
-The 2019 household travel survey asked, “How much did you work at home or telework for pay on your travel date?”Here's some things we found:
+The 2019 household travel survey asked, "How much did you work at home or telework for pay on your travel date? Here's some things we found:
 
 1. 10% of workers teleworked between 6 and 12 hours a day.  More workers teleworked (14%) less the six hours but more than zero.
 2. People who teleworked part-time traveled 10% less distance by car during their average day; people who teleworked full time traveled 34% less distance by car.
 3. The number of trips people who teleworked made was similar to those who did not. They had shorter trips in general, that is why their car distance is reduced. People substituted non-work trips for work trips.
-4. Young people (18-24 years old) teleworked full-time less (under 5% of the region’s population) compared with other age groups.
+4. Young people (18-24 years old) teleworked full-time less compared with other age groups.
 5. For the people with the household income of $150,000 or more, the odds of being more likely to teleworked were 30% higher than other income categories. 
 6. There is no difference in genders between the share of workers who teleworked. (More men work, however, so males represent a higher share of teleworkers (63%).)
 7. Hispanic and Asian workers were 20% to 30% higher than Whites to telework. African American workers were 25% less likely to telework than Whites.
