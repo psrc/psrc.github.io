@@ -33,19 +33,20 @@ images:
 
 ---
 
-In 2020, the PSRC data team formed a working group to learn from each other how [Household Travel Survey Data](https://www.psrc.org/household-travel-survey-program) could be used to .
-inform urban planning policy. This COVID-19 period has been a great chance for us to learn and share with each other about household travel survey data.
+In 2020, the PSRC data team formed a working group to learn from each other how [Household Travel Survey Data](https://www.psrc.org/household-travel-survey-program) could be used to inform urban planning policy. 
+We have used this COVID-19 period to grow our skills in using household travel survey data.
 
 {% include image.html image=page.images.image1 %}
 
 ### Upskilling Before Discovering
 We made many exciting data discoveries along the way,but before we could really dive into the data, we needed to increase our statistics and scripting skills specific to working with survey data.
-We did **statistics**, learning how to apply [sample weights](https://www.psrc.org/sites/default/files/intro-household-travel-survey-data.pdf) and calculate [margins of error](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/).
+
+1. We did **statistics**, learning how to apply [sample weights](https://www.psrc.org/sites/default/files/intro-household-travel-survey-data.pdf) and calculate [margins of error](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/).
 
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Marginoferror95.PNG/465px-Marginoferror95.PNG" frameborder="0" allowfullscreen /></center>
 
 
-We wrote **functions** to easily summarize the data and [collaborated via GitHub](https://github.com/psrc/travel_survey_analysis).
+2. We wrote **functions** to easily summarize the data and [collaborated via GitHub](https://github.com/psrc/travel_survey_analysis).
 Here's an example of a function we shared with each other:
 
 ```
