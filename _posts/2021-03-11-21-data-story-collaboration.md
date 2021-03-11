@@ -6,7 +6,7 @@ image: /images/2021/gas_works_park.jpg
 image-wide:/images/2021/discovery_park.jpg
 comments: true
 layout: post
-tags: [planning, estimation]
+
 
 images:
    image1:
@@ -65,11 +65,12 @@ categorical_moe <- function(sample_size_group){
 
 {% include image.html image=page.images.image2 %}
 
-# We were then ready for DATA DISCOVERIES
+# Data Discoveries
+After we did some upskilling, we were ready to make discoveries on a wide range of hot planning topics like residential displacement, travel by people of color, teleworking, home deliveries, and new mobility.
 
 {% include image.html image=page.images.image3 %}
 
-### One of the first topics we explored was residential displacement.
+### Residential Displacement
 
 A new question that was asked on the 2019 survey was why people moved from their previous homes. We discovered that:
 * About a quarter of households that moved in the past five years within the four-county region reported that they relocated for one or more negative reasons (also called displacement): cost of housing, forced to move, change in income, or loss of community. Cost of housing was by far the top reason.
@@ -78,14 +79,14 @@ A new question that was asked on the 2019 survey was why people moved from their
 
 We made [blog posts about our findings](https://www.psrc.org/whats-happening/blog/cost-housing-top-reason-displacement) and [The Seattle Times made a story out of our data](https://www.seattletimes.com/seattle-news/data/as-seattle-gentrifies-one-quarter-of-recent-movers-were-forced-out-survey-shows/).
 
-### We learned about how to describe travel choices by race.
+### Understanding travel by different racial groups
 When describing people's travel by race we had to figure out how to balance adequate sample sizes with richness of detail about people's race.
 At first, we categorized people into three broad groups: Asian Only, non-Hispanic White, and Other People of Color, as in this [blog post about travel patterns by race](https://www.psrc.org/whats-happening/blog/people-color-own-fewer-cars-take-transit-more). For example, we reported that "Other People of Color were the most likely to take transit to work (17%), followed by Asians (11%) and whites (9%).".
 
 We realized that although our sample sizes were small, we needed to try to report African American transportation experiences separately, as did in this [later blog post](https://www.psrc.org/whats-happening/blog/people-color-weigh-bike-transit-improvements). In this blog, we reported that "The survey showed that African American people were much more likely to live in a household with no cars than Non-Hispanic Whites. Around one out of five of African American people lived in a household with no cars, with only about one out of twenty Non-Hispanic Whites having lived in a household with no cars. 
 Asian, Hispanic, and Other race people’s travel behavior generally fell between that of Non-Hispanic Whites and African American people. For example, African American people used transit on 12% of their trips, Asian people used transit on 8% of their trips, Hispanic and Other people use transit on 5% of their trips, and Non-Hispanic Whites use transit on 4% of their trips.".
 
-### During COVID-19, telework was a hot topic. Here's what we found about telework:
+### Telework Patterns
 The 2019 household travel survey asked, “How much did you work at home or telework for pay on your travel date?”Here's some things we found:
 
 1. 10% of workers teleworked between 6 and 12 hours a day.  More workers teleworked (14%) less the six hours but more than zero.
@@ -96,7 +97,7 @@ The 2019 household travel survey asked, “How much did you work at home or tele
 6. There is no difference in genders between the share of workers who teleworked. (More men work, however, so males represent a higher share of teleworkers (63%).)
 7. Hispanic and Asian workers were 20% to 30% higher than Whites to telework. African American workers were 25% less likely to telework than Whites.
 
-### Home deliveries were also a hot topic
+### Home deliveries
 
 
 {% include image.html image=page.images.image6 %}
@@ -105,6 +106,21 @@ The Seattle Times also reported on [home deliveries data](https://www.seattletim
 
 {% include image.html image=page.images.image4 %}
 {% include image.html image=page.images.image5 %}
+
+### New mobility
+Pre-COVID, new mobility was a hot topic. I'm sure it will come back.
+
+We found that from 2017 to 2019, the share of regional adults who had ever used a ride-hailing service for 
+travel went up from 24% to 35%. The share of Seattle adults who had used a ride-hailing 
+service is substantially higher than the region as a whole. From 2017 to 2019, the share of 
+Seattle adults who had ever used a ride-hailing service had increased from from 44% to 55%. 
+In other words, over half of Seattle adults had used ride-hailing in 2019.  
+
+People who use ride-hailing and car share services are strikingly different travel behavior than 
+the general Puget Sound population. Around 73% of ride-hailing and carsharing users 
+commuted by walking/biking, carpool, or transit. In comparison, more than 70% of regional 
+workers use a single-occupancy vehicle (SOV) on their commute.
+
 
 
 ### It was now time for MODEL ESTIMATION
