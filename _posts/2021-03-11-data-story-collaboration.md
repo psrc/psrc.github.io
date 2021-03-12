@@ -81,15 +81,30 @@ At first, we categorized people into three broad groups: Asian Only, non-Hispani
 We realized that although our sample sizes were small, we needed to try to report African American transportation experiences separately because they are so unique. In this [later blog post](https://www.psrc.org/whats-happening/blog/people-color-weigh-bike-transit-improvements), we specifically analyzed travel by African American people separtely. We reported that "The survey showed that African American people were much more likely to live in a household with no cars than Non-Hispanic Whites. Around one out of five of African American people lived in a household with no cars, with only about one out of twenty Non-Hispanic Whites having lived in a household with no cars. 
 Asian, Hispanic, and Other race people’s travel behavior generally fell between that of Non-Hispanic Whites and African American people. For example, African American people used transit on 12% of their trips, Asian people used transit on 8% of their trips, Hispanic and Other people use transit on 5% of their trips, and Non-Hispanic Whites use transit on 4% of their trips."
 
+Also, we encountered a puzzle in terms of how to describe household races: **How do we describe a household's race because not only are people multi-racial, households are also multi-racial?** Residential choices and vehicle ownership choices are really made at a household level, as opposed to by individuals in the household. The Census uses this antiquated term of [householder](https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html#householder) to describe household races.
+
+We ended up by classifying households by race as follows: African American – all adults are in the African American group; OR a mix of adults in the African
+American and White groups.
+
+Based on the composition of adults and the person-level categorization, each household was assigned to
+one of the following household racial categories:
+
+* Asian – all adults are in the Asian group; OR a mix of adults in the Asian and White groups.
+* Hispanic – all adults are in the Hispanic group; OR a mix of adults in the Hispanic and White
+groups.
+* Missing – any or all adults are in the Missing group.
+* Non-Hispanic White – all adults are in the White group.
+* Other – all adults are in the American Indian or Alaska Native, Native Hawaiian or Pacific Islander.
+ [See this technical note on how we defined household race](https://www.psrc.org/sites/default/files/hh-travel-survey-2019-racial-category-note.pdf)
 ### Telework Patterns
 Telework was a hot topic in the past year, since there has been a necessary surge in the behavior, so we looked into what the data told us about pre-COVID telework behavior. The 2019 household travel survey asked, "How much did you work at home or telework for pay on your travel date? Here's some things we found:
 
 1. 10% of workers teleworked between 6 and 12 hours a day.  More workers teleworked (14%) less the six hours but more than zero.
-2. People who teleworked part-time traveled 10% less distance by car during their average day; people who teleworked full time traveled 34% less distance by car.
+2. People who teleworked part-time traveled 10% fewer miles by car during their average day; people who teleworked full time traveled 34% less distance by car.
 3. The number of trips people who teleworked made was similar to those who did not. They had shorter trips in general, that is why their car distance is reduced. People substituted non-work trips for work trips.
-4. Young people (18-24 years old) teleworked full-time less compared with other age groups.
+4. Young people (18-24 years old) teleworked full-time less frequently compared with other age groups.
 5. For the people with the household income of $150,000 or more, the odds of being more likely to teleworked were 30% higher than other income categories. 
-6. There is no difference in genders between the share of workers who teleworked. (More men work, however, so males represent a higher share of teleworkers (63%).)
+6. There is no difference in genders between the share of workers who teleworked. (More men work, however, so males represent a higher share of teleworkers [63%].)
 7. Hispanic and Asian workers were 20% to 30% higher than Whites to telework. African American workers were 25% less likely to telework than Whites.
 
 ### Home deliveries
@@ -111,8 +126,7 @@ service is substantially higher than the region as a whole. From 2017 to 2019, t
 Seattle adults who had ever used a ride-hailing service had increased from from 44% to 55%. 
 In other words, over half of Seattle adults had used ride-hailing in 2019.  
 
-People who use ride-hailing and car share services are strikingly different travel behavior than 
-the general Puget Sound population. **Around 73% of ride-hailing and carsharing users 
+People who use ride-hailing and car share services have have/exhibit different travel behavior than the general Puget Sound population. **Around 73% of ride-hailing and carsharing users 
 commuted by walking/biking, carpool, or transit.** In comparison, more than 70% of regional 
 workers use a single-occupancy vehicle (SOV) on their commute.
 
