@@ -40,7 +40,7 @@ In 2020 when we were all starting to work at home, the PSRC data team formed a w
 We have used this COVID-19 period to grow our skills in using household travel survey data.
 
 
-#### **Thank you to Abdi Mohamud, Brian Lee, Christy Lam, Drew Hanson, Grant Gibson, and Mary Richards who shared their brains and time in this effort!**
+#### **Thank you to Abdi Mohamud, Brian Lee, Christy Lam, Drew Hanson, Grant Gibson, Polina Butrina, and Mary Richards who shared their brains and time in this effort!**
 
 {% include image.html image=page.images.image1 %}
 
