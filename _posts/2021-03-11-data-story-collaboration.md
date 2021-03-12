@@ -85,7 +85,7 @@ If you want more info, we made [blog posts about our findings on residential dis
 
 ### Understanding travel by different racial groups
 Racial equity is a key part of PSRC's planning efforts. To analyze people's travel by race using the survey data we had to figure out how to balance adequate sample sizes with richness of detail about people's race.
-At first, we categorized people into three broad groups: Asian Only, non-Hispanic White, and Other People of Color, as in this [blog post about travel patterns by race](https://www.psrc.org/whats-happening/blog/people-color-own-fewer-cars-take-transit-more). For example, we reported that "Other People of Color were the most likely to take transit to work (17%), followed by Asians (11%) and whites (9%).".
+At first, we categorized people into three broad groups: Asian Only, non-Hispanic White, and Other People of Color, as in this [blog post about travel patterns by race](https://www.psrc.org/whats-happening/blog/people-color-own-fewer-cars-take-transit-more). For example, we reported that "Other People of Color were the most likely to take transit to work (17%), followed by Asians (11%) and whites (9%)."
 
 We realized that although our sample sizes were small, we needed to try to report African American transportation experiences separately because they are so unique and because of the history of oppression on our county. In this [later blog post](https://www.psrc.org/whats-happening/blog/people-color-weigh-bike-transit-improvements), we specifically analyzed travel by African American people separately. We reported that "The survey showed that African American people were much more likely to live in a household with no cars than Non-Hispanic Whites. Around one out of five of African American people lived in a household with no cars, with only about one out of twenty Non-Hispanic Whites having lived in a household with no cars. 
 Asian, Hispanic, and Other race people’s travel behavior generally fell between that of Non-Hispanic Whites and African American people. For example, African American people used transit on 12% of their trips, Asian people used transit on 8% of their trips, Hispanic and Other people use transit on 5% of their trips, and Non-Hispanic Whites use transit on 4% of their trips."
@@ -133,6 +133,7 @@ The following chars show the trend in deliveries and that high income households
 {% include image.html image=page.images.image5 %}
 
 ### New mobility
+
 Pre-COVID, [new mobility](https://www.seattle.gov/Documents/Departments/SDOT/NewMobilityProgram/NewMobility_Playbook_9.2017.pdf) (also known as ride-hailing and carsharing) was a hot topic. I'm sure it will come back.
 
 We found that from 2017 to 2019, the share of regional adults who had ever used a ride-hailing service for 
