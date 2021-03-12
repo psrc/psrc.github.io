@@ -128,7 +128,7 @@ As the number of home deliveries has appeared to increase dramatically over the 
 
 {% include image.html image=page.images.image6 %}
 The Seattle Times also reported on [the travel survey home deliveries data](https://www.seattletimes.com/business/retail/2-of-puget-sound-households-received-grocery-delivery-last-year-but-that-was-before-coronavirus-changed-shopping/). 
-The following chars show the trend in deliveries and that high income households received many more deliveries than low income ones.
+The following charts show the trend in deliveries and that high income households received many more deliveries than low income ones.
 {% include image.html image=page.images.image4 %}
 {% include image.html image=page.images.image5 %}
 
