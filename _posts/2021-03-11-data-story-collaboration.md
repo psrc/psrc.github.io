@@ -93,7 +93,7 @@ We realized that although our sample sizes were small, we needed to try to repor
 
 {% include image.html image=page.images.image7 %}
 
-Also, we encountered a puzzle in terms of how to describe household races: How do we describe a household's race, because ** not only are people multi-racial, households are also multi-racial? ** Residential choices and vehicle ownership choices are really made at a household level, as opposed to by individuals in the household, and so we need to summarize data at a household level. The Census uses this antiquated term of [householder](https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html#householder) to describe household races.
+Also, we encountered a puzzle in terms of how to describe household races: How do we describe a household's race, because **not only are people multi-racial, households are also multi-racial?** Residential choices and vehicle ownership choices are really made at a household level, as opposed to by individuals in the household, and so we need to summarize data at a household level. The Census uses this antiquated term of [householder](https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html#householder) to describe household races.
 
 Our work assigned households to racial categories as follows. Based on the composition of adults and the person-level categorization, each household was assigned to
 one of the following household racial categories:
