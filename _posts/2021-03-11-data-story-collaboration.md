@@ -26,23 +26,33 @@ images:
    image6:
       image: /images/2021/Brigid_pumpkin.jpg
       caption: "My daughter getting a delivery from Gram."
-
+   image7:
+      image: /images/2021/UW_diversity.jpg
+      caption: "University of Washington has a diverse student population. The region will continue to become more diverse over time. We need to represent this diversity in our data. "
+      source: "PSRC Flickr account:https://www.flickr.com/photos/soundregion "
+   image8:
+      image: /images/2021/auto_own_vars.png
+      caption: "This graphic shows the correlation matrix of variables in the auto ownership model. We use R for model estimation."
+      source: "Mary Richards, auto ownership estiation "
 ---
 
 In 2020, the PSRC data team formed a working group to learn from each other how [Household Travel Survey Data](https://www.psrc.org/household-travel-survey-program) could be used to inform urban planning policy. 
 We have used this COVID-19 period to grow our skills in using household travel survey data.
 
+I want to send a **big thank you** to all who shared their time and brains in this effort: 
+
+### **Abdi Mohamud, Brian Lee, Christy Lam, Drew Hanson, Grant Gibson, and Mary Richards**
+
 {% include image.html image=page.images.image1 %}
 
-### Upskilling Before Discovering
+## Upskilling Before Discovering
 We made many exciting data discoveries during the past year, but before we could really dive into the data, we needed to increase our statistics and scripting skills specific to working with survey data.
 
-1. We did **statistics**, learning how to apply [sample weights](https://www.psrc.org/sites/default/files/intro-household-travel-survey-data.pdf) and calculate [margins of error](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/).
+We did **statistics**, learning how to apply [sample weights](https://www.psrc.org/sites/default/files/intro-household-travel-survey-data.pdf) and calculate [margins of error](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/).
 
 <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Marginoferror95.PNG/465px-Marginoferror95.PNG" frameborder="0" allowfullscreen /></center>
 
-
-2. We wrote **functions** to easily summarize the data and [collaborated via GitHub](https://github.com/psrc/travel_survey_analysis).
+We wrote **functions** to easily summarize the data and [collaborated via GitHub](https://github.com/psrc/travel_survey_analysis).
 Here's an example of a function we shared with each other:
 
 ```
@@ -80,6 +90,9 @@ At first, we categorized people into three broad groups: Asian Only, non-Hispani
 
 We realized that although our sample sizes were small, we needed to try to report African American transportation experiences separately because they are so unique. In this [later blog post](https://www.psrc.org/whats-happening/blog/people-color-weigh-bike-transit-improvements), we specifically analyzed travel by African American people separtely. We reported that "The survey showed that African American people were much more likely to live in a household with no cars than Non-Hispanic Whites. Around one out of five of African American people lived in a household with no cars, with only about one out of twenty Non-Hispanic Whites having lived in a household with no cars. 
 Asian, Hispanic, and Other race people’s travel behavior generally fell between that of Non-Hispanic Whites and African American people. For example, African American people used transit on 12% of their trips, Asian people used transit on 8% of their trips, Hispanic and Other people use transit on 5% of their trips, and Non-Hispanic Whites use transit on 4% of their trips."
+
+
+{% include image.html image=page.images.image7 %}
 
 Also, we encountered a puzzle in terms of how to describe household races: **How do we describe a household's race because not only are people multi-racial, households are also multi-racial?** Residential choices and vehicle ownership choices are really made at a household level, as opposed to by individuals in the household. The Census uses this antiquated term of [householder](https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html#householder) to describe household races.
 
@@ -132,14 +145,16 @@ People who use ride-hailing and car share services have have/exhibit different t
 commuted by walking/biking, carpool, or transit.** In comparison, more than 70% of regional 
 workers use a single-occupancy vehicle (SOV) on their commute.
 
-## Commuting Behavior
+### Commuting Behavior
 Transportation planners are often interested in commuting behavior. Our survey data helps to break common misconceptions around commuting.
 
 For example, **trips to or from work are only 24% of all weekday trips.**
 
-We've also heard speculation that lower income workers have to travel further to get to work as housing prices rise. The data shows, however, that From workers with incomes less than $75,000 annually, lower income workers have shorter commutes. For example,** workers with incomes under $10,000 have commutes of around 14 minutes, whereas workers with incomes from $50,000-$74,999 have commutes around 27 minutes. The average travel time to work is about the same for workers in households with incomes greater than $75,000 – it’s around 33 minutes.**
+We've also heard speculation that lower income workers have to travel further than higher income workers to get to work as housing prices rise. The data shows, however, that:
 
-### Model Estimation
+From workers with incomes less than $75,000 annually, lower income workers have shorter commutes. For example,**workers with incomes under $10,000 have commutes of around 14 minutes, whereas workers with incomes from $50,000-$74,999 have commutes around 27 minutes. The average travel time to work is about the same for workers in households with incomes greater than $75,000 – it’s around 33 minutes.**
+
+## Model Estimation
 After a while, we realized that looking at data on one or two dimensions really doesn't tell the whole story. We wanted to be able control for multiple factors to determine what variables had the strongest correlation with different behaviors. We estimated models to find the impact of different behaviors. Some of code to [estimate models is up here on Github](https://github.com/psrc/data-science/tree/master/HHSurvey).
 
 The models looked at questions like:
@@ -148,6 +163,11 @@ The models looked at questions like:
 * Do people who live in places with pro-growth policies experience less residential displacement? **(Yes)**
 * Do people who get home deliveries make fewer shopping trips on an average weekday? **(Not that we could observe).**
 
-### Let's do this again sometime!
+{% include image.html image=page.images.image8 %}
+
+* Does transit access correlate with lower houeshold vehicle ownership, all else being equal (controlling for income, household size, etc)? **(Yes definitely)**
+
+
+## Let's do this again sometime!
 
 I hope we can form more working groups to **build pathways from raw data through statistics to urban planning meaning**. Data people tend to be introverts and often want to stay in their data corner by themselves. But when we work together our code improves, our statistical analysis has more rigor, and we are more useful to the planning process.
