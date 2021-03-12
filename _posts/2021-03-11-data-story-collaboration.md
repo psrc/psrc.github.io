@@ -110,10 +110,12 @@ Telework was a hot topic in the past year, since there has been a necessary surg
 ### Home deliveries
 
 
+
+
+As the number of home deliveries has appeared to increase dramatically over the past few years, we were interested to see what the travel survey data could tell us. The travel survey if they received packages  or were delivered groceries on a given day. We found that in 2019, home deliveries were common and increasing. One out of three households received a package on an average weekday.
+
 {% include image.html image=page.images.image6 %}
-
-The Seattle Times also reported on [home deliveries data](https://www.seattletimes.com/business/retail/2-of-puget-sound-households-received-grocery-delivery-last-year-but-that-was-before-coronavirus-changed-shopping/). We found that in 2019, home deliveries were common and increasing. One out of three households received a package on an average weekday. Here are some charts we made:
-
+The Seattle Times also reported on [the travel survey home deliveries data](https://www.seattletimes.com/business/retail/2-of-puget-sound-households-received-grocery-delivery-last-year-but-that-was-before-coronavirus-changed-shopping/). 
 {% include image.html image=page.images.image4 %}
 {% include image.html image=page.images.image5 %}
 
@@ -130,7 +132,12 @@ People who use ride-hailing and car share services have have/exhibit different t
 commuted by walking/biking, carpool, or transit.** In comparison, more than 70% of regional 
 workers use a single-occupancy vehicle (SOV) on their commute.
 
+## Commuting Behavior
+Transportation planners are often interested in commuting behavior. Our survey data helps to break common misconceptions around commuting.
 
+For example, **trips to or from work are only 24% of all weekday trips.**
+
+We've also heard speculation that lower income workers have to travel further to get to work as housing prices rise. The data shows, however, that From workers with incomes less than $75,000 annually, lower income workers have shorter commutes. For example,** workers with incomes under $10,000 have commutes of around 14 minutes, whereas workers with incomes from $50,000-$74,999 have commutes around 27 minutes. The average travel time to work is about the same for workers in households with incomes greater than $75,000 – it’s around 33 minutes.**
 
 ### Model Estimation
 After a while, we realized that looking at data on one or two dimensions really doesn't tell the whole story. We wanted to be able control for multiple factors to determine what variables had the strongest correlation with different behaviors. We estimated models to find the impact of different behaviors. Some of code to [estimate models is up here on Github](https://github.com/psrc/data-science/tree/master/HHSurvey).
