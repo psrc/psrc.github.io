@@ -98,8 +98,7 @@ Also, we encountered a puzzle in terms of how to describe household races: How d
 Our work assigned households to racial categories as follows. Based on the composition of adults and the person-level categorization, each household was assigned to
 one of the following household racial categories:
 
-> *African American – all adults are in the African American group; OR a mix of adults in the African
-> *American and White groups.
+> *African American – all adults are in the African American group; OR a mix of adults in the African  American and White groups.
 > * Asian – all adults are in the Asian group; OR a mix of adults in the Asian and White groups.
 > * Hispanic – all adults are in the Hispanic group; OR a mix of adults in the Hispanic and White
 groups.
@@ -107,7 +106,7 @@ groups.
 > * Non-Hispanic White – all adults are in the White group.
 >* Other – all adults are in the American Indian or Alaska Native, Native Hawaiian or Pacific Islander.
 
-[See this technical note on how we defined household race](https://www.psrc.org/sites/default/files/hh-travel-survey-2019-racial-category-note.pdf)
+[See this technical note on how we defined household race.](https://www.psrc.org/sites/default/files/hh-travel-survey-2019-racial-category-note.pdf)
 ### Telework Patterns
 
 Telework was a hot topic in the past year, since there has been a necessary surge in the behavior, so we looked into what the data told us about pre-COVID telework behavior. The 2019 household travel survey asked, "How much did you work at home or telework for pay on your travel date? Here's some things we found:
