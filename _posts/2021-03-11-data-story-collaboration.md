@@ -37,7 +37,7 @@ images:
 ---
 
 In 2020 when we were all starting to work at home, the PSRC data team formed a working group to learn from each other how [Household Travel Survey Data](https://www.psrc.org/household-travel-survey-program) could be used to inform urban planning policy. 
-We have used this COVID-19 period to grow our skills in using household travel survey data.
+We have used this COVID-19 period to grow our skills in working with household travel survey data.
 
 
 #### **Thank you to Abdi Mohamud, Brian Lee, Christy Lam, Drew Hanson, Grant Gibson, Polina Butrina, and Mary Richards who shared their brains and time in this effort!**
@@ -93,21 +93,21 @@ Asian, Hispanic, and Other race people’s travel behavior generally fell betwee
 
 {% include image.html image=page.images.image7 %}
 
-Also, we encountered a puzzle in terms of how to describe household races: **How do we describe a household's race because not only are people multi-racial, households are also multi-racial?** Residential choices and vehicle ownership choices are really made at a household level, as opposed to by individuals in the household. The Census uses this antiquated term of [householder](https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html#householder) to describe household races.
+Also, we encountered a puzzle in terms of how to describe household races: How do we describe a household's race, because ** not only are people multi-racial, households are also multi-racial?** Residential choices and vehicle ownership choices are really made at a household level, as opposed to by individuals in the household, and so we need to summarize data at a household level. The Census uses this antiquated term of [householder](https://www.census.gov/programs-surveys/cps/technical-documentation/subject-definitions.html#householder) to describe household races.
 
-We ended up by classifying households by race as follows: African American – all adults are in the African American group; OR a mix of adults in the African
-American and White groups.
-
-Based on the composition of adults and the person-level categorization, each household was assigned to
+Our work assigned households to racial categories as follows. Based on the composition of adults and the person-level categorization, each household was assigned to
 one of the following household racial categories:
 
-* Asian – all adults are in the Asian group; OR a mix of adults in the Asian and White groups.
-* Hispanic – all adults are in the Hispanic group; OR a mix of adults in the Hispanic and White
+> *African American – all adults are in the African American group; OR a mix of adults in the African
+> *American and White groups.
+> * Asian – all adults are in the Asian group; OR a mix of adults in the Asian and White groups.
+> * Hispanic – all adults are in the Hispanic group; OR a mix of adults in the Hispanic and White
 groups.
-* Missing – any or all adults are in the Missing group.
-* Non-Hispanic White – all adults are in the White group.
-* Other – all adults are in the American Indian or Alaska Native, Native Hawaiian or Pacific Islander.
- [See this technical note on how we defined household race](https://www.psrc.org/sites/default/files/hh-travel-survey-2019-racial-category-note.pdf)
+> * Missing – any or all adults are in the Missing group.
+> * Non-Hispanic White – all adults are in the White group.
+>* Other – all adults are in the American Indian or Alaska Native, Native Hawaiian or Pacific Islander.
+
+[See this technical note on how we defined household race](https://www.psrc.org/sites/default/files/hh-travel-survey-2019-racial-category-note.pdf)
 ### Telework Patterns
 
 Telework was a hot topic in the past year, since there has been a necessary surge in the behavior, so we looked into what the data told us about pre-COVID telework behavior. The 2019 household travel survey asked, "How much did you work at home or telework for pay on your travel date? Here's some things we found:
@@ -125,15 +125,16 @@ Telework was a hot topic in the past year, since there has been a necessary surg
 
 
 
-As the number of home deliveries has appeared to increase dramatically over the past few years, we were interested to see what the travel survey data could tell us. The travel survey if they received packages  or were delivered groceries on a given day. We found that in 2019, home deliveries were common and increasing. One out of three households received a package on an average weekday.
+As the number of home deliveries has appeared to increase dramatically over the past few years, we were interested to see what the travel survey data could tell us. The travel survey asked if households received packages or were delivered groceries on a given day. We found that in 2019, home deliveries were common and increasing. One out of three households received a package on an average weekday.
 
 {% include image.html image=page.images.image6 %}
 The Seattle Times also reported on [the travel survey home deliveries data](https://www.seattletimes.com/business/retail/2-of-puget-sound-households-received-grocery-delivery-last-year-but-that-was-before-coronavirus-changed-shopping/). 
+The following chars show the trend in deliveries and that high income households received many more deliveries than low income ones.
 {% include image.html image=page.images.image4 %}
 {% include image.html image=page.images.image5 %}
 
 ### New mobility
-Pre-COVID, new mobility (also know as ride-hailing and carsharing, among other new technologies) was a hot topic. I'm sure it will come back.
+Pre-COVID, [new mobility](https://www.seattle.gov/Documents/Departments/SDOT/NewMobilityProgram/NewMobility_Playbook_9.2017.pdf) (also known as ride-hailing and carsharing) was a hot topic. I'm sure it will come back.
 
 We found that from 2017 to 2019, the share of regional adults who had ever used a ride-hailing service for 
 travel **went up from 24% to 35%**. The share of Seattle adults who had used a ride-hailing 
@@ -141,7 +142,7 @@ service is substantially higher than the region as a whole. From 2017 to 2019, t
 Seattle adults who had ever used a ride-hailing service had increased from from 44% to 55%. 
 In other words, over half of Seattle adults had used ride-hailing in 2019.  
 
-People who use ride-hailing and car share services have have/exhibit different travel behavior than the general Puget Sound population. **Around 73% of ride-hailing and carsharing users 
+People who use ride-hailing and car share services have exhibit different travel behavior than the general Puget Sound population. **Around 73% of ride-hailing and carsharing users 
 commuted by walking/biking, carpool, or transit.** In comparison, more than 70% of regional 
 workers use a single-occupancy vehicle (SOV) on their commute.
 
@@ -155,7 +156,7 @@ We've also heard speculation that lower income workers have to travel further th
 From workers with incomes less than $75,000 annually, lower income workers have shorter commutes.**Workers with incomes under $10,000 have commutes of around 14 minutes, whereas workers with incomes from $50,000-$74,999 have commutes around 27 minutes. The average travel time to work is about the same for workers in households with incomes greater than $75,000 – it’s around 33 minutes.**
 
 ## Model Estimation
-After a while, we realized that looking at data on one or two dimensions really doesn't tell the whole story. We wanted to be able control for multiple factors to determine what variables had the strongest correlation with different behaviors. We estimated models to find the impact of different behaviors. Some of code to [estimate models is up here on Github](https://github.com/psrc/data-science/tree/master/HHSurvey).
+After a while of working with the data, we realized that looking at data on one or two dimensions really doesn't tell the whole story. We wanted to be able control for multiple factors to determine what variables had the strongest correlation with different behaviors. We estimated models to find what factors are driving behaviors. Some of code to [estimate models is up here on Github](https://github.com/psrc/data-science/tree/master/HHSurvey).
 
 {% include image.html image=page.images.image8 %}
 
