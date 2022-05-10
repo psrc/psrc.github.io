@@ -101,7 +101,9 @@ Native Hawaiian and Pacific Islander adults have low levels of education
 throughout the region, as around 10% of adults have a bachelor's degree
 or higher.
 
-{%include AsianAloneBachelors.html %}\
+{%include AsianAloneBachelors.html %}
+
+source:ACS Table C15002D: Educational Attainment by Race (2015-2019)\
 
 ## **Intersecting diverse heritage and geography**
 
@@ -136,7 +138,9 @@ and look beneath the surface of regional medians.***
 
 *Technical note: For these analyses, we used an R package we built
 called* [psrccensus](https://psrc.github.io/psrccensus/) *that makes
-it's really easy to pull ACS, PUMS, and Census data for our region.*
+it's really easy to pull ACS, PUMS, and Census data for our region. The
+code for this analysis is here:
+<https://github.com/psrc/heritage-month/blob/main/aian_2_history_month_region.Rmd>*
 
 ------------------------------------------------------------------------
 
