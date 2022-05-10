@@ -32,9 +32,7 @@ underneath that lies a wide variety of individual experiences. Broad
 data about race and ethnicity can at times hide how different people
 really experience the world.
 
-While writing this post, I learned that [Native Hawaiian and Pacific
-Islander
-people](https://www.seattletimes.com/seattle-news/why-its-time-to-retire-the-term-asian-pacific-islander/)
+While writing this post, I learned that [Native Hawaiian and Pacific Islander people](https://www.seattletimes.com/seattle-news/why-its-time-to-retire-the-term-asian-pacific-islander/)
 experience significantly more disadvantages than Asian groups. For
 future analyses, I plan to keep the two groupings separate based on our
 findings.
