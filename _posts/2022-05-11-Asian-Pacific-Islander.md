@@ -2,8 +2,8 @@
 title: "The Diversity of Asian and Pacific Islander Experiences"
 author: Suzanne Childress
 image: /images/2022/aapi_month_picture.jpg
-image-wide: /images/2022/aapi_month_picture.jpg
-comments: yes
+image-wide:
+comments: true
 layout: post
 ---
 
