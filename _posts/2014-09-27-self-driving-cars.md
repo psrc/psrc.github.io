@@ -11,8 +11,7 @@ images:
       caption: "The 2014 Automated Vehicles Symposium in Burlingame, CA brought hundreds of research, government, and industry folks together for an entire week. Topics included technology progress, implementation timeline, planning implications, safety, and more."
     image2:
       image: /images/2014/google-car-big.jpg
-      caption: "The 'Google Car' has captured people\'s imaginations, but how far away is this technology from really being introduced? And what will its impacts be on traffic, safety, even land use patterns?"
-
+      
 ---
 
 Fully self-driving cars, or "automated vehicles" (AVs) may be seen on the roads of our region in the next ten years or even sooner. Meanwhile, local governments are making long-range transportation plans with time horizons out to the year 2040 and beyond. How are decisionmakers supposed to plan for this technology when so little is known about what it will look like or how people will react to its introduction?
