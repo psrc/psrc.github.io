@@ -41,7 +41,7 @@ personal earnings at \$53,000 annually. On the other hand, Native
 Hawaiian and Other Pacific Islander alone workers have some of the
 lowest median earnings at \$32,000.
 
-<embed width="500" height="500" src="https://github.com/psrc/psrc.github.io/tree/master/_includes/median_work_earnings_broad>
+<embed src="https://github.com/psrc/psrc.github.io/tree/master/_includes/median_work_earnings_broad""
 
 
 source: PUMS 2015-2019, RAC1P, PERNP Fields, workers working more than
@@ -76,7 +76,7 @@ over25 having obtained a bachelor's degree. Only 11% of Native Hawaiian
 and Pacific Islander adults over 25 had obtained a bachelor's degree.
 
 
-<embed width="500" height="500" src="https://github.com/psrc/psrc.github.io/tree/master/_includes/aapi_education.html>
+<embed src=https://github.com/psrc/psrc.github.io/tree/master/_includes/aapi_education.html">
 
 source: ACS Table C15002D: Educational Attainment by Race (2015-2019)
 
@@ -95,7 +95,7 @@ compared to 30% of Asian Alone Adults in Pierce County.
 Native Hawaiian and Pacific Islander adults have low levels of education
 throughout the region, as around 10% of adults have a bachelor's degree
 or higher.
-<embed width="500" height="500" src="https://github.com/psrc/psrc.github.io/tree/master/_includes/AsianAloneBachelors.html">
+<embed src="https://github.com/psrc/psrc.github.io/tree/master/_includes/AsianAloneBachelors.html">
 
 source:ACS Table C15002D: Educational Attainment by Race (2015-2019)\
 
@@ -121,7 +121,7 @@ Indian people -- the groups with high incomes.
 Some of groups with the lowest earnings have big populations in Pierce
 County, and hence the median income is lower in Pierce County.
 
-<embed width="500" height="500" src="https://github.com/psrc/psrc.github.io/tree/master/_includes/asian_groups_by_census_tract.html>
+<embed src="https://github.com/psrc/psrc.github.io/tree/master/_includes/asian_groups_by_census_tract.html">
 
 source: Table B02015 ACS 5-year 2015-2019
 
