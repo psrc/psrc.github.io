@@ -41,7 +41,8 @@ personal earnings at \$53,000 annually. On the other hand, Native
 Hawaiian and Other Pacific Islander alone workers have some of the
 lowest median earnings at \$32,000.
 
-{%include median_work_earnings_broad.html %}
+<embed width="500" height="500" src="https://github.com/psrc/psrc.github.io/tree/master/_includes/median_work_earnings_broad>
+
 
 source: PUMS 2015-2019, RAC1P, PERNP Fields, workers working more than
 10 hours per week
