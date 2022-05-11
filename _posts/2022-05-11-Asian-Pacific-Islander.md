@@ -1,6 +1,5 @@
 ---
-title: The Diversity of Asian and Pacific Islander Experiences in the Puget Sound
-  Region
+title: The Diversity of Asian and Pacific Islander Experiences
 author: "Suzanne Childress"
 image: /images/2022/aapi_month_picture.jpg
 image-wide: /images/2022/aapi_month_picture.jpg
@@ -11,7 +10,7 @@ editor_options:
     wrap: 72
 ---
 
-## Across Origins and Where People Live
+## In the Puget Sound Region: Across Origins and Where People Live
 
 The Puget Sound Region has more than 596,000 people who identify as
 Asian Alone and more than 35,000 people who identify as Native Hawaiian
@@ -46,7 +45,7 @@ personal earnings at \$53,000 annually. On the other hand, Native
 Hawaiian and Other Pacific Islander alone workers have some of the
 lowest median earnings at \$32,000.
 
-<iframe src="median-worker-annual-earn_broad.html" height="400px" width="100%" style="border:none;">
+<iframe src="median-worker-annual-earn_broad.html" height="450px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -59,7 +58,7 @@ year. On the other end of earnings, Asian Indian workers earn more than
 three times those less advantaged groups at \$97,000 per year in median
 earnings.
 
-<iframe src="median-worker-annual-earn_detailed.html" height="400px" width="100%" style="border:none;">
+<iframe src="median-worker-annual-earn_detailed.html" height="450px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -72,7 +71,7 @@ highest education levels in the region by race, with 56% of adults over
 25 having obtained a bachelor's degree. Only 11% of Native Hawaiian and
 Pacific Islander adults over 25 had obtained a bachelor's degree.
 
-<iframe src="aapi_education.html" height="400px" width="100%" style="border:none;">
+<iframe src="aapi_education.html" height="405px" width="100%" style="border:none;">
 
 </iframe>
 
