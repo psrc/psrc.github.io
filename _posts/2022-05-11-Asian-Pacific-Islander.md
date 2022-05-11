@@ -45,7 +45,7 @@ personal earnings at \$53,000 annually. On the other hand, Native
 Hawaiian and Other Pacific Islander alone workers have some of the
 lowest median earnings at \$32,000.
 
-<iframe src="median-worker-annual-earn_broad.html" ></iframe>
+<iframe src="median-worker-annual-earn_broad.html" height="450px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -58,7 +58,7 @@ year. On the other end of earnings, Asian Indian workers earn more than
 three times those less advantaged groups at \$97,000 per year in median
 earnings.
 
-<iframe src="median-worker-annual-earn_detailed.html" >
+<iframe src="median-worker-annual-earn_detailed.html" height="450px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -71,7 +71,7 @@ highest education levels in the region by race, with 56% of adults over
 25 having obtained a bachelor's degree. Only 11% of Native Hawaiian and
 Pacific Islander adults over 25 had obtained a bachelor's degree.
 
-<iframe src="aapi_education.html">
+<iframe src="aapi_education.html" height="405px" width="100%" style="border:none;">
 
 </iframe>
 
