@@ -56,9 +56,10 @@ Median earnings vary widely across different racial groups. Burmese,
 Other Native Pacific Islander, Nepalese, Fijian, Marshallese, and Hmong
 workers in the region have median earnings of less than \$30,000 per
 year. On the other end of earnings, Asian Indian workers earn more than
-three time those groups at \$97,000 per year median earnings.
+three times those less advantaged groups at \$97,000 per year in median
+earnings.
 
-<iframe src="median-worker-annual-earn_detailed.html" height="300px" width="100%" style="border:none;">
+<iframe src="median-worker-annual-earn_detailed.html" height="400px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -71,7 +72,7 @@ highest education levels in the region by race, with 56% of adults over
 25 having obtained a bachelor's degree. Only 11% of Native Hawaiian and
 Pacific Islander adults over 25 had obtained a bachelor's degree.
 
-<iframe src="aapi_education.html" height="300px" width="100%" style="border:none;">
+<iframe src="aapi_education.html" height="400px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -80,11 +81,10 @@ Detail: ACS Table C15002D: Educational Attainment by Race (2015-2019)
 **How do education levels for Asian and Pacific Islander adults vary
 across the region?**
 
-Asian workers' median earnings vary widely across different subgroups of
-Asian workers. We were interested in looking into how educational levels
-vary across the geographies of the region. The map below shows that the
-share of Asian alone adults over 25 with a Bachelor's degree or higher
-ranges vary broadly across the region[[1]](#_ftn1).
+We were interested in looking into how educational levels vary across
+the **geographies** of the region. The map below shows that the share of
+Asian alone adults over 25 with a Bachelor's degree or higher ranges
+vary broadly across the region[[1]](#_ftn1).
 
 Over 60% Asian Alone adults in King County have a bachelor's degree, as
 compared to 30% of Asian Alone Adults in Pierce County.
@@ -93,7 +93,7 @@ Native Hawaiian and Pacific Islander adults have low levels of education
 throughout the region, as around 10% of adults have a bachelor's degree
 or higher.
 
-<iframe src="AsianAloneBachelors.html" height="600px" width="100%" style="border:none;">
+<iframe src="AsianAloneBachelors.html" height="400px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -102,7 +102,8 @@ source:ACS Table C15002D: Educational Attainment by Race (2015-2019)
 ## **Intersecting diverse heritage and geography**
 
 **Where do different groups live in our region? How does where different
-people live relate to differing levels of earnings and education?**
+people live relate to differing levels of earnings and education for
+Asian and Pacific Islander people geographically?**
 
 Different groups of Asian people have settled in different parts of the
 region. Those groups experience different levels of earnings and
