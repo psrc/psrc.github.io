@@ -42,7 +42,7 @@ Hawaiian and Other Pacific Islander alone workers have some of the
 lowest median earnings at \$32,000.
 
 
-<iframe src="/files/html/median-worker-annual-earn_broad.html" width=100% ></iframe>
+<%include "median-worker-annual-earn_broad.html" %>
 
 source: PUMS 2015-2019, RAC1P, PERNP Fields, workers working more than
 10 hours per week
