@@ -10,7 +10,7 @@ editor_options:
     wrap: 72
 ---
 
-## In the Puget Sound Region: Across Origins and Where People Live
+## Across Heritages and Where People Live
 
 The Puget Sound Region has more than 596,000 people who identify as
 Asian Alone and more than 35,000 people who identify as Native Hawaiian
