@@ -92,7 +92,7 @@ Native Hawaiian and Pacific Islander adults have low levels of education
 throughout the region, as around 10% of adults have a bachelor's degree
 or higher.
 
-<iframe src="AsianAloneBachelors1.html" height="400px" width="100%" style="border:none;">
+<iframe src="AsianAloneBachelors.html" height="400px" width="100%" style="border:none;">
 
 </iframe>
 
@@ -120,7 +120,7 @@ Indian people -- the groups with high incomes.
 Some of groups with the lowest earnings have big populations in Pierce
 County, and hence the median income is lower in Pierce County.
 
-<iframe src="asian_groups_tract1.html " height="600px" width="100%" style="border:none;">
+<iframe src="asian_groups_tract.html " height="600px" width="100%" style="border:none;">
 
 </iframe>
 
