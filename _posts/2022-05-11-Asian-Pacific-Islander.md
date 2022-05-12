@@ -27,7 +27,7 @@ in the region.
 > ***This year we wanted to dive deeper to learn more about the how
 > Asian and Pacific Islander experiences vary across different groups
 > based on their heritage and where they live in our region. This
-> analysis results from a top agency priority for advancing racial
+> analysis results from a top agency priority of advancing racial
 > equity.***
 
 Aggregate Census data can tell one story about people's experiences, but
