@@ -14,9 +14,9 @@ editor_options:
 
 #### And the challenges but importance of racial equity data
 
-The Puget Sound Region has more than 596,000 people who identify as
-Asian Alone and more than 35,000 people who identify as Native Hawaiian
-and Pacific Islander Alone, as we discovered [last year during Asian
+The Puget Sound Region has about 600,000 people who identify as Asian
+Alone and more than 35,000 people who identify as Native Hawaiian and
+Pacific Islander Alone, as we discovered [last year during Asian
 American and Pacific Islander heritage
 month](https://www.psrc.org/whats-happening/blog/celebrating-asian-american-and-pacific-islander-heritage-month).
 Asian, Native Hawaiian, and Pacific Islander groups represent a wide
