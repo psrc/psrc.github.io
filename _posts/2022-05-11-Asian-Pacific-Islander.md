@@ -78,7 +78,7 @@ adults over 25 having obtained a bachelor's degree. Only 11% of Native
 Hawaiian and Pacific Islander adults over 25 had obtained a bachelor's
 degree.
 
-<iframe src="aapi_education.html" height="600px" width="100%" style="border:none">
+<iframe src="aapi_education.html" height="400px" width="100%" style="border:none">
 
 </iframe>
 
