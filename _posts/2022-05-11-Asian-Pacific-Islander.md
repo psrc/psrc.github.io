@@ -103,7 +103,7 @@ or higher.
 
 </iframe>
 
-~detail:\ ACS\ Table\ C15002D:\ Educational\ Attainment\ by\ Race\ (2015-2019)~
+*detail: ACS Table C15002D: Educational Attainment by Race (2015-2019)*
 
 ## **Intersecting diverse heritage and geography**
 
