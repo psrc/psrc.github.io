@@ -51,25 +51,28 @@ lowest median earnings at \$32,000.
 
 #### How do worker earnings vary across different groups of Asian, Native Hawaiian, and Pacific Islander people?
 
-Median earnings vary widely across different racial groups. Burmese,
-Other Native Pacific Islander, Nepalese, Fijian, Marshallese, and Hmong
-workers in the region have median earnings of less than \$30,000 per
-year. On the other end of earnings, Asian Indian workers earn more than
-three times those less advantaged groups at \$97,000 per year in median
-earnings.
+Median earnings vary widely across different groups of Asian people.
+Burmese, Other Native Pacific Islander, Nepalese, Fijian, Marshallese,
+and Hmong workers in the region have median earnings of less than
+\$30,000 per year. On the other end of earnings, Asian Indian workers
+have median earnings of over \$97,000 per year.
 
-<iframe src="median-worker-annual-earn_detailed.html" height="450px" width="100%" style="border:none;"></iframe>
+<iframe src="median-worker-annual-earn_detailed.html" height="450px" width="100%" style="border:none;">
+
+</iframe>
 
 detail: RAC2P, PERNP Fields, workers working more than 10 hours per week
 
 **Asian, Native Hawaiian and Pacific Islanders education levels**
 
-Similarly to median earnings, Asian Alone people have some of the
-highest education levels in the region by race, with 56% of adults over
-25 having obtained a bachelor's degree. Only 11% of Native Hawaiian and
-Pacific Islander adults over 25 had obtained a bachelor's degree.
+Similarly to median earnings, Asian Alone people as a broad group have
+some of the highest education levels in the region by race, with 56% of
+adults over 25 having obtained a bachelor's degree. Only 11% of Native
+Hawaiian and Pacific Islander adults over 25 had obtained a bachelor's
+degree.
 
-<iframe src="aapi_education.html" height="405px" width="100%" style="border:none;</iframe>
+\<iframe src="aapi-education.html" height="405px" width="100%"
+style="border:none;</iframe>
 
 Detail: ACS Table C15002D: Educational Attainment by Race (2015-2019)
 
@@ -116,14 +119,16 @@ Indian people -- the groups with high incomes.
 Some of groups with the lowest earnings have big populations in Pierce
 County, and hence the median income is lower in Pierce County.
 
-<iframe src="asian_groups_tract.html " height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="asian_groups_tract.html " height="600px" width="100%" style="border:none;">
+
+</iframe>
 
 source: Table B02015 ACS 5-year 2015-2019
 
-The geographic distribution of people's heritages impacts where people
-have greater advantages and disadvantages. ***When planning, we must
-consider the diversity of where people live and where they come from,
-and look beneath the surface of regional medians.***
+The geographic distribution of people's heritages impacts where Asian
+people have greater advantages and disadvantages. ***When planning, we
+must consider the diversity of where people live and where they come
+from, and look beneath the surface of regional medians.***
 
 *Technical note: For these analyses, we used an R package we built
 called* [psrccensus](https://psrc.github.io/psrccensus/) *that makes
