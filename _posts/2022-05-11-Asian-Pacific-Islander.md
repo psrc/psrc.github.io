@@ -24,11 +24,11 @@ variety of [many different
 heritages](https://www.psrc.org/whats-happening/blog/region-has-diverse-asian-and-pacific-islander-heritage)
 in the region.
 
-> ***This year we wanted to dive deeper to learn more about the how
-> Asian and Pacific Islander experiences vary across different groups
-> based on their heritage and where they live in our region. This
-> analysis results from a top agency priority of advancing racial
-> equity.***
+> ***This year for Asian American and Pacific Islander month we wanted
+> to dive deeper to learn more about the how Asian and Pacific Islander
+> experiences vary across different groups based on their heritage and
+> where they live in our region. This analysis results from a top agency
+> priority of [advancing racial equity.](https://www.psrc.org/equity)***
 
 Aggregate Census data can tell one story about people's experiences, but
 [underneath that lies a wide variety of individual
@@ -45,7 +45,7 @@ findings.
 
 #### How do worker earnings for Asian and Native Hawaiian Pacific Islander people compare to other groups?
 
-Asian Alone workers as an overall group have one of the highest median
+Asian workers as an overall group have one of the highest median
 personal earnings at \$53,000 annually. On the other hand, Native
 Hawaiian and Other Pacific Islander alone workers have some of the
 lowest median earnings at \$32,000.
@@ -82,7 +82,7 @@ degree.
 
 </iframe>
 
-Detail: ACS Table C15002D: Educational Attainment by Race (2015-2019)
+~Detail:\ ACS\ Table\ C15002D:\ Educational\ Attainment\ by\ Race\ (2015-2019)~
 
 **How do education levels for Asian and Pacific Islander adults vary
 across the region?**
@@ -103,7 +103,7 @@ or higher.
 
 </iframe>
 
-source:ACS Table C15002D: Educational Attainment by Race (2015-2019)
+~detail:\ ACS\ Table\ C15002D:\ Educational\ Attainment\ by\ Race\ (2015-2019)~
 
 ## **Intersecting diverse heritage and geography**
 
@@ -134,7 +134,7 @@ County, and hence the median income is lower in Pierce County.
 
 </iframe>
 
-source: Table B02015 ACS 5-year 2015-2019
+~detail:\ Table\ B02015\ ACS\ 5-year\ 2015-2019~
 
 The geographic distribution of people's heritages impacts where Asian
 people have greater advantages and disadvantages. ***When planning for
@@ -148,13 +148,14 @@ often fear reporting.***
 **How do we report data on important groups when the sample sizes are
 small?**
 
-When making this analysis, I had to make several statistical choices in
-reporting. I could have not created the two maps that show the
-geographic distributions because of low sample sizes by tract.
+When making this analysis, I made several statistical choices in
+reporting. I could have not chosen to not create the two maps that show
+the geographic distributions because of low sample sizes by tract.
 
-***As data analysts, we could not report the data at all for fear of
-making a statistical error. But if we only report data for large groups
-of people, we lose the important experiences of the few.***
+***As data analysts, we can choose to not report the racial equity data
+at all for fear of making a statistical error. But if we only report
+data for large groups of people, we lose the important experiences of
+the few.***
 
 So in this case, I chose instead to push the data to a reasonable limit.
 I still wanted to use statistical evidence [not statistical
@@ -162,9 +163,8 @@ significance](https://www.nature.com/articles/d41586-019-00857-9) to
 make choices, but allow flexibility so that I could build some level of
 understanding.
 
-On the working earnings charts, I reported the margins of error to help
-people see that many of the groups are not statistically significantly
-different, but the overall there is very clearly a wide gap across
+On the working earnings charts, I reported the margins of error to show
+that overall there is very clearly a wide gap in working earnings across
 groups. Unfortunately, I have found that with even with an educated
 audience the error bars often do not communicate this variation. By
 reporting the results, I'm accepting the fact that the statistical
@@ -207,17 +207,19 @@ the map, but I left it as is, for simplicity and to push the data out.
 
 -   Supplement statistical data with individual level experience data to
     highlight the variation within groups. I'd love to learn more about
-    this!
+    how I can do this! It feels challenging at the moment because I do
+    not have the tools to gather people's experiences, but I do have the
+    tools to gather data sets.
 
-I enjoyed [this
+Finally, I enjoyed [this
 article](https://www.umass.edu/employmentequity/overcoming-small-n-problem)
 about overcoming the small-n problem and recommend it if you would like
 to learn more.
 
-*Technical notes: For these analyses, we used an R package we built
-called [psrccensus](https://psrc.github.io/psrccensus/) that makes it's
-really easy to pull ACS, PUMS, and Census data for our region. The code
-for this analysis is here:
+*Technical notes: For these analyses, we used an R package PSRC data
+staff built called [psrccensus](https://psrc.github.io/psrccensus/) that
+makes it's really easy to pull ACS, PUMS, and Census data for our
+region. The code for this analysis is here:
 <https://github.com/psrc/heritage-month/blob/main/aian_2_history_month_region.Rmd>*
 
 *Also I had to learn a ton about including interactive R data
