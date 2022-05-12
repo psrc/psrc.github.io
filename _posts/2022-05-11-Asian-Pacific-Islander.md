@@ -10,7 +10,9 @@ editor_options:
     wrap: 72
 ---
 
-## Across Heritages and Where People Live
+### Across Heritages and Where People Live 
+
+#### And the challenges but importance of Racial Equity Data
 
 The Puget Sound Region has more than 596,000 people who identify as
 Asian Alone and more than 35,000 people who identify as Native Hawaiian
@@ -134,9 +136,7 @@ where they come from, and look beneath the surface of regional medians
 and average. On the data side, we grapple with the low sample sizes and
 often fear reporting.***
 
-### 
-
-### Using the Statistical Evidence to Explain Experiences of Smaller Populations
+#### Using the Statistical Evidence to Explain Experiences of Smaller Populations
 
 **How do we report data on important groups when the sample sizes are
 small?**
@@ -145,14 +145,15 @@ When making this analysis, I had to make several statistical choices in
 reporting. I could have not created the two maps that show the
 geographic distributions because of low sample sizes by tract.
 
-***As data analysts, we could chose to not report the data at all for
-fear of making a statistical error. But if we only report data for large
-groups of people, we lose the important experiences of the few.***
+***As data analysts, we could not report the data at all for fear of
+making a statistical error. But if we only report data for large groups
+of people, we lose the important experiences of the few.***
 
 So in this case, I chose instead to push the data to a reasonable limit.
 I still wanted to use statistical evidence [not statistical
-significance](https://www.nature.com/articles/d41586-019-00857-9)to make
-choices, but allow flexibility so that some numbers could be reported.
+significance](https://www.nature.com/articles/d41586-019-00857-9) to
+make choices, but allow flexibility so that some numbers could be
+reported.
 
 On the working earnings charts, I reported the margins of error to help
 people see that many of the groups are not statistically significantly
