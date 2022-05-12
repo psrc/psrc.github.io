@@ -67,8 +67,8 @@ year.
 
 </iframe>
 
-detail: PUMS: RAC2P, PERNP Fields, workers working more than 10 hours
-per week
+*detail: PUMS: RAC2P, PERNP Fields, workers working more than 10 hours
+per week*
 
 **Asian, Native Hawaiian and Pacific Islanders education levels**
 
@@ -82,7 +82,7 @@ degree.
 
 </iframe>
 
-~Detail:\ ACS\ Table\ C15002D:\ Educational\ Attainment\ by\ Race\ (2015-2019)~
+*Detail: ACS Table C15002D: Educational Attainment by Race (2015-2019)*
 
 **How do education levels for Asian and Pacific Islander adults vary
 across the region?**
@@ -134,7 +134,7 @@ County, and hence the median income is lower in Pierce County.
 
 </iframe>
 
-~detail:\ Table\ B02015\ ACS\ 5-year\ 2015-2019~
+*detail: Table B02015 ACS 5-year 2015-2019*
 
 The geographic distribution of people's heritages impacts where Asian
 people have greater advantages and disadvantages. ***When planning for
