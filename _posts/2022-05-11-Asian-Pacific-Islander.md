@@ -67,7 +67,8 @@ year.
 
 </iframe>
 
-detail: RAC2P, PERNP Fields, workers working more than 10 hours per week
+detail: PUMS: RAC2P, PERNP Fields, workers working more than 10 hours
+per week
 
 **Asian, Native Hawaiian and Pacific Islanders education levels**
 
@@ -136,7 +137,7 @@ where they come from, and look beneath the surface of regional medians
 and average. On the data side, we grapple with the low sample sizes and
 often fear reporting.***
 
-#### Using the Statistical Evidence to Explain Experiences of Smaller Populations
+#### Using Statistical Evidence to Explain Experiences of Smaller Populations
 
 **How do we report data on important groups when the sample sizes are
 small?**
