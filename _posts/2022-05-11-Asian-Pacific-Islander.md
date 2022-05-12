@@ -71,7 +71,7 @@ adults over 25 having obtained a bachelor's degree. Only 11% of Native
 Hawaiian and Pacific Islander adults over 25 had obtained a bachelor's
 degree.
 
-<iframe src="aapi-education.html" height="405px" width="100%" style="border:none"></iframe>;</iframe>
+<iframe src="aapi-education.html" height="405px" width="100%" style="border:none"></iframe></iframe>
 
 Detail: ACS Table C15002D: Educational Attainment by Race (2015-2019)
 
@@ -121,9 +121,12 @@ County, and hence the median income is lower in Pierce County.
 source: Table B02015 ACS 5-year 2015-2019
 
 The geographic distribution of people's heritages impacts where Asian
-people have greater advantages and disadvantages. ***When planning, we
-must consider the diversity of where people live and where they come
-from, and look beneath the surface of regional medians.***
+people have greater advantages and disadvantages. ***When planning for
+racial equity, we must consider the diversity of where people live and
+where they come from, and look beneath the surface of regional
+medians.*** It is an big challenge on the data side to deal with low
+sample sizes, but if we just report broad categories, we lose important
+details.
 
 *Technical note: For these analyses, we used an R package we built
 called* [psrccensus](https://psrc.github.io/psrccensus/) *that makes
