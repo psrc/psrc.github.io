@@ -12,7 +12,7 @@ editor_options:
 
 ### Across Heritages and Where People Live 
 
-#### And the challenges but importance of Racial Equity Data
+#### And the challenges but importance of racial equity data
 
 The Puget Sound Region has more than 596,000 people who identify as
 Asian Alone and more than 35,000 people who identify as Native Hawaiian
