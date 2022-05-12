@@ -153,18 +153,18 @@ of people, we lose the important experiences of the few.***
 So in this case, I chose instead to push the data to a reasonable limit.
 I still wanted to use statistical evidence [not statistical
 significance](https://www.nature.com/articles/d41586-019-00857-9) to
-make choices, but allow flexibility so that some numbers could be
-reported.
+make choices, but allow flexibility so that I could build some level of
+understanding.
 
 On the working earnings charts, I reported the margins of error to help
 people see that many of the groups are not statistically significantly
 different, but the overall there is very clearly a wide gap across
-groups. Unfortunately, I have found that with an educated audience the
-error bars often do not communicate this variation. So in this case, I'm
-accepting the fact that the statistical results can be possibly
-misinterpreted as stronger than they are because I think it is more
-important to highlight the disparity than to ensure that the results are
-correctly interpreted by all audiences.
+groups. Unfortunately, I have found that with even with an educated
+audience the error bars often do not communicate this variation. By
+reporting the results, I'm accepting the fact that the statistical
+results can be possibly misinterpreted as stronger than they are because
+I think it is more important to highlight the disparity than to ensure
+that the results are correctly interpreted by all audiences.
 
 For the map of Bachelor's degree shares, I made several judgment calls
 to be able to report the data. Here was my thought process: to determine
@@ -172,13 +172,12 @@ the threshold for reporting, I found that the ACS has roughly a 10%
 sample rate of the population. If the population of adults is 300 by
 tract then a conservative margin of error is around 15%; it looks like
 the map ranges from shares around 10% to 97% so there is truly a wide
-range. For data story telling it should be to use a population of 300
-adults as a threshold for reporting. All the other areas of the map with
-less than 300 Asian Alone adults were gray. I'm also 100% sure there is
-a more robust way of doing this analysis, but I also have to balance my
-time with getting information out there. I could spend weeks trying to
-do things right and only come out with one data story a year instead of
-twenty.
+range. For data storytelling, I chose to use a population of 300 adults
+as a threshold for reporting. Areas of the map with less than 300 Asian
+Alone adults were gray. I'm also 100% sure there is a more robust way of
+doing this analysis, but I also have to balance my time with getting
+information out there. I could spend weeks trying to do things right and
+only come out with one data story a year instead of twenty.
 
 Finally, for the map of where different Asian alone groups live, **my
 top priority was to learn where some disadvantaged groups settled in the
