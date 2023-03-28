@@ -1,5 +1,5 @@
-name: I/O
-description: I/O, the data nerd blog from the Puget Sound Regional Council
+name: PSRC Data Stories
+description: Making meaning from urban planning data
 url: http://psrc.github.io
 lsi: false
 kramdown:

@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="I/O: The PSRC Data Blog">
+    <meta name="description" content="PSRC Data Stories">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name = "yandex-verification" content = "3b13860e9b6af4d0" />
 
@@ -13,18 +13,14 @@
     <link rel="icon" type="image/png" href="/lib/images/favicon-16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/lib/images/favicon-32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/lib/images/favicon-192.png" sizes="192x192" >
-    <link rel="alternate" type="application/rss+xml" title="I/O Blog" href="/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Data Blog" href="/feed/">
 
-    <!-- facebook -->
-    <meta property="og:site_name" content="I/O: The PSRC Data Blog">
-    <meta property="og:type" content="article">
-    <meta property="article:publisher" content="https://www.facebook.com/PugetSoundRegionalCouncil">
     {% if page.title %}
         <title>{{page.title}}</title>
         <meta property="og:title" content="{{page.title}}">
     {% else %}
-        <title>I/O: The PSRC Data Blog</title>
-        <meta property="og:title" content="I/O: The PSRC Data Blog">
+        <title>PSRC Data Stories</title>
+        <meta property="og:title" content="PSRC Data Stories">
     {% endif %}
 
 
@@ -41,8 +37,7 @@
     <div id="header_wrap">
 
       <div id="header_content">
-          <img class="header_image" src="/lib/images/header-anim.gif" alt="PSRC" />
-          <h1 id="project_title"><a href="/">i/o: the psrc data blog</a></h1>
+          <h1 id="project_title"><a href="/">PSRC Data Stories</a></h1>
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
 
           <div id="header_divider"></div>
@@ -53,14 +48,14 @@
 
     <div id="rss_wrap">
        <a id="rss_link" href="/feed/"
-               onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
-               onMouseOut="this.style.background='#f36621'; this.style.color='#fff'">RSS&nbsp;FEED</a>
+               onMouseOver="this.style.background='#fff'; this.style.color='#F05A28'"
+               onMouseOut="this.style.background='#F05A28'; this.style.color='#fff'">RSS&nbsp;FEED</a>
 
       <div id="main_menu_wrap">
         <div id="main_menu">{% for page in site.data.links.nav_links %}
             <a href="{{ page[1]  }}"
-               onMouseOver="this.style.background='#fff'; this.style.color='#f36621'"
-               onMouseOut="this.style.background='#f36621'; this.style.color='#fff'">
+               onMouseOver="this.style.background='#fff'; this.style.color='#F05A28'"
+               onMouseOut="this.style.background='#F05A28'; this.style.color='#fff'">
                {{ page[0] }}
             </a>
             {% endfor %}
@@ -95,7 +90,7 @@
       {% include tags.html %}
 
       <br/>
-      <p class="sidebar_title">PSRC ON GITHUB</p>
+      <p class="sidebar_title">PSRC INFO</p>
       {% include github.html %}
 
 

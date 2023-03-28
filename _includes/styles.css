@@ -59,10 +59,10 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#373737;
-  background: #212121;
+  color:#4a0048;
+  background: #4a0048;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: Poppins;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
 }
@@ -70,19 +70,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  color:#4a0048;
+  font-family: Poppins;
   letter-spacing: -1px;
 }
 
 h1 {
-  color: #10424e;
+  color: #630460;
   font-size: 36px;
   font-weight: 700;
 }
 
 h2 {
-  color: #10424e;
+  color: #91268F;
   padding-bottom: 10px;
   font-size: 32px;
   border-bottom: 1px;
@@ -90,12 +90,12 @@ h2 {
 }
 
 h3 {
-  color: #10424e;
+  color: #91268F;
   font-size: 22px;
 }
 
 h3 a {
-  color: #10424e;
+  color: #91268F;
   font-size: 22px;
 }
 
@@ -123,7 +123,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #006ebf;
+  color: #00A7A0;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -214,7 +214,7 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Poppins;
   font-size: 14px;
 
   border-radius: 2px;
@@ -294,7 +294,7 @@ table {
 }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Poppins;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -469,7 +469,6 @@ Full-Width Styles
 
 #title1 h3 {
     text-transform: uppercase;
-    font-style: italic;
     margin-bottom: 5px;
 }
 
@@ -479,7 +478,6 @@ Full-Width Styles
 
 #title-wide h3 {
     text-transform: uppercase;
-    font-style: italic;
     margin-bottom: 5px;
 }
 
@@ -492,7 +490,6 @@ Full-Width Styles
 
 h3.entry_list {
   text-transform: uppercase;
-  font-style: italic;
   margin-top: 10px;
 }
 
@@ -564,6 +561,12 @@ img.author_table {
   margin: 0 auto;
 }
 
+#header_wrap {
+  background: #10424e;
+  padding: 10px 230px 10px 20px;
+  clear: both;
+}
+
 #footer_wrap {
   background: #10424e;
   padding: 10px 230px 10px 20px;
@@ -619,7 +622,7 @@ p.sidebar_title {
 }
 
 #main_menu_wrap {
-  background: #f36621;
+  background: #F05A28;
   padding: 4px 230px 4px 20px;
   margin: none;
 }
@@ -642,7 +645,7 @@ p.sidebar_title {
 #stickyalias {
     display: none;
     height: 33px;
-    background-color: #f36621;
+    background-color: #F05A28;
 }
 
 #rss_link {
@@ -671,18 +674,18 @@ p.sidebar_title {
 
 #project_title {
   margin: 0;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 
 }
 
 #project_title a {
-	color: #10424e;
+	color: #4a0048;
 }
 
 #project_tagline a {
-    color: #10424e;
+    color: #4a0048;
 }
 
 .header_image {
