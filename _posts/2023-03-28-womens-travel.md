@@ -1,5 +1,5 @@
 ---
-title: "Understanding How Women Travel"
+title: "Understanding How Women Travel in the Puget Sound Region"
 author: "Suzanne Childress"
 image: /images/2023/bellevue_bus.jpg
 image-wide: /images/2023/bellevue_bus.jpg
