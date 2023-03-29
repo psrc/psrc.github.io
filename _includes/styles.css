@@ -562,13 +562,13 @@ img.author_table {
 }
 
 #header_wrap {
-  background: #10424e;
+  background: #005753;
   padding: 10px 230px 10px 20px;
   clear: both;
 }
 
 #footer_wrap {
-  background: #10424e;
+  background: #005753;
   padding: 10px 230px 10px 20px;
   clear: both;
 }
@@ -607,7 +607,7 @@ p.sidebar_title {
 
 #header_wrap {
   padding: 30px 230px 0px 20px;
-  background: #fff;
+  background: 26453e;
 /*  background: -moz-linear-gradient(top, #212121, #10424e);
   background: -webkit-linear-gradient(top, #333333, #10424e);
   background: -ms-linear-gradient(top, #10424e, #212121);
@@ -681,11 +681,11 @@ p.sidebar_title {
 }
 
 #project_title a {
-	color: #4a0048;
+	color: #FFFFFF;
 }
 
 #project_tagline a {
-    color: #4a0048;
+    color: #FFFFFF;
 }
 
 .header_image {

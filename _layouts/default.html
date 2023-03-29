@@ -33,18 +33,22 @@
 
 <body>
 
+
     <!-- HEADER -->
     <div id="header_wrap">
 
       <div id="header_content">
+         
           <h1 id="project_title"><a href="/">PSRC Data Stories</a></h1>
+        
           <h3 id="project_tagline"><a href="/">psrc.github.io</a></h3>
-
+         
           <div id="header_divider"></div>
 
       </div>
 
     </div>
+    
 
     <div id="rss_wrap">
        <a id="rss_link" href="/feed/"
@@ -72,7 +76,9 @@
             {% for item in site.data.links.nav_links %}
               <li class="nav-main-item"><a href="{{item[1]}}" class="nav-main-link">{{item[0]}}</a></li>
             {% endfor %}
+           
         </ul>
+        
         <div class="nav-main-clear"></div>
     </div>
 
@@ -80,23 +86,20 @@
 
     <div id="white_area">
 
+    
     <!-- SIDE LINKS -->
     <div id="sidebar">
 
       <p class="sidebar_title">SEARCH</p>
       {% include search.html %}
 
-      <p class="sidebar_title">TAGS</p>
-      {% include tags.html %}
 
-      <br/>
       <p class="sidebar_title">PSRC INFO</p>
+      <a href="http://www.psrc.org"><img id="psrc_logo" src="/lib/images/psrc-logo-new.png" alt="PSRC Logo" width="150px" /></a>
       {% include github.html %}
 
 
-      <br/>
-      <p class="sidebar_title">BROUGHT TO YOU BY</p>
-      <a href="http://www.psrc.org"><img id="psrc_logo" src="/lib/images/psrc-logo-dull-green.png" alt="PSRC Logo" width="160px" /></a>
+
 
 
     </div>

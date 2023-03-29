@@ -25,7 +25,7 @@ layout: default
 
 {% if page.image-wide %}
       <div class="entry">
-          <img src="{{ page.image-wide }}" alt="{{ page.title }}" />
+          <img src="{{ page.image-wide }}" alt="{{ page.title }}" width= 400px height=auto/>
       </div>
 
       <div id="title-wide">
@@ -58,14 +58,6 @@ layout: default
 {% endif %}
 
 
-
-  <h2></h2>
-  <div class="bottom-link">
-    <a href="{{page.url}}">&raquo;&nbsp;Permalink</a>
-    <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=PugetSoundCast"
-   target="_blank">&raquo;&nbsp;Share on Twitter</a>
-    <br/><br/>
-  </div>
 
   {% if page.comments %}
     <h4>Discussion and Comments</h4>
