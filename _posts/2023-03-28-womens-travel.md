@@ -1,5 +1,5 @@
 ---
-title: "Understanding How Women Travel in the Puget Sound Region"
+title: "Understanding How Women Travel in the Region"
 author: "Suzanne Childress"
 image: /images/2023/bellevue_bus.jpg
 image-wide: /images/2023/bellevue_bus.jpg
@@ -137,4 +137,6 @@ Not only were there changes in the trips made to work for men and women, but ove
 
 With increased care-taking demands, and with women more likely to live in poverty and having less employment and lower incomes than men, there are many aspects of transit and transportation modes that need to be reassessed to support women's needs. Women of color need a robust transit network with more reliable service throughout the day. Biking, walking, and transit don't always feel accessible or safe, and access to a vehicle isn't always available to women. While an increase in telework has removed some of the trip-chaining burden for women, we need to consider how we create and manage transportation so that it may be equitable to all. Transit, especially, needs to be designed around women of color, since they use transit more than other groups. While we are working towards a more non-binary understanding of gendered data, we acknowledge that much of the data presented above does analyze information and patterns in a binary manner.
 
+
 [Download the data used in this Trend.](https://www.psrc.org/media/7505)
+
