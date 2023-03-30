@@ -2,7 +2,6 @@
 <html>
 
   <head>
-    <meta property='og:image' content='/lib/images/dsa-team-narrow.jpg'/>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Sound Data Stories">
@@ -22,6 +21,14 @@
     {% else %}
         <title>PSRC Data Stories</title>
         <meta property="og:title" content="Sound Data Stories">
+    {% endif %}
+    
+    {% if page.image %}
+        <meta property="og:image" content="{{page.image}}" />
+        <meta name="linkedin:image" content="{{page.image}}" />
+    {% else %}
+        <meta property="og:image" content="{{page.image}}" />
+        <meta name="linkedin:image" content="{{page.image}}" />
     {% endif %}
 
 
