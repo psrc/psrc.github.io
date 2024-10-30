@@ -1,5 +1,5 @@
 ---
-title: "Understanding How Women Travel in the Region"
+title: "Women's transportation needs"
 author: "Suzanne Childress"
 image: /images/2023/bellevue_bus.jpg
 image-wide: /images/2023/bellevue_bus.jpg
