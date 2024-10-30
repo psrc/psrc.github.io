@@ -5,6 +5,7 @@ lsi: false
 kramdown:
   input: GFM
 timezone: America/Los_Angeles
-permalink: /:categories/:year/:title
-gems:
+permalink:  /:categories/:year/:title
+plugins:
   - jekyll-sitemap
+future: true
