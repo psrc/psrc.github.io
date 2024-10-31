@@ -702,6 +702,13 @@ p.sidebar_title {
   text-shadow: #111 0px 0px 10px;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #mobilenav {
     display: none;
     background-color: #f2f2f2;
