@@ -13,7 +13,7 @@ editor_options:
 images:
    image1:
       image: /images/2024/hackathon.jpg
-      caption: "Christy Lam, Brandon Wong, and Joanne Li participated in Seattle's Open Data Hackathon."
+      caption: "Christy Lam, Brandon Wong, and Joanne Lin participated in Seattle's Open Data Hackathon."
    image2:
       image: /images/2024/summer-planning-academy.jpg
       caption: "High school students used a shiny app we developed to learn about urban planning. You can see images they took from the app in the presentation behind the students."
