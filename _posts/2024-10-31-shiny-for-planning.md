@@ -107,6 +107,8 @@ Shiny apps work well for our situation that we have statisticians, GIS experts, 
   <li>
     <a href="https://psrcwa.shinyapps.io/centers-monitoring/">Centers Monitoring Dashboard</a>
     
+    <br>
+    
     PSRC's regional centers are areas of the region targeted to add new housing and job density. I like this dashboard because regional centers are a key aspect of PSRC's land use planning paradigm, and the dashboard allows us to track center performance.
   </li>
   
